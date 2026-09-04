@@ -99,7 +99,7 @@ def build_docx(folder):
     check("table of contents" not in x.lower(), "Word doc has no stale contents-list reference")
     media = [n for n in zipfile.ZipFile(out).namelist()
              if n.startswith("word/media/") and not n.endswith("/")]
-    check(len(media) >= 1, "Word doc embeds the QR image (found %d)" % len(media))
+    check(len(media) == 0, "Word doc embeds no images (QR removed Sept 2026; found %d)" % len(media))
     shutil.rmtree(tmp, ignore_errors=True)
 
 
@@ -175,9 +175,9 @@ def check_sources(folder):
         check(f'href="{f}"' in site, f"web page still links {f}")
 
     for name, text in (("web page", site), ("handout", hand)):
-        check("data:image/png;base64," in text, f"{name}: QR is inlined, not an external file")
+        check("data:image/png;base64," not in text, f"{name}: no inlined QR image remains (removed Sept 2026)")
         check("bit.ly/ctec121fall26" in text,
-              f"{name}: the QR destination also appears as readable text")
+              f"{name}: the bit.ly short link is present as readable text")
 
 
 def main():

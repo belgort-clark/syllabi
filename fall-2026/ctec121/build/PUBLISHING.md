@@ -9,13 +9,11 @@ Every item here exists because it broke once. Work top to bottom.
 | `CTEC_121_Syllabus_Fall_2026.md` | `CTEC_121_Syllabus_Fall_2026.docx` |
 | `index.html` | `CTEC_121_Syllabus_Fall_2026.pdf` |
 | `CTEC121_Day_One_source.html` | `CTEC121_Day_One.pdf` |
-| `qr.png` | |
 
-**`qr.png` stays local — it is not uploaded.** It encodes
-`https://bit.ly/ctec121fall26?r=qr`. The two HTML files carry it inlined as a
-base64 data URI (optimised to ~7 KB, 1-bit), so nothing can 404; the Word build
-embeds the file itself via pandoc's `--resource-path`. If you replace the QR,
-rerun the build so all three outputs pick it up, and check it still scans.
+**The QR code was removed on Sept 4, 2026** (Bruce's call). The short link
+`bit.ly/ctec121fall26` stays as plain text in the masthead of all three
+documents, and the build fails if any inlined QR image reappears. `qr.png` is
+ignored by git and can be deleted.
 
 Editing a generated file means losing the change the next time anything is rebuilt.
 
@@ -99,10 +97,6 @@ If permissions are right and it is still forbidden: look for a stray
   and the print stylesheet. Watch `::before` pseudo-element content — the
   numbered step circles hid under a runtime scan and only a source scan caught
   them.
-- **The QR fell below the masthead rule in the PDF.** `float:right` inside the
-  print masthead drops past preceding block siblings. It is now anchored with
-  `position:absolute` on a `position:relative` masthead, with right padding on
-  `.masthead-in` to keep text clear of it. Don't reintroduce the float.
 - **Generating the PDF with Playwright's `page.pdf()`** produces an untagged
   file and skips `beforeprint`. Use the chromium CLI with `--print-to-pdf`.
 
