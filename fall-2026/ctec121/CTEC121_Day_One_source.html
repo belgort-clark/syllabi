@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CTEC 121 — Day One</title>
+<style>
+@page { size: letter; margin: 0.34in 0.42in; }
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{
+  font-family:"Carlito","Calibri",sans-serif;
+  font-size:9.5pt; line-height:1.36; color:#152430; background:#fff;
+}
+.serif{font-family:"Bitstream Charter","Charter",Georgia,serif}
+.mono{font-family:"DejaVu Sans Mono",monospace}
+
+/* header */
+header{border-bottom:2.5pt solid #152430;padding-bottom:5pt;margin-bottom:8pt;
+  display:flex;justify-content:space-between;align-items:flex-end;gap:16pt}
+h1{font-family:"Bitstream Charter",Georgia,serif;font-size:17.5pt;line-height:1.04;
+  font-weight:700;letter-spacing:-.2pt}
+h1 span{display:block;font-size:10.5pt;font-weight:400;color:#3B4C59;margin-top:2pt;letter-spacing:0}
+.hmeta{font-family:"DejaVu Sans Mono",monospace;font-size:9pt;line-height:1.5;
+  text-align:right;color:#3B4C59;white-space:nowrap}
+.hmeta b{color:#152430}
+.hqr{display:flex;flex-direction:column;align-items:center;gap:2.5pt;flex:none}
+.hqr img{display:block;width:0.95in;height:0.95in}
+.hqr span{font-family:"DejaVu Sans Mono",monospace;font-size:9pt;color:#5B6B77}
+
+/* chips */
+.chips{display:flex;gap:5pt;margin-bottom:9pt}
+.chip{flex:1;border:0.8pt solid #C9D6DE;border-radius:4pt;padding:5pt 7pt;background:#F5F8FA}
+.chip .k{font-family:"DejaVu Sans Mono",monospace;font-size:9pt;letter-spacing:.05em;
+  text-transform:uppercase;color:#5B6B77;margin-bottom:2pt}
+.chip .v{font-size:10.5pt;font-weight:700;line-height:1.18;margin:0}
+.chip .v small{font-weight:400;font-size:9pt;color:#3B4C59;display:block;margin-top:1pt}
+
+/* columns */
+.cols{display:flex;gap:13pt;align-items:flex-start}
+.col-a{flex:1.32}
+.col-b{flex:1}
+
+h2{font-family:"Bitstream Charter",Georgia,serif;font-size:11.5pt;font-weight:700;
+  margin-bottom:2.5pt;padding-bottom:1.5pt;border-bottom:0.8pt solid #152430}
+section{margin-bottom:6pt}
+
+ol.steps{list-style:none;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding-left:17pt;margin-bottom:2.8pt}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:1.1pt;
+  width:13pt;height:13pt;border-radius:50%;background:#22617D;color:#fff;
+  font-family:"DejaVu Sans Mono",monospace;font-size:9pt;font-weight:700;
+  display:flex;align-items:center;justify-content:center}
+
+ul.rules{list-style:none}
+ul.rules li{margin-bottom:3.8pt;padding-left:8pt;border-left:1.6pt solid #C9D6DE}
+ul.rules li b{color:#152430}
+ul.rules li.hot{border-left-color:#B87514}
+
+table{width:100%;border-collapse:collapse;font-size:9.2pt}
+th,td{text-align:left;padding:1.5pt 4pt;border-bottom:0.5pt solid #E2EAEF;vertical-align:top}
+thead th{font-family:"DejaVu Sans Mono",monospace;font-size:9pt;letter-spacing:.04em;
+  text-transform:uppercase;color:#5B6B77;background:#F0F5F8;border-bottom:0.8pt solid #C9D6DE}
+td.n{font-family:"DejaVu Sans Mono",monospace;text-align:right;white-space:nowrap;font-weight:700}
+td.d{font-family:"DejaVu Sans Mono",monospace;white-space:nowrap;color:#3B4C59}
+tbody tr:last-child td{border-bottom:none}
+tr.mark td{background:#FBF3E4}
+
+.help{font-size:9.2pt;line-height:1.38}
+.help p{margin:0 0 2.4pt;padding-left:8pt;text-indent:-8pt}
+.help b{color:#152430}
+a{color:inherit;text-decoration:underline;text-decoration-color:#B7C7D1;text-underline-offset:1.5pt}
+
+.kicker p{margin:0 0 5pt}
+.kicker p:last-child{margin:0}
+.kicker{background:#F0F5F8;border-left:2.2pt solid #22617D;padding:5pt 7pt;
+  font-size:9.2pt;line-height:1.38;margin-top:2pt}
+
+footer{margin-top:8pt;padding-top:5pt;border-top:1.2pt solid #152430;
+  display:flex;justify-content:space-between;gap:22pt;
+  font-family:"DejaVu Sans Mono",monospace;font-size:9pt;color:#5B6B77}
+footer b{color:#152430}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CTEC&nbsp;121 <span class="serif">Introduction to Programming and Problem Solving &middot; Fall 2026</span></h1>
+  <div class="hmeta">
+    <b>Bruce Elgort</b><br>
+    <a href="mailto:belgort@clark.edu">belgort@clark.edu</a> &middot; <a href="tel:+13609922951">(360) 992-2951</a><br>
+    <b>Slack first</b> &mdash; reply within 24 hrs<br>
+    Scarpelli 125 &middot; Mon &amp; Wed 10:00&ndash;12:20
+  </div>
+  <div class="hqr">
+    <img src="data:image/png;base64,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" alt="QR code linking to this syllabus at bit.ly/ctec121fall26">
+    <span>bit.ly/ctec121fall26</span>
+  </div>
+</header>
+
+<div class="chips">
+  <div class="chip"><div class="k">Materials cost</div><p class="v">$0<small>No textbook, no fees</small></p></div>
+  <div class="chip"><div class="k">Everything is due</div><p class="v">Sundays<small>11:59 PM</small></p></div>
+  <div class="chip"><div class="k">Then it stays open</div><p class="v">3 more days<small>Full credit, no questions</small></p></div>
+  <div class="chip"><div class="k">Time to budget</div><p class="v">~10 hrs/wk<small>5 in class, 5 outside</small></p></div>
+</div>
+
+<div class="cols">
+
+  <div class="col-a">
+    <section>
+      <h2>Do these five things in week one</h2>
+      <ol class="steps">
+        <li>Log into <b>Canvas</b> and read the announcements at the top.</li>
+        <li>Work through <b>Module 0</b> &mdash; coding environment, Slack, GitHub.</li>
+        <li>Join the class <b>Slack</b>. No invite? Message me.</li>
+        <li><b>Open <a href="https://cs50.dev">cs50.dev</a></b> and sign in with your GitHub account &mdash; that&rsquo;s where you&rsquo;ll write your code.</li>
+        <li>Start <b>Module 1</b>: Lab 0, Quiz 0, Problem Set 0, Collaborative 0.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>The rules that actually matter</h2>
+      <ul class="rules">
+        <li><b>Deadlines.</b> Everything is due Sunday 11:59 PM and stays open three more days at full credit &mdash; no penalty, no permission needed. Canvas will stamp it &ldquo;late.&rdquo; Ignore the label.</li>
+        <li class="hot"><b>AI.</b> The CS50 Duck (cs50.ai) is always allowed. No other AI may write, complete, or suggest code you submit. The standard: you must be able to write it again and explain it line by line, unaided. You&rsquo;ll code in <b>cs50.dev</b>, which has AI autocomplete already turned off.</li>
+        <li class="hot"><b>In-class, on paper.</b> A short quiz every module (lowest dropped &mdash; that is the make-up), the midterm <b>Wed, Oct 28</b>, and the final exam <b>Mon, Nov 30</b>. None has a three-day window. Need DAC testing? Set up both exams in week one; book Nov 30 by <b>Fri, Nov 20</b>.</li>
+        <li><b>Participation is 25%</b> &mdash; graded on effort, not correctness. Show your reasoning and a wrong answer still earns full credit.</li>
+        <li><b>Attendance.</b> Come to both sessions. Miss one? Message me on Slack and I&rsquo;ll give you an equivalent for the in-class work.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Where to get help</h2>
+      <div class="help">
+        <p><b>Stuck on the material</b> &rarr; Slack me, or come to student hours (Zoom link in Canvas)</p>
+        <p><b>Stuck on your code</b> &rarr; the CS50 Duck at <a href="https://cs50.ai">cs50.ai</a>, or ask in Slack</p>
+        <p><b>Canvas or software trouble</b> &rarr; Tech Hub, Scarpelli 135 &middot; <a href="mailto:techhub@clark.edu">techhub@clark.edu</a> &middot; 360-992-2010</p>
+        <p><b>Free tutoring</b> &rarr; Clark Tutoring Services, in person or Zoom</p>
+        <p><b>Accommodations</b> &rarr; Disability Access Center, PUB 002 &middot; <a href="mailto:dac@clark.edu">dac@clark.edu</a> &middot; 360-992-2314</p>
+        <p><b>Food, housing, money</b> &rarr; Basic Needs Hub, Gaiser 216 &middot; <a href="mailto:basicneeds@clark.edu">basicneeds@clark.edu</a> &middot; 360-992-2766</p>
+        <p><b>Need a computer</b> &rarr; open computer labs, or borrow a laptop through Clark ITS</p>
+      </div>
+    </section>
+
+    </div>
+
+  <div class="col-b">
+    <section>
+      <h2>Your grade</h2>
+      <table>
+        <tbody>
+          <tr><td>Discussion, participation &amp; collaboration</td><td class="n">25%</td></tr>
+          <tr><td>Problem sets</td><td class="n">20%</td></tr>
+          <tr><td>Final project</td><td class="n">20%</td></tr>
+          <tr><td>Midterm</td><td class="n">10%</td></tr>
+          <tr><td>Quizzes (weekly, in class)</td><td class="n">10%</td></tr>
+          <tr><td>Final exam</td><td class="n">10%</td></tr>
+          <tr><td>Labs</td><td class="n">5%</td></tr>
+        </tbody>
+      </table>
+      <table style="margin-top:5pt">
+        <thead><tr><th>Grade</th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead>
+        <tbody>
+          <tr><td class="d">Range</td><td class="d">94+</td><td class="d">84&ndash;86</td><td class="d">70&ndash;76</td><td class="d">60&ndash;69</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:9pt;color:#5B6B77;margin-top:3pt;line-height:1.35">Full scale is in the syllabus. A grade of <b>C or better</b> is required for this course to count toward a degree or certificate.</p>
+    </section>
+
+    <section>
+      <h2>Dates to write down</h2>
+      <table>
+        <tbody>
+          <tr><td class="d">Sept 21</td><td>First day of class</td></tr>
+          <tr><td class="d">Week 5<br>Oct 19&ndash;23</td><td>Final project assigned</td></tr>
+          <tr class="mark"><td class="d">Oct 28</td><td><b>Midterm</b> &mdash; in class, on paper</td></tr>
+          <tr class="mark"><td class="d">Nov 11</td><td><b>No class</b> &mdash; Veterans Day</td></tr>
+          <tr class="mark"><td class="d">Nov 25</td><td><b>No class</b> &mdash; Thanksgiving</td></tr>
+          <tr class="mark"><td class="d">Nov 30</td><td><b>Final exam</b> &mdash; in class, on paper</td></tr>
+          <tr class="mark"><td class="d">Dec 3</td><td><b>Last day to withdraw</b></td></tr>
+          <tr class="mark"><td class="d">Dec 4</td><td><b>Final project due</b>, 11:59 PM</td></tr>
+          <tr><td class="d">Dec 7&ndash;10</td><td>Finals week &mdash; project presentations</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:9pt;color:#5B6B77;margin-top:3pt;line-height:1.35">Weeks 8 and 10 have only <b>one</b> class session, and the final exam is the Monday right after Thanksgiving break. Review in Week 9, not over the holiday.</p>
+    </section>
+      <section>
+      <h2>If things go sideways</h2>
+      <div class="kicker">
+        <p>Illness, work, family, a genuinely brutal week &mdash; <b>message me before the deadline</b> and we&rsquo;ll set a new date. I grant these. I just need to hear from you.</p>
+        <p>Almost every problem is solvable in Week 3 and much harder to solve in Week 10.</p>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+<footer>
+  <span>Full syllabus in <b>Canvas</b> &mdash; searchable, with every policy.</span>
+  <span>Clark College &middot; Item <b>36001</b> &middot; 5 credits</span>
+</footer>
+
+</body>
+</html>

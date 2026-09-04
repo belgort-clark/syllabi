@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Office / Pages scratch and lock files
+~$*
+*.pages
+
+# Reference material kept locally, not published
+Clark College Syllabus Template*.docx

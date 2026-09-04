@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Course syllabus for CTEC 121, Introduction to Programming and Problem Solving, Clark College, Fall 2026.">
+<title>CTEC 121 Syllabus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --paper:#F6F8F9;
+  --surface:#FFFFFF;
+  --surface-2:#EDF2F5;
+  --ink:#152430;
+  --ink-soft:#3B4C59;
+  --muted:#5B6B77;
+  --rule:#D8E1E7;
+  --rule-soft:#E7EDF1;
+  --edge:#768D9C;
+  --accent:#22617D;
+  --accent-quiet:#E2EEF3;
+  --warm:#8A5A0E;
+  --warm-quiet:#F7EEDC;
+  --shadow:0 1px 2px rgba(21,36,48,.05), 0 8px 24px -16px rgba(21,36,48,.35);
+
+  /* Atkinson Hyperlegible: letterforms drawn so I/l/1 and O/0 stay distinct */
+  --f-display:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --f-body:"Atkinson Hyperlegible Next","Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --f-mono:"Atkinson Hyperlegible Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+
+  --measure:68ch;
+  --rail:264px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F1720;
+    --surface:#16212B;
+    --surface-2:#1D2A35;
+    --ink:#E4EDF3;
+    --ink-soft:#C2D0DA;
+    --muted:#94A6B2;
+    --rule:#2B3A46;
+    --rule-soft:#22303B;
+    --edge:#5F778A;
+    --accent:#7CBBD6;
+    --accent-quiet:#1B2E3A;
+    --warm:#E0A54A;
+    --warm-quiet:#2A2418;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1720;
+  --surface:#16212B;
+  --surface-2:#1D2A35;
+  --ink:#E4EDF3;
+  --ink-soft:#C2D0DA;
+  --muted:#94A6B2;
+  --rule:#2B3A46;
+  --rule-soft:#22303B;
+  --edge:#5F778A;
+  --accent:#7CBBD6;
+  --accent-quiet:#1B2E3A;
+  --warm:#E0A54A;
+  --warm-quiet:#2A2418;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:16.5px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-underline-offset:2px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;z-index:99;background:var(--surface);padding:10px 14px;border:1px solid var(--rule);border-radius:6px}
+
+/* ---------- masthead ---------- */
+.masthead{
+  border-bottom:1px solid var(--rule);
+  background:var(--surface);
+}
+.masthead-in{
+  max-width:1180px;margin:0 auto;padding:44px 28px 34px;
+  display:flex;flex-wrap:wrap;gap:28px;align-items:flex-end;justify-content:space-between;
+}
+.eyebrow{
+  font-family:var(--f-mono);font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 12px;
+}
+h1{
+  font-family:var(--f-display);
+  font-weight:700;
+  font-size:clamp(29px,4.2vw,43px);
+  line-height:1.12;
+  letter-spacing:-.02em;
+  margin:0 0 14px;
+  text-wrap:balance;
+  max-width:19ch;
+}
+.mast-meta{
+  font-family:var(--f-mono);font-size:13.5px;line-height:1.85;color:var(--ink-soft);margin:0;
+}
+.mast-meta strong{color:var(--ink);font-weight:600}
+.mast-side{
+  font-family:var(--f-mono);font-size:13px;line-height:2;color:var(--muted);
+  border-left:2px solid var(--accent);padding-left:16px;
+}
+.mast-side a{display:block;min-height:24px}
+/* QR keeps a white ground in every theme — a dark quiet zone will not scan */
+.mast-qr{display:flex;flex-direction:column;align-items:center;gap:7px;flex:none}
+.mast-qr img{display:block;width:150px;height:150px;background:#fff;
+  padding:6px;border-radius:7px;border:1px solid var(--edge)}
+.mast-qr span{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+
+/* ---------- shell ---------- */
+.shell{
+  max-width:1180px;margin:0 auto;padding:0 28px 96px;
+  display:grid;grid-template-columns:var(--rail) minmax(0,1fr);gap:52px;align-items:start;
+}
+@media (max-width:940px){
+  .shell{grid-template-columns:1fr;gap:0}
+}
+
+/* ---------- rail ---------- */
+.rail{
+  position:sticky;top:0;align-self:start;
+  max-height:100vh;overflow-y:auto;
+  padding:32px 0 40px;
+}
+@media (max-width:940px){
+  .rail{position:static;max-height:none;padding:24px 0 8px;border-bottom:1px solid var(--rule)}
+}
+.search-wrap{position:relative;margin-bottom:8px}
+#search{
+  width:100%;font-family:var(--f-body);font-size:14px;
+  padding:9px 34px 9px 12px;border:1px solid var(--edge);border-radius:7px;
+  background:var(--surface);color:var(--ink);
+}
+#search::placeholder{color:var(--muted)}
+.search-count{
+  font-family:var(--f-mono);font-size:12px;color:var(--muted);
+  min-height:17px;padding:4px 2px 0;display:flex;gap:10px;align-items:center;
+}
+.search-count button{
+  font-family:var(--f-mono);font-size:13px;line-height:1;background:none;
+  border:1px solid var(--edge);color:var(--ink-soft);border-radius:5px;
+  min-width:24px;min-height:24px;padding:0 6px;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;
+}
+.search-count button:hover{border-color:var(--accent);color:var(--accent)}
+nav.toc{margin-top:14px}
+nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px}
+nav.toc a{
+  display:block;padding:5px 12px;border-left:2px solid var(--rule-soft);
+  color:var(--muted);text-decoration:none;font-size:14px;line-height:1.35;
+}
+nav.toc a:hover{color:var(--ink);border-left-color:var(--rule)}
+nav.toc a[aria-current="true"]{
+  color:var(--accent);border-left-color:var(--accent);font-weight:600;background:var(--accent-quiet);
+}
+.rail-foot{
+  margin-top:24px;padding-top:16px;border-top:1px solid var(--rule-soft);
+  font-family:var(--f-mono);font-size:12.5px;line-height:1.7;color:var(--muted);
+}
+.rf-label{
+  font-family:var(--f-mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 8px;
+}
+.rf-actions{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.rf-btn{
+  font-family:var(--f-mono);font-size:12.5px;line-height:1;text-decoration:none;
+  display:inline-flex;align-items:center;gap:5px;min-height:26px;padding:0 10px;
+  border:1px solid var(--edge);border-radius:5px;background:none;color:var(--ink-soft);cursor:pointer;
+}
+.rf-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-quiet)}
+.rail-foot button{
+  font:inherit;background:none;border:1px solid var(--edge);color:var(--muted);
+  border-radius:5px;min-height:24px;padding:4px 9px;cursor:pointer;margin-top:8px;
+}
+.rail-foot button:hover{color:var(--accent);border-color:var(--accent)}
+
+/* ---------- main ---------- */
+main{padding-top:40px;min-width:0}
+section{scroll-margin-top:24px}
+section + section{margin-top:56px}
+h2{
+  font-family:var(--f-display);font-weight:700;font-size:25px;line-height:1.22;
+  letter-spacing:-.015em;margin:0 0 18px;text-wrap:balance;
+}
+h3{
+  font-family:var(--f-body);font-weight:600;font-size:17px;line-height:1.35;
+  margin:34px 0 8px;letter-spacing:.005em;
+}
+h3.mini{font-family:var(--f-mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:26px 0 8px;font-weight:600}
+p{margin:0 0 14px;max-width:var(--measure)}
+ul,ol{margin:0 0 16px;padding-left:20px;max-width:var(--measure)}
+li{margin-bottom:7px}
+li::marker{color:var(--muted)}
+strong{font-weight:600}
+code{font-family:var(--f-mono);font-size:.88em;background:var(--surface-2);padding:1px 5px;border-radius:4px}
+
+/* ---------- start-here panel ---------- */
+.start{
+  background:var(--surface);border:1px solid var(--rule);border-radius:12px;
+  padding:28px 30px 24px;box-shadow:var(--shadow);margin-bottom:12px;
+}
+.start > h2{font-size:24px;margin-bottom:10px}
+.start .lede{color:var(--ink-soft);max-width:60ch}
+.facts{
+  display:grid;grid-template-columns:auto minmax(0,1fr);gap:0;
+  border-top:1px solid var(--rule-soft);margin:20px 0 6px;
+}
+.facts dt{
+  font-family:var(--f-mono);font-size:13px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted);padding:12px 22px 12px 0;border-bottom:1px solid var(--rule-soft);
+  white-space:nowrap;
+}
+.facts dd{
+  margin:0;padding:12px 0;border-bottom:1px solid var(--rule-soft);
+  font-size:15.5px;line-height:1.5;
+}
+@media (max-width:620px){
+  .facts{grid-template-columns:1fr}
+  .facts dt{padding-bottom:0;border-bottom:none}
+  .facts dd{padding-top:2px}
+}
+.grade-line{
+  font-family:var(--f-mono);font-size:13.5px;line-height:1.9;color:var(--ink-soft);
+  background:var(--surface-2);border-radius:8px;padding:14px 16px;margin:18px 0;
+}
+.grade-line b{color:var(--ink)}
+.week-one{counter-reset:step;list-style:none;padding:0;margin:8px 0 0}
+.week-one li{
+  position:relative;padding-left:34px;margin-bottom:11px;max-width:var(--measure);
+}
+.week-one li::before{
+  counter-increment:step;content:counter(step);
+  position:absolute;left:0;top:1px;width:24px;height:24px;border-radius:50%;
+  background:var(--accent);color:var(--surface);
+  font-family:var(--f-mono);font-size:12.5px;font-weight:600;
+  display:flex;align-items:center;justify-content:center;
+}
+:root[data-theme="dark"] .week-one li::before{color:#0F1720}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .week-one li::before{color:#0F1720}}
+
+/* ---------- callouts ---------- */
+.note{
+  border-left:3px solid var(--warm);background:var(--warm-quiet);
+  padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0;max-width:var(--measure);
+}
+.note p:last-child{margin-bottom:0}
+.note .tag{
+  font-family:var(--f-mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--warm);font-weight:600;display:block;margin-bottom:5px;
+}
+.quote{
+  font-family:var(--f-display);font-size:18px;line-height:1.5;font-style:italic;
+  color:var(--ink-soft);border-left:2px solid var(--rule);padding-left:18px;margin:18px 0 22px;
+  max-width:56ch;
+}
+
+/* ---------- tables ---------- */
+.tw:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:9px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;line-height:1.5}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+thead th{
+  font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;background:var(--surface-2);white-space:nowrap;
+}
+tbody tr:last-child td{border-bottom:none}
+td.num,th.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.wk td:first-child{font-family:var(--f-mono);font-weight:600;white-space:nowrap;color:var(--accent)}
+.wk td:nth-child(2){font-family:var(--f-mono);font-size:13.5px;color:var(--muted);white-space:nowrap}
+.yn thead th:first-child{color:var(--accent)}
+.yn thead th:last-child{color:var(--warm)}
+.yn td:first-child{border-right:1px solid var(--rule-soft)}
+.off{color:var(--warm);font-style:italic}
+
+/* ---------- details ---------- */
+details{
+  border:1px solid var(--edge);border-radius:9px;background:var(--surface);
+  margin-bottom:10px;overflow:hidden;
+}
+details > summary{
+  cursor:pointer;padding:13px 18px;font-weight:600;font-size:15.5px;list-style:none;
+  display:flex;align-items:center;gap:10px;
+}
+details > summary::-webkit-details-marker{display:none}
+details > summary::before{
+  content:"";width:7px;height:7px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);
+  transform:rotate(-45deg);transition:transform .18s ease;flex:none;margin-left:2px;
+}
+details[open] > summary::before{transform:rotate(45deg)}
+details > summary:hover{color:var(--accent)}
+.det-body{padding:2px 18px 16px;border-top:1px solid var(--rule-soft)}
+.det-body > :first-child{margin-top:14px}
+.det-body > :last-child{margin-bottom:0}
+
+mark{background:var(--warm-quiet);color:var(--ink);box-shadow:inset 0 -1.5px 0 var(--warm);padding:0 1px;border-radius:2px}
+mark.on{background:var(--warm);color:#fff}
+:root[data-theme="dark"] mark.on{color:#0F1720}
+
+.signoff{
+  margin-top:44px;padding-top:26px;border-top:1px solid var(--rule);
+  font-family:var(--f-display);font-size:17.5px;line-height:1.55;color:var(--ink-soft);max-width:58ch;
+}
+.signoff .name{display:block;margin-top:12px;font-size:16px;color:var(--ink);font-weight:600}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+@media print{
+  /* Force the light palette: printing from dark mode was producing a black page. */
+  :root,
+  :root[data-theme="dark"],
+  :root:not([data-theme="light"]){
+    --paper:#fff; --surface:#fff; --surface-2:#fff;
+    --ink:#000; --ink-soft:#1a1a1a; --muted:#3d444a;
+    --rule:#98a3aa; --rule-soft:#c3cbd0; --edge:#8a949b;
+    --accent:#123f52; --accent-quiet:transparent;
+    --warm:#5f3d07; --warm-quiet:transparent;
+    --shadow:none;
+  }
+
+  @page{ size:letter; margin:0.6in 0.65in; }
+
+  html,body{background:#fff!important;color:#000!important;
+    font-size:10pt;line-height:1.38}
+
+  /* screen furniture */
+  .rail,.skip,.screen-only{display:none!important}
+  .shell{display:block;max-width:none;padding:0}
+  main{padding-top:0}
+  *:focus-visible{outline:none}
+  mark{background:none;box-shadow:none;color:inherit}
+
+  /* masthead: keep the contact details, they were being dropped */
+  .masthead{background:none;border-bottom:1.5pt solid #000}
+  .masthead-in{display:block;max-width:none}
+  .eyebrow{font-size:9pt;margin-bottom:5pt}
+  h1{font-size:19pt;max-width:none;margin-bottom:7pt}
+  .mast-meta{font-size:9.5pt;line-height:1.5}
+  .mast-side{border-left:none;padding-left:0;margin-top:6pt;font-size:9.5pt;line-height:1.5}
+  .mast-side a{display:inline;min-height:0}
+  .mast-side a::after{content:" · "}
+  /* float dropped below the masthead rule; anchor it to the header corner instead */
+  .masthead{position:relative}
+  .masthead-in{padding:0 1.15in 9pt 0}
+  .mast-qr{position:absolute;top:0;right:0;margin:0;gap:3pt;align-items:center}
+  .mast-qr img{width:0.85in;height:0.85in;border:none;padding:0;border-radius:0}
+  .mast-qr span{font-size:8.5pt;color:#000}
+
+  /* type scale */
+  h2{font-size:13.5pt;margin:0 0 6pt}
+  h3{font-size:11pt;margin:12pt 0 4pt}
+  h3.mini{font-size:9.5pt;margin:12pt 0 4pt}
+  p,ul,ol{margin:0 0 7pt;max-width:none}
+  li{margin-bottom:3pt}
+  section + section{margin-top:16pt}
+
+  /* flatten the cards */
+  .start{border:none;border-top:1.2pt solid #000;border-bottom:1.2pt solid #000;
+    border-radius:0;box-shadow:none;padding:10pt 0;margin:0 0 4pt}
+  .start > h2{font-size:14pt}
+  .facts{border-top:none;margin:10pt 0 4pt}
+  .facts dt{font-size:9pt;padding:4pt 14pt 4pt 0}
+  .facts dd{padding:4pt 0;font-size:10pt}
+  .grade-line{background:none;border:0.75pt solid #98a3aa;border-radius:0;
+    padding:6pt 8pt;margin:10pt 0;font-size:9pt}
+  .week-one li{padding-left:20pt;margin-bottom:4pt}
+  .week-one li::before{background:none;color:#000;border:0.75pt solid #000;
+    width:14pt;height:14pt;font-size:8.5pt;top:1pt}
+
+  .note{background:none;border-left:2pt solid #000;border-radius:0;padding:3pt 0 3pt 10pt;margin:10pt 0}
+  .note .tag{color:#000}
+  .quote{border-left:1pt solid #98a3aa;font-size:11pt}
+
+  /* tables: never clip, repeat headers across pages, no ink-hungry fills */
+  .tw{overflow:visible!important;border:none;border-radius:0;background:none;margin-bottom:10pt}
+  table{font-size:9pt;line-height:1.35}
+  thead{display:table-header-group}
+  thead th{background:none;color:#000;font-size:8.5pt;
+    border-bottom:1pt solid #000;padding:3pt 9pt 3pt 0}
+  th,td{padding:3.5pt 9pt 3.5pt 0;border-bottom:0.5pt solid #c3cbd0}
+  th:last-child,td:last-child{padding-right:0}
+  .yn td:first-child{border-right:0.5pt solid #c3cbd0;padding-right:9pt}
+
+  /* disclosure sections print as ordinary headed prose */
+  details{border:none;border-radius:0;background:none;margin:0}
+  details > summary{padding:0;margin:12pt 0 4pt;font-size:11pt;font-weight:600}
+  details > summary::before{display:none}
+  .det-body{border:none;padding:0}
+  .det-body > :first-child{margin-top:0}
+
+  /* links print with their destination */
+  a{color:#000;text-decoration:underline}
+  a[data-print-url]::after{content:" (" attr(data-print-url) ")";
+    font-family:var(--f-mono);font-size:8pt;color:#3d444a;word-break:break-all}
+
+  /* page-break behaviour */
+  h1,h2,h3,summary{break-after:avoid;break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  tr,li,.note,.quote,.grade-line,.signoff{break-inside:avoid}
+  .facts dt,.facts dd{break-inside:avoid}
+  section{break-inside:auto}
+  .signoff{margin-top:16pt;padding-top:10pt;font-size:11pt}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead-in">
+    <div>
+      <p class="eyebrow">Clark College &middot; Fall 2026 &middot; Item 36001</p>
+      <h1>CTEC&nbsp;121 Introduction to Programming and Problem Solving</h1>
+      <p class="mast-meta">
+        <strong>Scarpelli Hall Room 125</strong> &middot; Mondays &amp; Wednesdays, 10:00&nbsp;AM &ndash; 12:20&nbsp;PM<br>
+        September 21 &ndash; December 4, 2026 &middot; 5 credits &middot; <strong>$0 materials</strong>
+      </p>
+    </div>
+    <div class="mast-side">
+      Bruce Elgort
+      <a href="mailto:belgort@clark.edu">belgort@clark.edu</a>
+      <a href="tel:+13609922951">(360) 992-2951</a>
+      Slack is fastest
+    </div>
+    <div class="mast-qr">
+      <img src="data:image/png;base64,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" alt="QR code linking to this syllabus at bit.ly/ctec121fall26" width="150" height="150">
+      <span>bit.ly/ctec121fall26</span>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+
+  <aside class="rail" aria-label="Syllabus contents and tools">
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search this syllabus&hellip;" autocomplete="off" aria-label="Search this syllabus">
+    </div>
+    <div class="search-count" id="searchCount" role="status" aria-live="polite"></div>
+
+    <nav class="toc" aria-label="Sections">
+      <ol id="tocList">
+        <li><a href="#start">Start here</a></li>
+        <li><a href="#glance">The course at a glance</a></li>
+        <li><a href="#instructor">Meet your instructor</a></li>
+        <li><a href="#like">What this class is like</a></li>
+        <li><a href="#need">What you&rsquo;ll need</a></li>
+        <li><a href="#graded">How you&rsquo;ll be graded</a></li>
+        <li><a href="#schedule">Weekly schedule</a></li>
+        <li><a href="#agreements">Course agreements</a></li>
+        <li><a href="#outcomes">What you&rsquo;ll be able to do</a></li>
+        <li><a href="#policies">College policies</a></li>
+        <li><a href="#help">Where to get help</a></li>
+      </ol>
+    </nav>
+
+    <div class="rail-foot">
+      <p class="rf-label">Get a copy</p>
+      <div class="rf-actions">
+        <a class="rf-btn" href="CTEC_121_Syllabus_Fall_2026.pdf" download
+           aria-label="Download the syllabus as a PDF">PDF</a>
+        <a class="rf-btn" href="CTEC_121_Syllabus_Fall_2026.docx" download
+           aria-label="Download the syllabus as a Word document">Word</a>
+        <a class="rf-btn" href="CTEC121_Day_One.pdf" download
+           aria-label="Download the one-page Day One handout as a PDF">Day One handout</a>
+      </div>
+      <p class="rf-label" style="margin-bottom:6px">This page</p>
+      <div class="rf-actions" style="margin-bottom:12px">
+        <button class="rf-btn" id="themeBtn" type="button">Toggle theme</button>
+      </div>
+      Last updated September 4, 2026
+    </div>
+  </aside>
+
+  <main id="main">
+
+    <!-- ============ START HERE ============ -->
+    <section id="start">
+      <div class="start">
+        <h2>Start here</h2>
+                <p class="lede">If you read one part of this document, read this one.</p>
+
+        <dl class="facts">
+          <dt>What it costs</dt>
+          <dd><strong>$0.</strong> No textbook, no lab fees, no access codes.</dd>
+
+          <dt>When things are due</dt>
+          <dd><strong>Sundays at 11:59&nbsp;PM</strong> &mdash; and everything stays open three more days at full credit.</dd>
+
+          <dt>Time to budget</dt>
+          <dd>About <strong>10 hours a week</strong>, including our two class sessions.</dd>
+
+          <dt>How to reach me</dt>
+          <dd><strong>Slack first.</strong> I reply within 24 hours on weekdays.</dd>
+
+          <dt>The two big ones</dt>
+          <dd>The <strong>final exam</strong> &mdash; in class, <strong>Monday, November 30</strong>. And the <strong>final project</strong> &mdash; due <strong>Friday, December 4</strong>, presented during finals week.</dd>
+
+          <dt>The AI rule</dt>
+          <dd>The CS50 Duck (<a href="https://cs50.ai">cs50.ai</a>) is always allowed. Copilot, ChatGPT, and the rest are not. You&rsquo;ll write your code in <strong><a href="https://cs50.dev">cs50.dev</a></strong>, which already has AI autocomplete turned off.</dd>
+
+          <dt>If you fall behind</dt>
+          <dd>Message me <em>before</em> the deadline. We&rsquo;ll set a new date. This is a real offer, not a trap.</dd>
+        </dl>
+
+        <p class="grade-line">
+          <b>Your grade:</b> Participation &amp; collaboration 25% &middot; Problem sets 20% &middot; Final project 20% &middot; Midterm 10% &middot; Quizzes 10% &middot; Final exam 10% &middot; Labs 5%
+        </p>
+
+        <h3>Five things to do in week one</h3>
+        <ol class="week-one">
+          <li>Log into <a href="https://clarkcollege.instructure.com">Canvas</a> and read the announcements at the top.</li>
+          <li>Work through <strong>Module 0</strong> &mdash; it sets up your coding environment, Slack, and GitHub.</li>
+          <li>Join the class <strong>Slack</strong>. No invite? Message me.</li>
+          <li><strong>Open <a href="https://cs50.dev">cs50.dev</a></strong> and sign in with your GitHub account. That&rsquo;s where you&rsquo;ll write your code.</li>
+          <li>Start <strong>Module 1</strong>: Lab 0, Quiz 0, Problem Set 0, Collaborative Assignment 0.</li>
+        </ol>
+
+        <p class="screen-only" style="margin-top:18px;color:var(--muted);font-size:14.5px">Everything below is the detail behind those lines. It&rsquo;s built to be searched, not read straight through &mdash; use the search box or the contents list.</p>
+      </div>
+    </section>
+
+    <!-- ============ GLANCE ============ -->
+    <section id="glance">
+      <h2>The course at a glance</h2>
+      
+      <div class="tw" tabindex="0">
+        <table>
+          <tbody>
+            <tr><th scope="row">Course</th><td>CTEC 121, Introduction to Programming and Problem Solving &middot; Item 36001</td></tr>
+            <tr><th scope="row">When and where</th><td>Mondays and Wednesdays, 10:00&nbsp;AM &ndash; 12:20&nbsp;PM &middot; Scarpelli Hall, Room 125</td></tr>
+            <tr><th scope="row">Quarter dates</th><td>Monday, September 21 &ndash; Friday, December 4, 2026 &middot; Finals week December 7&ndash;10</td></tr>
+            <tr><th scope="row">Sessions we lose</th><td>Wednesday, November 11 (Veterans Day) and Wednesday, November 25 (Thanksgiving). <strong>Weeks 8 and 10 have one session instead of two.</strong></td></tr>
+            <tr><th scope="row">Last day to withdraw</th><td>Thursday, December 3, 2026</td></tr>
+            <tr><th scope="row">Credits &amp; time</th><td>5 credits &middot; about 10 hours a week total</td></tr>
+            <tr><th scope="row">Modality</th><td>In person</td></tr>
+            <tr><th scope="row">Course site</th><td><a href="https://clarkcollege.instructure.com">Canvas</a></td></tr>
+            <tr><th scope="row">Materials cost</th><td>$0</td></tr>
+            <tr><th scope="row">Prerequisites</th><td>Eligibility for ENGL&amp; 101 or PTWR 135, and a &ldquo;C&rdquo; or better in PTCS 110 or a math course with a prerequisite of MATH 30 or higher</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>What the catalog says:</strong> fundamental concepts related to designing and writing computer programs and procedures. Topics include problem-solving techniques, program design, coding, debugging, testing, and documentation. The course stresses concepts common to many programming languages and introduces Python. It meets general education requirements for transfer degrees.</p>
+
+      <p><strong>What that means in practice:</strong> you will learn to take a problem you don&rsquo;t yet know how to solve, break it apart, and write Python that solves it. You&rsquo;ll do that through labs, problem sets, quizzes, group work, and a final project of your own design.</p>
+
+      <p><strong>About CS50P:</strong> this course is aligned with CS50 at Harvard University&rsquo;s free <a href="https://cs50.harvard.edu/python/">CS50P &ldquo;Introduction to Programming with Python&rdquo;</a>, so you can work through that course alongside this one if you want to. That&rsquo;s entirely optional &mdash; it isn&rsquo;t required, and it isn&rsquo;t part of your grade.</p>
+    </section>
+
+    <!-- ============ INSTRUCTOR ============ -->
+    <section id="instructor">
+      <h2>Meet your instructor</h2>
+      
+      <div class="tw" tabindex="0">
+        <table>
+          <tbody>
+            <tr><th scope="row">Name</th><td>Bruce Elgort &mdash; please just call me Bruce</td></tr>
+            <tr><th scope="row">Email</th><td><a href="mailto:belgort@clark.edu">belgort@clark.edu</a></td></tr>
+            <tr><th scope="row">Cell</th><td><a href="tel:+13609922951">(360) 992-2951</a> &mdash; call or text</td></tr>
+            <tr><th scope="row">Office</th><td>Scarpelli Hall Room 127 and Virtual (Zoom), plus before and after every class</td></tr>
+            <tr><th scope="row">Student hours</th><td>On Zoom &mdash; days, times, and link are in Canvas. If none of those times work for you, message me on Slack and we&rsquo;ll find one that does.</td></tr>
+            <tr><th scope="row">Best way to reach me</th><td><strong>Slack.</strong> Email works too; phone and Canvas messages reach me as well.</td></tr>
+            <tr><th scope="row">Response time</th><td>Within 24 hours Monday&ndash;Friday; by Monday evening for weekend messages.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>I&rsquo;ve taught web development and programming at Clark for 14 years, and I still get a kick out of watching someone&rsquo;s first working program run. Outside of class I tinker with new and emerging technology, usually with an extra-large cup of coffee nearby. In industry I&rsquo;m known for co-developing Elguji&rsquo;s IdeaJam software.</p>
+
+      <p>I earned a Bachelor of Engineering in Electrical Engineering from the Stevens Institute of Technology in 1985, and a Master&rsquo;s in Engineering Management from NYU&rsquo;s Tandon School of Engineering in 1990.</p>
+
+      <div class="note">
+        <span class="tag">If I go quiet</span>
+        <p>If a full day goes by and you haven&rsquo;t heard back from me, message me again. Something went astray. You are not bothering me.</p>
+      </div>
+
+      <h3>What I believe about teaching</h3>
+      <p class="quote">&ldquo;Everyone you meet is fighting a battle you know nothing about. Be kind always.&rdquo;</p>
+      <ul>
+        <li>Learning is slow. It takes time and repetition, and that is normal &mdash; not a sign you&rsquo;re bad at this.</li>
+        <li>You&rsquo;ll gain far more from correcting your own answer than from me correcting it for you.</li>
+        <li><strong>I&rsquo;m not an answer key.</strong> If I just told you &ldquo;yes, that&rsquo;s right,&rdquo; you&rsquo;d never build the ability to judge your own work &mdash; and there are no answer keys in a real job.</li>
+        <li>Knowing <em>why</em> your answer is right matters as much as the answer.</li>
+        <li>Asking questions is the single best thing you can do for yourself and your group.</li>
+        <li>Every activity I assign, I&rsquo;ve worked through myself, more than once, before you see it.</li>
+      </ul>
+    </section>
+
+    <!-- ============ WHAT CLASS IS LIKE ============ -->
+    <section id="like">
+      <h2>What this class is like</h2>
+      
+      <h3>Why Python</h3>
+      <p>Python is the friendliest first language there is. The syntax stays out of your way, it pushes you toward writing clean code, and it&rsquo;s genuinely useful the moment you learn it &mdash; websites, data analysis, automation, machine learning. It&rsquo;s also one of the most in-demand languages in the job market, which doesn&rsquo;t hurt.</p>
+      <p>Seeing square brackets and words like <code>function</code>, <code>range</code>, or <code>if</code> on your screen can be intimidating at first. That fades faster than you&rsquo;d think. Coding is really just solving problems in small, careful steps, and that&rsquo;s a skill you already have.</p>
+
+      <h3>How we spend our time</h3>
+      <p>We&rsquo;ll use lectures, videos, group activities, hands-on labs, peer critiques, and discussion. You&rsquo;re expected to take part in class discussions and exercises, and I&rsquo;d love it if you brought your own real-world examples into them.</p>
+      <p>Each week you&rsquo;ll work through a Canvas module: readings, videos, labs, a problem set, a quiz, and a collaborative assignment. Modules open on Sundays, except Modules 0 and 1, which open on the first day of class.</p>
+      <p><strong>Want to work ahead?</strong> Message me on Slack and I&rsquo;ll unlock material early. This is especially worth doing if you&rsquo;re also working through CS50P and wanting to earn the CS50 certificate.</p>
+
+      <h3>Attendance</h3>
+      <p>A meaningful portion of your participation grade is earned in the room, so please plan to attend both sessions each week.</p>
+      <ul>
+        <li><strong>If you have to miss class</strong>, let me know on Slack when you can. You&rsquo;re still responsible for that week&rsquo;s module and its deadlines.</li>
+        <li>Missing class doesn&rsquo;t automatically cost you points. In-class exercises are the one exception, and there&rsquo;s a make-up for those &mdash; see <a href="#graded">How participation works</a>.</li>
+        <li><strong>If your attendance starts slipping for any reason</strong> &mdash; illness, work, caregiving, anything &mdash; tell me early. Almost every problem is solvable in Week 3 and much harder to solve in Week 10.</li>
+        <li>Absences for reasons of faith or conscience are accommodated.</li>
+      </ul>
+
+      <h3>If you need an accommodation</h3>
+      <p>I want this course to work for you. Start with Clark&rsquo;s <a href="https://www.clark.edu/campus-life/student-support/disability_support/access_procedure.php">steps for requesting accommodations</a> through the Disability Access Center, then talk to me about what you need in this class specifically. Full DAC contact details and testing procedures are under <a href="#policies">College policies</a>.</p>
+    </section>
+
+    <!-- ============ WHAT YOU NEED ============ -->
+    <section id="need">
+      <h2>What you&rsquo;ll need</h2>
+      
+      <p><strong>Cost: $0.</strong> No textbook, no lab fees. All course materials are free, including resources aligned with CS50 at Harvard University.</p>
+
+      <div class="tw" tabindex="0">
+        <table>
+          <thead><tr><th>What</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><strong>A computer</strong></td><td>Windows, macOS, or Linux &mdash; and a Chromebook works too, because you&rsquo;ll code in the browser.</td></tr>
+            <tr><td><strong><a href="https://cs50.dev">cs50.dev</a></strong></td><td>Our coding environment. It runs in your browser, requires no installation, and comes with AI autocomplete already switched off. Sign in with GitHub.</td></tr>
+            <tr><td><strong>Internet access</strong></td><td>Plus a backup plan for when your computer or connection fails. Clark&rsquo;s computer labs are listed in Module 0.</td></tr>
+            <tr><td><strong>A web browser</strong></td><td>Chrome, Firefox, Edge, or Safari.</td></tr>
+            <tr><td><strong>Slack</strong></td><td>Our class communication hub. Setup instructions in Module 0.</td></tr>
+            <tr><td><strong>A GitHub account</strong></td><td>Free &mdash; it&rsquo;s how you sign into cs50.dev. Setup in Module 0; an existing account is fine.</td></tr>
+            <tr><td><strong>Free software</strong></td><td>Anything else you need is free, and Canvas tells you exactly how to set it up.</td></tr>
+            <tr><td><strong>The CS50 Duck</strong></td><td><a href="https://cs50.ai">cs50.ai</a> &mdash; your approved AI helper.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>You&rsquo;ll also need to be comfortable using Canvas (<a href="http://www.clark.edu/academics/eLearning/">tutorials here</a>) and searching online for answers. Canvas works on phones for reading, but you&rsquo;ll need a real computer to write and submit code.</p>
+
+      <details>
+        <summary>A note on the three outside accounts</summary>
+        <div class="det-body">
+          <p>Slack, GitHub, and cs50.ai are run by companies other than Clark, so a few things are worth knowing:</p>
+          <ul>
+            <li>You may use a display name instead of your full legal name. Just tell me which account is yours.</li>
+            <li>Don&rsquo;t post personal or sensitive information &mdash; yours or anyone else&rsquo;s &mdash; in Slack or in a public GitHub repository.</li>
+            <li>Each service sets its own privacy and accessibility terms, which Clark doesn&rsquo;t control.</li>
+            <li><strong>Would rather not create one of these accounts?</strong> Tell me in week one. There&rsquo;s an alternative for each, and using it won&rsquo;t affect your grade.</li>
+          </ul>
+          <p>For Microsoft and Canvas accessibility and privacy details, see <a href="https://www.clark.edu/academics/eLearning/policies-standards/accessibility-statements.php">Clark&rsquo;s eLearning policies page</a>. As a Clark student you can also <a href="https://www.clark.edu/its/documentation-and-resources/students/microsoftdownloads.php">download Microsoft Office for free</a> &mdash; not required here, but useful elsewhere.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ============ GRADING ============ -->
+    <section id="graded">
+      <h2>How you&rsquo;ll be graded</h2>
+      
+      <div class="tw" tabindex="0">
+        <table>
+          <thead><tr><th>Category</th><th class="num">Weight</th><th>What it is</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Discussion, participation &amp; collaboration</strong></td><td class="num">25%</td><td>Weekly reflections, in-class exercises, and nine collaborative assignments</td></tr>
+            <tr><td><strong>Problem sets</strong></td><td class="num">20%</td><td>One per module, due Sunday</td></tr>
+            <tr><td><strong>Final project</strong></td><td class="num">20%</td><td>Assigned Week 5, due Friday, December 4, presented during finals week</td></tr>
+            <tr><td><strong>Midterm</strong></td><td class="num">10%</td><td>In class, Wednesday, October 28 &mdash; the Week 6 checkpoint, on paper</td></tr>
+            <tr><td><strong>Quizzes</strong></td><td class="num">10%</td><td>One per module, in class, on paper &mdash; lowest score dropped</td></tr>
+            <tr><td><strong>Final exam</strong></td><td class="num">10%</td><td>In class, Monday, November 30 &mdash; cumulative, on paper</td></tr>
+            <tr><td><strong>Labs</strong></td><td class="num">5%</td><td>One or more per module, due Sunday</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <span class="tag">The deadline rule, once</span>
+        <p>Everything is due <strong>Sunday at 11:59&nbsp;PM</strong> and stays open for <strong>three more days at full credit</strong>.</p>
+      </div>
+
+      <h3>The details</h3>
+      <ul>
+        <li><strong>Problem sets</strong> &mdash; one per module. Close three days after the due date.</li>
+        <li><strong>Labs</strong> &mdash; one or more per module. Close three days after the due date.</li>
+        <li><strong>Quizzes</strong> &mdash; <strong>one per module, taken in class on paper.</strong> About ten minutes at the start of class, closed-book, covering that module. They are short on purpose: the point is a weekly, honest check that the code you turned in is code you can actually write.
+          <ul><li><strong>Your lowest quiz score is dropped</strong>, and that drop <em>is</em> the make-up policy &mdash; it covers one missed quiz, not several.</li></ul>
+        </li>
+        <li><strong>Midterm</strong> &mdash; in class on <strong>Wednesday, October 28</strong> (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1&ndash;5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
+          <ul>
+            <li>It lands five weeks before the <strong>December 3</strong> withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.</li>
+            <li>Like the final exam, it has <strong>no three-day window</strong>. If you cannot be there on October 28, talk to me <em>before</em> that date.</li>
+          </ul>
+        </li>
+        <li><strong>Final project</strong> &mdash; assigned in Week 5, due <strong>Friday, December 4 at 11:59&nbsp;PM</strong>, and presented to the class during <strong>finals week (December 7&ndash;10)</strong>. You submit first and present after, so you&rsquo;re never building and presenting in the same week. It includes a short written <strong>ethics and limitations</strong> piece: what ethical questions your program raises, and what it can&rsquo;t &mdash; or shouldn&rsquo;t &mdash; do. That part is graded, not optional.</li>
+        <li><strong>Final exam</strong> &mdash; in class on <strong>Monday, November 30</strong>. It&rsquo;s cumulative, on paper, and closed-book: tracing code, predicting output, and writing short functions by hand. You&rsquo;ve been doing all three since Week 1.
+          <ul>
+            <li><strong>Like the quizzes and the midterm, it has no three-day window.</strong> If something will keep you from being there on November 30, contact me <em>before</em> that date and we&rsquo;ll arrange something.</li>
+            <li><strong>Testing accommodations through DAC?</strong> DAC needs at least five business days&rsquo; notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by <strong>Friday, November 20</strong> at the latest. For the short weekly quizzes, tell me in the first two weeks and we will arrange your accommodation in class.</li>
+            <li>I&rsquo;ll post a review guide and a practice exam in Canvas by Week 9, so you can prepare before the break rather than during it.</li>
+          </ul>
+        </li>
+      </ul>
+      <p>Rubrics for every assessment live in the relevant Canvas module.</p>
+
+      <h3>How participation works</h3>
+      <p>This is your biggest category, so here is exactly how you earn it.</p>
+      <div class="tw" tabindex="0">
+        <table>
+          <thead><tr><th>Component</th><th class="num">Share of your final grade</th></tr></thead>
+          <tbody>
+            <tr><td>In-class participation and group work</td><td class="num">12%</td></tr>
+            <tr><td>Collaborative assignments (nine across the quarter)</td><td class="num">8%</td></tr>
+            <tr><td>Weekly written/video reflections and discussion posts in Canvas</td><td class="num">5%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>Graded on effort, not correctness.</strong> Show your reasoning and you get full credit even when the answer turns out to be wrong. A blank or one-word submission doesn&rsquo;t.</li>
+        <li>Reflections and collaborative assignments can be done outside class, so missing a session doesn&rsquo;t cost you those points.</li>
+        <li><strong>In-class participation</strong> is the one part that needs you in the room. Miss a class? Message me on Slack and I&rsquo;ll give you an equivalent to do on your own.</li>
+        <li><strong>If speaking up in class or working in groups is hard for you</strong> &mdash; including as part of a DAC accommodation &mdash; tell me in the first two weeks. There&rsquo;s a written alternative for every in-class component. Setting it up is routine and completely unremarkable.</li>
+      </ul>
+
+      <h3>Grading scale</h3>
+      <div class="tw" tabindex="0">
+        <table>
+          <thead><tr><th class="num">Percent</th><th>Grade</th><th class="num">Percent</th><th>Grade</th></tr></thead>
+          <tbody>
+            <tr><td class="num">94&ndash;100%</td><td>A</td><td class="num">80&ndash;83%</td><td>B-</td></tr>
+            <tr><td class="num">90&ndash;93%</td><td>A-</td><td class="num">77&ndash;79%</td><td>C+</td></tr>
+            <tr><td class="num">87&ndash;89%</td><td>B+</td><td class="num">70&ndash;76%</td><td>C</td></tr>
+            <tr><td class="num">84&ndash;86%</td><td>B</td><td class="num">60&ndash;69%</td><td>D</td></tr>
+            <tr><td class="num"></td><td></td><td class="num">Below 60%</td><td>F</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>A &ldquo;C&rdquo; or better</strong> is required for this course to count toward a degree or certificate.</li>
+        <li><strong>Rounding:</strong> final percentages round to the nearest whole number, so 89.5% becomes 90% and earns an A-. I don&rsquo;t round past that. What I <em>will</em> do is talk with you early about how to move your grade &mdash; please don&rsquo;t wait until Week 11 to ask.</li>
+        <li><strong>Incompletes:</strong> an &ldquo;I&rdquo; is possible only if you&rsquo;ve completed most of the course in good standing and something unexpected stops you from finishing. It takes a written agreement between us with a deadline, and it isn&rsquo;t a substitute for withdrawing.</li>
+      </ul>
+
+      <h3>Late work</h3>
+      <p><strong>One rule: work is due Sunday at 11:59&nbsp;PM and stays open three more days at full credit.</strong></p>
+      <ul>
+        <li>No penalty, no permission needed, no explanation required inside that window. It&rsquo;s built into every deadline.</li>
+        <li>Canvas will stamp those submissions &ldquo;late.&rdquo; <strong>Ignore the label</strong> &mdash; it doesn&rsquo;t affect your grade.</li>
+        <li><strong>Anything taken in class is the exception</strong> &mdash; the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room, so there is no window. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me <em>before</em> the date.</li>
+        <li><strong>When something bigger is going on</strong> &mdash; illness, work, family, a genuinely brutal week &mdash; contact me <em>before</em> the deadline and we&rsquo;ll set a new date. I grant these. I just need to hear from you.</li>
+      </ul>
+      <p>Work that lands weeks or months late has lost most of its value, because it no longer connects to anything the class is doing. That&rsquo;s the reason for the window, and it&rsquo;s why talking to me early works so much better than going quiet.</p>
+
+      <h3>Feedback</h3>
+      <p>I aim to return feedback within a week of the due date, while the material is still fresh. If you want extra help, reach out and we&rsquo;ll find a time.</p>
+    </section>
+
+    <!-- ============ SCHEDULE ============ -->
+    <section id="schedule">
+      <h2>Weekly schedule</h2>
+            <p>Subject to change &mdash; I&rsquo;ll announce any updates in class, on Canvas, and on Slack.</p>
+
+      <div class="tw" tabindex="0">
+        <table class="wk">
+          <thead><tr><th>Week</th><th>Dates</th><th>Topic</th><th>Due that week</th></tr></thead>
+          <tbody>
+            <tr><td>1&ndash;2</td><td>Sept 21 &ndash; Oct 2</td><td>Course intro &middot; Setting up your environment &middot; Functions and variables</td><td>Lab 0 &middot; Problem Set 0 &middot; Quiz 0 &middot; Collaborative 0</td></tr>
+            <tr><td>3</td><td>Oct 5 &ndash; 9</td><td>Conditionals</td><td>Lab 1 &middot; Problem Set 1 &middot; Quiz 1 &middot; Collaborative 1</td></tr>
+            <tr><td>4</td><td>Oct 12 &ndash; 16</td><td>Loops</td><td>Lab 2 &middot; Problem Set 2 &middot; Quiz 2 &middot; Collaborative 2</td></tr>
+            <tr><td>5</td><td>Oct 19 &ndash; 23</td><td>Exception handling</td><td>Lab 3 &middot; Problem Set 3 &middot; Quiz 3 &middot; Collaborative 3 &middot; <strong>Final project assigned</strong></td></tr>
+            <tr><td>6</td><td>Oct 26 &ndash; 30</td><td>Libraries</td><td>Lab 4 &middot; Problem Set 4 &middot; Quiz 4 &middot; Collaborative 4 &middot; <strong>Midterm &mdash; in class Wed Oct 28</strong></td></tr>
+            <tr><td>7</td><td>Nov 2 &ndash; 6</td><td>Unit tests</td><td>Lab 5 &middot; Problem Set 5 &middot; Quiz 5 &middot; Collaborative 5</td></tr>
+            <tr><td>8</td><td>Nov 9 &ndash; 13</td><td>File input/output <span class="off">&middot; no class Wed Nov 11</span></td><td>Lab 6 &middot; Problem Set 6 &middot; Quiz 6 &middot; Collaborative 6</td></tr>
+            <tr><td>9</td><td>Nov 16 &ndash; 20</td><td>Regular expressions</td><td>Lab 7 &middot; Problem Set 7 &middot; Quiz 7 &middot; Collaborative 7</td></tr>
+            <tr><td>10</td><td>Nov 23 &ndash; 27</td><td>Object-oriented programming <span class="off">&middot; no class Wed Nov 25</span></td><td>Lab 8 &middot; Problem Set 8 &middot; Quiz 8 &middot; Collaborative 8</td></tr>
+            <tr><td>11</td><td>Nov 30 &ndash; Dec 4</td><td><strong>Final exam Mon Nov 30</strong> <span class="off">&middot; project work Wed</span></td><td><strong>Final exam</strong> &middot; <strong>Final project due Fri Dec 4, 11:59&nbsp;PM</strong></td></tr>
+            <tr><td>Finals</td><td>Dec 7 &ndash; 10</td><td>Final project presentations</td><td>Present your project &mdash; schedule posted in Canvas</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>From Week 5 on, you&rsquo;re also working on your final project alongside each week&rsquo;s module.</p>
+
+      <div class="note">
+        <span class="tag">Plan around the end of the quarter</span>
+        <p>Week 10 has only one class session, it&rsquo;s the week of Thanksgiving, and the final exam is the Monday right after the break. Don&rsquo;t plan to study over the holiday &mdash; do your reviewing during Week 9 and the first half of Week 10, when the review guide is already posted. Week 8 also has a single session. This stretch is where students get squeezed every quarter.</p>
+      </div>
+    </section>
+
+    <!-- ============ AGREEMENTS ============ -->
+    <section id="agreements">
+      <h2>Course agreements</h2>
+      
+      <h3>Communication</h3>
+      <p><strong>Slack is the fastest way to reach me,</strong> and it&rsquo;s where you can ask questions, help each other, and share things you find. Everyone gets an invitation; if yours didn&rsquo;t arrive, contact me. Check Canvas announcements whenever you log in &mdash; they&rsquo;re at the top of the page.</p>
+      <p>On netiquette: there are real people on the other side of every message. Use the same courtesy online that you&rsquo;d use face to face.</p>
+
+      <h3>AI guidelines</h3>
+      <p>AI is part of this course. It&rsquo;s also the easiest way to accidentally skip the learning you&rsquo;re paying for. So this policy is about what you must be able to <strong>do</strong>, not about a list of banned brand names.</p>
+      <p><strong>The standard:</strong> everything you submit must be code you could write again and explain line by line, without AI help. If you couldn&rsquo;t reproduce and explain it on the spot, it isn&rsquo;t yours to submit. The weekly quizzes, the midterm, the final exam, and your project presentation all check exactly that &mdash; which is why leaning on AI now mostly shows up as a bad grade later.</p>
+
+      <div class="tw" tabindex="0">
+        <table>
+          <tbody>
+            <tr><th scope="row">Always allowed</th><td>The <strong>CS50 Duck Debugger</strong> (<a href="https://cs50.ai">cs50.ai</a>). It&rsquo;s built to ask you questions instead of handing you answers. That&rsquo;s the point.</td></tr>
+            <tr><th scope="row">Not allowed on submitted work</th><td>Any other AI that suggests, completes, or generates code &mdash; ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, and the AI features now baked into editors and browsers. Submitting AI-written code is treated like submitting another person&rsquo;s code.</td></tr>
+            <tr><th scope="row">Where you&rsquo;ll write code</th><td><strong><a href="https://cs50.dev">cs50.dev</a></strong>, CS50&rsquo;s browser-based environment. Copilot and inline AI autocomplete are already turned off there, which is one less thing for you to get wrong. If you&rsquo;d rather work in your own editor, that&rsquo;s fine &mdash; but then it&rsquo;s on you to make sure no AI completion is running.</td></tr>
+            <tr><th scope="row">When AI is assigned</th><td>Some assignments will ask you to use AI beyond the Duck. Those will say so explicitly, name the allowed tools, and may ask you to turn in your prompts.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>If I think AI wrote your code,</strong> I&rsquo;ll ask you to walk me through it &mdash; what a section does, why you did it that way, how you&rsquo;d change it. That&rsquo;s a conversation, and it happens before any finding is made. I don&rsquo;t use AI-detection software to assign grades; those detectors are unreliable and I won&rsquo;t grade you on one.</p>
+      <p><strong>Not sure whether something&rsquo;s allowed? Ask me on Slack before you submit.</strong> Asking has never once counted against a student.</p>
+
+      <h3>Academic honesty</h3>
+      <p>My approach here is best described as <strong>reasonable</strong>. Working with other people genuinely helps you learn. But there&rsquo;s a line between getting help and handing in someone else&rsquo;s work, and this is where it sits.</p>
+      <p><strong>The essence of everything you submit must be your own.</strong> The general rule when asking for help: <em>you may show your work to others, but you may not look at theirs.</em></p>
+
+      <div class="tw" tabindex="0">
+        <table class="yn">
+          <thead><tr><th>This is fine</th><th>This is not</th></tr></thead>
+          <tbody>
+            <tr><td>Talking a problem through with a classmate in words, and citing that conversation in a comment</td><td>Looking at a classmate&rsquo;s solution before you&rsquo;ve submitted your own</td></tr>
+            <tr><td>Showing your code to someone so they can help you find your bug</td><td>Sharing your solution with someone who&rsquo;s stuck on it</td></tr>
+            <tr><td>Helping a classmate debug <em>after</em> you&rsquo;ve submitted that part yourself</td><td>Splitting an assignment with someone and combining the pieces</td></tr>
+            <tr><td>Whiteboarding an approach in diagrams or pseudocode</td><td>Whiteboarding in actual code</td></tr>
+            <tr><td>Borrowing a few lines you found online and citing where they came from</td><td>Searching for, or asking for, outright solutions to assigned work</td></tr>
+            <tr><td>Using the web to learn more, look things up, or solve technical trouble</td><td>Copying someone&rsquo;s solution and basing yours on it</td></tr>
+            <tr><td>Working with a tutor who helps you learn</td><td>Paying anyone for work you submit</td></tr>
+            <tr><td>Using the CS50 Duck</td><td>Using any other AI to write, complete, or suggest code you submit</td></tr>
+            <tr><td>Reusing your own work from <em>this</em> course</td><td>Reusing work from another course, or giving your solutions to anyone &mdash; this quarter or a future one</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p><strong>Also not okay:</strong> using an account that isn&rsquo;t yours, manipulating scores, and finding a flaw in Canvas or an autograder that affects grades without telling me.</p>
+      <p><strong>Cite your sources.</strong> If you bring in code or a technique from outside our lessons, say where it came from in a code comment. Same idea as citing a source in an essay: <a href="https://clark.libguides.com/c.php?g=1005438&amp;p=7291798">Clark Libraries&rsquo; plagiarism guide</a> is a good primer.</p>
+      <p><strong>If something crosses the line,</strong> consequences follow <a href="#policies">Clark&rsquo;s academic dishonesty policy</a>: no credit on the assessment, a failing course grade for serious or repeated violations, and possible referral to Student Conduct. You have the right to respond before any finding is made and to appeal through the division chair.</p>
+      <p><strong>When in doubt, ask me first &mdash; in writing, so we both have the answer.</strong> Asking in good faith never counts against you.</p>
+
+      <h3>Classroom norms</h3>
+      <ul>
+        <li>Complete each week&rsquo;s module &mdash; readings, assignments, discussions, and quizzes &mdash; by the due date.</li>
+        <li>Take part in class discussions and exercises, and bring your own experiences into them.</li>
+        <li>Be a courteous member of the room and don&rsquo;t get in the way of anyone else&rsquo;s learning.</li>
+        <li>Academic and intellectual honesty are expected at all times.</li>
+        <li>Tell me as early as you can about anything that affects your ability to take part fully.</li>
+      </ul>
+
+      <h3>Recording class sessions</h3>
+      <p><strong>You&rsquo;re welcome to record class for your own study use</strong> &mdash; no permission needed. Please don&rsquo;t post or share recordings, screenshots, or classmates&rsquo; work outside this class. People share half-finished code and honest confusion in a programming class, and that only works if the room feels safe. If DAC has approved recording as an accommodation, you never need to explain that to anyone. If I record a session, I&rsquo;ll say so and post it in Canvas.</p>
+
+      <h3>Changes to this syllabus</h3>
+      <p>This is a plan, not a contract, and I may adjust it during the quarter. Anything that affects your grade or your deadlines gets announced in Canvas and on Slack, and I&rsquo;ll post an updated syllabus.</p>
+
+      <h3>Withdrawing from the course</h3>
+      <p>The last day to withdraw is <strong>Thursday, December 3, 2026</strong>. If you stop attending without formally withdrawing, you&rsquo;ll receive an &ldquo;F.&rdquo; Deadlines are on Clark&rsquo;s <a href="https://www.clark.edu/about/calendars/important-dates-deadlines/">Important Dates &amp; Deadlines</a> page.</p>
+      <p><strong>Before you withdraw, please talk to me.</strong> There&rsquo;s often an option you haven&rsquo;t considered.</p>
+    </section>
+
+    <!-- ============ OUTCOMES ============ -->
+    <section id="outcomes">
+      <h2>What you&rsquo;ll be able to do by the end</h2>
+      
+      <ul>
+        <li><strong>C1.</strong> Show how computer operations and algorithmic thinking are applied to solve problems.</li>
+        <li><strong>C2.</strong> Demonstrate working knowledge of fundamental computer concepts and iteration.</li>
+        <li><strong>C3.</strong> Identify problems, solve them algorithmically, and write programs that address them.</li>
+        <li><strong>C4.</strong> Discuss ethics in computing and the limitations of what computing can do.</li>
+      </ul>
+
+      <div class="tw" tabindex="0">
+        <table>
+          <thead><tr><th>Outcome</th><th>Taught in</th><th>Graded through</th></tr></thead>
+          <tbody>
+            <tr><td><strong>C1</strong></td><td>Weeks 1&ndash;4: functions, variables, conditionals, loops</td><td>Labs 0&ndash;2 &middot; Problem Sets 0&ndash;2 &middot; Quizzes 0&ndash;2 &middot; Midterm &middot; Final exam &middot; Final project</td></tr>
+            <tr><td><strong>C2</strong></td><td>Weeks 3&ndash;7: loops, exceptions, libraries, unit tests</td><td>Labs 1&ndash;5 &middot; Problem Sets 1&ndash;5 &middot; Quizzes 1&ndash;5 &middot; Midterm &middot; Final exam</td></tr>
+            <tr><td><strong>C3</strong></td><td>Every week, most heavily Weeks 5&ndash;10</td><td>Problem sets &middot; Collaborative assignments &middot; Final exam &middot; Final project</td></tr>
+            <tr><td><strong>C4</strong></td><td>Raised in Week 1, revisited as topics come up</td><td>The final project&rsquo;s <strong>ethics and limitations</strong> component</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <details>
+        <summary>College-wide abilities and program outcomes</summary>
+        <div class="det-body">
+          <p><strong>College-wide abilities.</strong> Clark identifies six abilities at the foundation of its educational emphasis: communication, critical thinking and problem solving, information and technology, effective citizenship, life-long learning, and global/multicultural awareness. This course emphasizes <strong>information technology</strong>, <strong>critical thinking and problem solving</strong>, and <strong>communication</strong>.</p>
+          <p><strong>Program outcomes (Web Development AAT).</strong> As an introductory programming course, CTEC 121 contributes directly to <strong>P1</strong> (web foundations), <strong>P4</strong> (web development), <strong>P5</strong> (professional practices), <strong>P6</strong> (written communication), <strong>P7</strong> (interpersonal skills), and <strong>P8</strong> (explaining a strategy for a quantitative problem). P2 (web media) and P3 (web design) are developed in other courses in the degree.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ============ POLICIES ============ -->
+    <section id="policies">
+      <h2>College policies</h2>
+            <p>These apply across Clark College. They&rsquo;re collapsed so you can find the one you need.</p>
+
+      <details>
+        <summary>ADA accommodations</summary>
+        <div class="det-body">
+          <p>The Disability Access Center (DAC) coordinates accommodations for students with disabilities and with temporary health conditions, including a temporary injury or pregnancy. <strong>All accommodations must be approved through DAC first.</strong> Request them by following the steps at <a href="http://www.clark.edu/dac">www.clark.edu/dac</a>.</p>
+          <div class="tw" tabindex="0"><table><tbody>
+            <tr><th scope="row">Phone</th><td>360-992-2314 &middot; ASL video phone 360-991-0901</td></tr>
+            <tr><th scope="row">Email</th><td><a href="mailto:dac@clark.edu">dac@clark.edu</a> &middot; testing questions: <a href="mailto:DACtesting@clark.edu">DACtesting@clark.edu</a></td></tr>
+            <tr><th scope="row">Location</th><td>Penguin Union Building (PUB) 002</td></tr>
+          </tbody></table></div>
+          <p>Two things students often miss: <strong>accommodations must be requested every term</strong> in <a href="https://www.clark.edu/dac/myaccess.php">myAccess</a>, and <strong>exams at DAC must be scheduled by you</strong> with at least five business days&rsquo; notice.</p>
+          <p>Once your accommodations are set, contact me so we can talk about this course specifically. If you have emergency medical information I should know, tell me by the end of week one.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Non-discrimination</summary>
+        <div class="det-body">
+          <p>Clark College prohibits discrimination on the basis of race, color, national origin, age, perceived or actual physical or mental disability, pregnancy, genetic information, sex, sexual orientation, gender identity, marital status, creed, religion, honorably discharged veteran or military status, citizenship, immigration status, or use of a trained guide dog or service animal. Harassment is a form of discrimination.</p>
+          <p>To file a formal grievance: Human Resources, 1933 Fort Vancouver Way, Baird Hall 133 &middot; 360-992-2105 &middot; <a href="mailto:hr@clark.edu">hr@clark.edu</a>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Title IX and sexual misconduct</summary>
+        <div class="det-body">
+          <p>If you or someone you care about has been affected by sexual misconduct, you are not alone, and people here can help &mdash; to listen, to explain your options, and to help keep you safe. There&rsquo;s no &ldquo;right way&rdquo; to feel and no single right thing to do.</p>
+          <ul>
+            <li><a href="https://www.clark.edu/about/governance/policies-procedures/title-IX/resources.php">Campus and community resources</a></li>
+            <li><a href="https://www.clark.edu/about/governance/policies-procedures/title-IX/reporting.php">Reporting options</a></li>
+            <li><a href="https://www.clark.edu/about/governance/policies-procedures/title-IX/">Title IX at Clark</a></li>
+            <li><a href="https://www.clark.edu/about/governance/policies-procedures/title-IX/safety-and-help.php">Personal safety and helping a friend</a></li>
+            <li><a href="https://www.clark.edu/campus-life/student-support/counseling/index.php">Counseling and Health Center</a></li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Student rights and responsibilities</summary>
+        <div class="det-body">
+          <p>Clark&rsquo;s <a href="https://www.clark.edu/about/governance/public-disclosure-and-records/adminProcedures/700/710/index.php">Student Rights and Responsibilities page</a> covers freedom of access to education, absence for reasons of faith or conscience, FERPA, and emergency and health information.</p>
+          <p><strong>If you&rsquo;ll be absent for reasons of faith, just let me know</strong> &mdash; no explanation needed beyond that.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Academic dishonesty</summary>
+        <div class="det-body">
+          <p>Academic dishonesty usually happens when students are stressed and out of time, not because they set out to cheat. Two main forms:</p>
+          <ul>
+            <li><strong>Plagiarism</strong> &mdash; not crediting or properly citing sources for your work.</li>
+            <li><strong>Cheating</strong> &mdash; giving or getting help that isn&rsquo;t allowed on an assignment.</li>
+          </ul>
+          <p><strong>How to stay clear of it:</strong> ask me when you&rsquo;re unsure, cite your sources, turn in original work, don&rsquo;t submit the same work in two classes without permission, and never fabricate results or citations.</p>
+          <p><strong>Consequences:</strong> a failing grade on the assignment or, in extreme cases, the course. Students may also be referred to the Student Conduct Office, which can require learning activities or, in extreme or repeated cases, dismissal from a program. To challenge a finding, you can file a grade appeal starting with the division chair.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Emergencies</summary>
+        <div class="det-body">
+          <div class="tw" tabindex="0"><table>
+            <thead><tr><th>Situation</th><th>What to do</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Inclement weather or closure</strong></td><td>Check <a href="http://www.clark.edu">www.clark.edu</a> or call 360-992-2000 first &mdash; those are the official sources.</td></tr>
+              <tr><td><strong>Emergency alerts</strong></td><td>Register your phone and email at <a href="http://www.flashalert.net">flashalert.net</a>. Do this now, not later.</td></tr>
+              <tr><td><strong>Fire alarm</strong></td><td>Leave by the nearest exit (maps are in the hallways), take belongings only if it&rsquo;s safe, stay at least 50 feet from the building, and don&rsquo;t re-enter until told.</td></tr>
+              <tr><td><strong>Escort to your car</strong></td><td>Campus Security: 360-992-2133.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Parking lots are identified by color and number &mdash; use those to tell security or emergency responders where you are.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- ============ HELP ============ -->
+    <section id="help">
+      <h2>Where to get help</h2>
+            <p><strong>Asking for help early is the single strongest predictor of finishing this course well.</strong> Please use these.</p>
+
+      <h3 class="mini">Course help</h3>
+      <div class="tw" tabindex="0"><table>
+        <thead><tr><th>If you need</th><th>Go to</th></tr></thead>
+        <tbody>
+          <tr><td>Help with the material or an assignment</td><td>Message me on Slack, or come to student hours</td></tr>
+          <tr><td>A second set of eyes on your code</td><td>The CS50 Duck (<a href="https://cs50.ai">cs50.ai</a>), or ask in Slack</td></tr>
+          <tr><td>Free tutoring</td><td><a href="https://www.clark.edu/campus-life/student-support/tutoring/index.php">Clark Tutoring Services</a> in person or on Zoom &middot; <a href="https://etutoringonline.org/">eTutoringOnline.org</a></td></tr>
+          <tr><td>Research and citation help</td><td><a href="https://library.clark.edu/">Clark librarians</a> &mdash; in person or by <a href="https://library.clark.edu/content/ask-librarian">chat</a></td></tr>
+        </tbody>
+      </table></div>
+
+      <h3 class="mini">Tech help</h3>
+      <div class="tw" tabindex="0"><table>
+        <thead><tr><th>If you need</th><th>Go to</th></tr></thead>
+        <tbody>
+          <tr><td>Canvas, software, or account trouble</td><td><a href="https://www.clark.edu/its/documentation-and-resources/students/techhub/index.php">Tech Hub</a> &mdash; Scarpelli Hall 135 &middot; <a href="mailto:techhub@clark.edu">techhub@clark.edu</a> &middot; 360-992-2010</td></tr>
+          <tr><td>To report a Canvas problem</td><td>The <strong>Help</strong> button in Canvas &rarr; &ldquo;Report a Problem&rdquo; (replies come to your Clark Gmail) &middot; <a href="https://community.instructure.com/en/kb/canvas-lms-student-guide">Canvas Student Guide</a></td></tr>
+          <tr><td>A computer to work on</td><td><a href="http://www.clark.edu/its/documentation-and-resources/students/hours.php">Open computer labs</a>, including weekends</td></tr>
+          <tr><td>To borrow a laptop</td><td><a href="http://www.clark.edu/its/documentation-and-resources/students/tech-request.php">Laptop request form</a></td></tr>
+          <tr><td>Account setup</td><td><a href="http://www.clark.edu/its/documentation-and-resources/students/student-accounts.php">All four Clark student accounts</a> &middot; <a href="http://www.clark.edu/its/documentation-and-resources/students/emailsetup.php">student email</a> &middot; <a href="http://www.clark.edu/its/documentation-and-resources/students/ctclink-account.php">ctcLink</a></td></tr>
+        </tbody>
+      </table></div>
+
+      <h3 class="mini">Life help</h3>
+      <div class="tw" tabindex="0"><table>
+        <thead><tr><th>If you need</th><th>Go to</th></tr></thead>
+        <tbody>
+          <tr><td>Food, housing, or financial help</td><td><a href="https://www.clark.edu/campus-life/student-support/basic-needs/">Basic Needs Hub</a> &mdash; <a href="mailto:basicneeds@clark.edu">basicneeds@clark.edu</a> &middot; 360-992-2766 &middot; Gaiser Hall 216 &middot; <a href="https://forms.office.com/r/QYMvHDdhxF">intake form</a></td></tr>
+          <tr><td>Groceries</td><td><a href="https://www.clark.edu/campus-life/student-support/penguinpantry/index.php">Penguin Pantry</a> &mdash; monthly food boxes; contact Cath Busha, Dean of Student Engagement (<a href="mailto:cbusha@clark.edu">cbusha@clark.edu</a>)</td></tr>
+          <tr><td>Physical or mental health support</td><td><a href="https://www.clark.edu/campus-life/student-support/counseling/index.php">Counseling and Health Center</a></td></tr>
+          <tr><td>Help navigating college itself</td><td><a href="https://www.clark.edu/campus-life/student-support/success-coaches/">Student Success Coaches</a> &mdash; PUB 002 or Zoom</td></tr>
+          <tr><td>Academic planning</td><td><a href="https://www.clark.edu/enroll/advising-services/">Advising Services</a> &mdash; <a href="https://www.clark.edu/enroll/advising-services/schedule.php">schedule an appointment</a></td></tr>
+          <tr><td>Career and job help</td><td><a href="https://www.clark.edu/enroll/careers/index.php">Career Services</a> &mdash; 360-992-2902 &middot; <a href="mailto:careerservices@clark.edu">careerservices@clark.edu</a></td></tr>
+          <tr><td>Veteran support</td><td><a href="https://www.clark.edu/campus-life/student-support/vrc/index.php">Veterans Center of Excellence</a> &mdash; PUB 015 &middot; 360-992-2073</td></tr>
+          <tr><td>Community and belonging</td><td><a href="https://www.clark.edu/campus-life/student-support/diversity-and-equity/index.php">Office of People and Culture</a> and <a href="https://www.clark.edu/campus-life/student-support/diversity-and-equity/diversity_center.php">The Diversity Center</a> &mdash; everyone welcome</td></tr>
+        </tbody>
+      </table></div>
+
+      <div class="note">
+        <span class="tag">If money is tight</span>
+        <p>If you&rsquo;re having trouble affording food or don&rsquo;t have stable housing, please contact the Basic Needs Hub &mdash; and if you&rsquo;re comfortable telling me, do. I may know of resources you haven&rsquo;t found yet, and it stays between us.</p>
+      </div>
+
+      <p>More at <a href="https://www.clark.edu/current/index.php">Clark Students</a>, including <a href="https://www.c-tran.com/">C-Tran transit</a> and <a href="https://www.clark.edu/about/visitors-guide/getting-to-clark/index.php">campus maps</a>.</p>
+
+      <div class="signoff">
+        Programming is learned by doing it badly, repeatedly, until it clicks. Everyone&rsquo;s code breaks. Everyone gets stuck. The students who do well in here aren&rsquo;t the ones who never get stuck &mdash; they&rsquo;re the ones who ask sooner.
+        <br><br>So ask. I&rsquo;m on Slack, and I&rsquo;m glad you&rsquo;re here.
+        <span class="name">&mdash; Bruce</span>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- theme toggle ---------- */
+  var root=document.documentElement;
+  var btn=document.getElementById("themeBtn");
+  btn.addEventListener("click",function(){
+    var cur=root.getAttribute("data-theme");
+    var dark=cur?cur==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;
+    root.setAttribute("data-theme",dark?"light":"dark");
+    try{localStorage.setItem("ctec121-theme",dark?"light":"dark");}catch(e){}
+  });
+  try{
+    var saved=localStorage.getItem("ctec121-theme");
+    if(saved==="dark"||saved==="light")root.setAttribute("data-theme",saved);
+  }catch(e){}
+
+  /* ---------- scrollspy ---------- */
+  var links=Array.prototype.slice.call(document.querySelectorAll("#tocList a"));
+  var sections=links.map(function(a){return document.getElementById(a.getAttribute("href").slice(1));});
+  function spy(){
+    var best=0,y=window.scrollY+120;
+    for(var i=0;i<sections.length;i++){
+      if(sections[i]&&sections[i].offsetTop<=y)best=i;
+    }
+    links.forEach(function(a,i){
+      if(i===best)a.setAttribute("aria-current","true");
+      else a.removeAttribute("aria-current");
+    });
+  }
+  var ticking=false;
+  window.addEventListener("scroll",function(){
+    if(ticking)return;ticking=true;
+    window.requestAnimationFrame(function(){spy();ticking=false;});
+  },{passive:true});
+  spy();
+
+  /* ---------- in-page search ---------- */
+  var input=document.getElementById("search");
+  var countEl=document.getElementById("searchCount");
+  var main=document.getElementById("main");
+  var hits=[],idx=-1,timer=null;
+
+  function clearMarks(){
+    var marks=main.querySelectorAll("mark");
+    for(var i=0;i<marks.length;i++){
+      var m=marks[i],p=m.parentNode;
+      p.replaceChild(document.createTextNode(m.textContent),m);
+      p.normalize();
+    }
+    hits=[];idx=-1;
+  }
+
+  function markAll(q){
+    var walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+        var t=n.parentNode.nodeName;
+        if(t==="SCRIPT"||t==="STYLE"||t==="MARK")return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodes=[],n;
+    while((n=walker.nextNode()))nodes.push(n);
+    var lower=q.toLowerCase();
+    nodes.forEach(function(node){
+      var text=node.nodeValue,low=text.toLowerCase(),pos=low.indexOf(lower);
+      if(pos<0)return;
+      var frag=document.createDocumentFragment(),last=0;
+      while(pos>-1){
+        if(pos>last)frag.appendChild(document.createTextNode(text.slice(last,pos)));
+        var mk=document.createElement("mark");
+        mk.textContent=text.slice(pos,pos+q.length);
+        frag.appendChild(mk);hits.push(mk);
+        last=pos+q.length;
+        pos=low.indexOf(lower,last);
+      }
+      if(last<text.length)frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+
+  function goTo(i){
+    if(!hits.length)return;
+    idx=(i+hits.length)%hits.length;
+    hits.forEach(function(m){m.classList.remove("on");});
+    var m=hits[idx];
+    m.classList.add("on");
+    var d=m.closest("details");
+    while(d){d.open=true;d=d.parentElement?d.parentElement.closest("details"):null;}
+    m.scrollIntoView({block:"center",behavior:"smooth"});
+    render();
+  }
+
+  function render(){
+    if(!input.value.trim()){countEl.textContent="";return;}
+    if(!hits.length){countEl.textContent="No matches";return;}
+    countEl.innerHTML="";
+    var span=document.createElement("span");
+    span.textContent=(idx+1)+" of "+hits.length;
+    var prev=document.createElement("button");prev.type="button";prev.textContent="↑";prev.setAttribute("aria-label","Previous match");
+    var next=document.createElement("button");next.type="button";next.textContent="↓";next.setAttribute("aria-label","Next match");
+    prev.addEventListener("click",function(){goTo(idx-1);});
+    next.addEventListener("click",function(){goTo(idx+1);});
+    countEl.appendChild(span);countEl.appendChild(prev);countEl.appendChild(next);
+  }
+
+  function run(){
+    clearMarks();
+    var q=input.value.trim();
+    if(q.length<2){countEl.textContent="";return;}
+    markAll(q);
+    if(hits.length)goTo(0);else render();
+  }
+
+  input.addEventListener("input",function(){
+    clearTimeout(timer);
+    timer=setTimeout(run,180);
+  });
+  input.addEventListener("keydown",function(e){
+    if(e.key==="Enter"){e.preventDefault();goTo(e.shiftKey?idx-1:idx+1);}
+    if(e.key==="Escape"){input.value="";clearMarks();countEl.textContent="";}
+  });
+
+  /* prepare the page for paper: open every section, show link destinations */
+  window.addEventListener("beforeprint",function(){
+    Array.prototype.forEach.call(document.querySelectorAll("details"),function(d){
+      if(!d.open){d.open=true;d.dataset.wasClosed="1";}
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("main a[href^='http']"),function(a){
+      var u=a.getAttribute("href")
+              .replace(/^https?:\/\//,"")   /* protocol adds nothing on paper */
+              .replace(/[?#].*$/,"")         /* query strings are untypeable */
+              .replace(/\/$/,"");
+      var t=(a.textContent||"").trim().toLowerCase();
+      /* skip links whose visible text already is the address */
+      if(u.toLowerCase().indexOf(t)===0||t.indexOf(u.toLowerCase())===0) return;
+      if(u.length>44){                        /* keep host + first segment, then elide */
+        var parts=u.split("/");
+        u=parts.length>1?parts[0]+"/"+parts[1]+"/\u2026":parts[0];
+      }
+      a.setAttribute("data-print-url",u);
+    });
+  });
+  window.addEventListener("afterprint",function(){
+    Array.prototype.forEach.call(document.querySelectorAll("details[data-was-closed]"),function(d){
+      d.open=false;delete d.dataset.wasClosed;
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("a[data-print-url]"),function(a){
+      a.removeAttribute("data-print-url");
+    });
+  });
+})();
+</script>
+</body>
+</html>
