@@ -15,12 +15,12 @@ If you read one page of this document, read this one.
 | | |
 |---|---|
 | **What it costs** | **$0.** No textbook, no lab fees, no access codes. |
-| **When things are due** | **Sundays at 11:59 PM** — and everything stays open three more days at full credit. |
-| **Time to budget** | About **10 hours a week**, including our two class sessions. |
+| **When things are due** | **Sundays at 11:59 PM** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are anything taken in class and the final project. |
+| **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
-| **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, presented during finals week. |
-| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. Copilot, ChatGPT, and the rest are not. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
-| **If you fall behind** | Message me *before* the deadline. We'll set a new date. This is a real offer, not a trap. |
+| **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
+| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. No other AI may write, complete, or suggest code you turn in — though using one to explain a concept or an error message is fine, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
+| **If you fall behind** | Message me *before* the deadline. We'll set a new date. This is a real offer, not a trap. If an emergency makes reaching me beforehand impossible, tell me as soon as you can. |
 
 **Your grade in one line:** Discussion, participation & collaboration **25%** · Problem sets **20%** · Final project **20%** · Midterm **10%** · Quizzes **10%** · Final exam **10%** · Labs **5%**.
 
@@ -60,7 +60,7 @@ Everything after this page is the detail behind those lines — course policies,
 | **Quarter dates** | Monday, September 21 – Friday, December 4, 2026 · Finals week December 7–10 |
 | **Class sessions we lose** | Wednesday, November 11 (Veterans Day) and Wednesday, November 25 (Thanksgiving). Weeks 8 and 10 have one session instead of two. |
 | **Last day to withdraw** | Thursday, December 3, 2026 |
-| **Credits / weekly time** | 5 credits · about 10 hours a week total |
+| **Credits / weekly time** | 5 credits · about 10 hours a week total — 4 hours 40 minutes in class, roughly 5–6 hours on your own |
 | **Modality** | In person |
 | **Course site** | [Canvas](https://clarkcollege.instructure.com) |
 | **Materials cost** | $0 |
@@ -172,13 +172,13 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 |---|---|---|
 | **Discussion, participation & collaboration** | 25% | Weekly reflections, in-class exercises, and nine collaborative assignments |
 | **Problem sets** | 20% | One per module, due Sunday |
-| **Final project** | 20% | Assigned Week 5, due Friday, December 4, presented during finals week |
+| **Final project** | 20% | Assigned Week 5, due Friday, December 4 — firm, no three-day window — presented during finals week |
 | **Midterm** | 10% | In class, Wednesday, October 28 — the Week 6 checkpoint, on paper |
 | **Quizzes** | 10% | One per module, in class, on paper — lowest score dropped |
 | **Final exam** | 10% | In class, Monday, November 30 — cumulative, on paper |
 | **Labs** | 5% | One or more per module, due Sunday |
 
-**The deadline rule, once:** everything is due **Sunday at 11:59 PM** and stays open for **three more days at full credit**.
+**The deadline rule, once:** everything is due **Sunday at 11:59 PM** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Two things sit outside it: anything taken in class, and the final project.
 
 ### The details
 
@@ -186,13 +186,15 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 - **Labs** — one or more per module. Close three days after the due date.
 - **Quizzes** — **one per module, taken in class on paper.** About ten minutes at the start of class, closed-book, covering that module. They are short on purpose: the point is a weekly, honest check that the code you turned in is code you can actually write.
   - **Your lowest quiz score is dropped**, and that drop *is* the make-up policy — it covers one missed quiz, not several.
+  - **Which session?** I'll tell you which class session a quiz lands in at least one session ahead, in class and on Slack. You will never walk into a surprise quiz. In the weeks with only one session — Weeks 8 and 10 — it's that session.
 - **Midterm** — in class on **Wednesday, October 28** (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1–5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
-  - Like the final exam, it has **no three-day window**. If you cannot be there on October 28, talk to me *before* that date.
+  - Like the final exam, it has **no three-day window**. If you cannot be there on October 28, talk to me *before* that date — or as soon as you can, if an emergency makes that impossible.
 - **Final project** — assigned in Week 5, due **Friday, December 4 at 11:59 PM**, and presented to the class during **finals week (December 7–10)**. You submit first and present after, so you're never building and presenting in the same week. It includes a short written **ethics and limitations** piece: what ethical questions your program raises, and what it can't — or shouldn't — do. That part is graded, not optional.
+  - **December 4 is firm — this is the one deadline with no three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
 - **Final exam** — in class on **Monday, November 30**. It's cumulative, on paper, and closed-book: tracing code, predicting output, and writing short functions by hand. You've been doing all three since Week 1.
-  - **This is the one thing with no three-day window.** If something will keep you from being there on November 30, contact me *before* that date and we'll arrange something.
-  - **Testing accommodations through DAC?** DAC needs at least five business days’ notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by **Friday, November 20** at the latest. For the short weekly quizzes, tell me in the first two weeks and we will arrange your accommodation in class.
+  - **This is the one thing with no three-day window.** If something will keep you from being there on November 30, contact me *before* that date — or as soon as you can, if an emergency makes that impossible — and we'll arrange something.
+  - **Testing accommodations through DAC?** DAC needs at least five business days’ notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by **Friday, November 20** at the latest. For the short weekly quizzes, tell me in the first two weeks — or as soon as the need comes up — and we will arrange your accommodation in class.
   - I'll post a review guide and a practice exam in Canvas by Week 9, so you can prepare before the break rather than during it.
 
 Rubrics for every assessment live in the relevant Canvas module.
@@ -210,7 +212,7 @@ This is your biggest category, so here is exactly how you earn it.
 - **Graded on effort, not correctness.** Show your reasoning, and you get full credit even when the answer turns out to be wrong. A blank or one-word submission doesn't.
 - Reflections and collaborative assignments can be done outside class, so missing a session doesn't cost you those points.
 - **In-class participation** is the one part that needs you in the room. Miss a class? Message me on Slack, and I'll give you an equivalent to do on your own.
-- **If speaking up in class or working in groups is hard for you** — including as part of a DAC accommodation — tell me in the first two weeks. There's a written alternative for every in-class component. Setting it up is routine and completely unremarkable.
+- **If speaking up in class or working in groups is hard for you** — including as part of a DAC accommodation — tell me in the first two weeks, or as soon as the need comes up. There's a written alternative for every in-class component. Setting it up is routine and completely unremarkable.
 
 ### Grading scale
 
@@ -236,8 +238,8 @@ This is your biggest category, so here is exactly how you earn it.
 
 - No penalty, no permission needed, no explanation required inside that window. It's built into every deadline.
 - Canvas will stamp those submissions "late." **Ignore the label** — it doesn't affect your grade.
-- **Anything taken in class is the exception** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room, so there is no window. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date.
-- **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these. I just need to hear from you.
+- **Two things sit outside the window.** First, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date. Second, the **final project**: December 4 is firm, because presentations begin December 7.
+- **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these. I just need to hear from you — and if an emergency makes reaching me beforehand impossible, tell me as soon as you are able.
 
 Work that lands weeks or months late has lost most of its value, because it no longer connects to anything the class is doing. That's the reason for the window, and it's why talking to me early works so much better than going quiet.
 
@@ -253,21 +255,23 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 | Week | Dates | Topic | Due that week |
 |---|---|---|---|
-| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | Lab 0 · Problem Set 0 · Quiz 0 · Collaborative 0 |
-| **3** | Oct 5 – 9 | Conditionals | Lab 1 · Problem Set 1 · Quiz 1 · Collaborative 1 |
-| **4** | Oct 12 – 16 | Loops | Lab 2 · Problem Set 2 · Quiz 2 · Collaborative 2 |
-| **5** | Oct 19 – 23 | Exception handling | Lab 3 · Problem Set 3 · Quiz 3 · Collaborative 3 · **Final project assigned** |
-| **6** | Oct 26 – 30 | Libraries | Lab 4 · Problem Set 4 · Quiz 4 · Collaborative 4 · **Midterm — in class Wed Oct 28** |
-| **7** | Nov 2 – 6 | Unit tests | Lab 5 · Problem Set 5 · Quiz 5 · Collaborative 5 |
-| **8** | Nov 9 – 13 | File input/output · *No class Wed Nov 11* | Lab 6 · Problem Set 6 · Quiz 6 · Collaborative 6 |
-| **9** | Nov 16 – 20 | Regular expressions | Lab 7 · Problem Set 7 · Quiz 7 · Collaborative 7 |
-| **10** | Nov 23 – 27 | Object-oriented programming · *No class Wed Nov 25* | Lab 8 · Problem Set 8 · Quiz 8 · Collaborative 8 |
-| **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Final exam** · **Final project due Fri Dec 4, 11:59 PM** |
+| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Sunday, October 4** — Lab 0 · Problem Set 0 · Collaborative 0 · Quiz 0 *(in class)* |
+| **3** | Oct 5 – 9 | Conditionals | **Sunday, October 11** — Lab 1 · Problem Set 1 · Collaborative 1 · Quiz 1 *(in class)* |
+| **4** | Oct 12 – 16 | Loops | **Sunday, October 18** — Lab 2 · Problem Set 2 · Collaborative 2 · Quiz 2 *(in class)* |
+| **5** | Oct 19 – 23 | Exception handling · **Final project assigned** | **Sunday, October 25** — Lab 3 · Problem Set 3 · Collaborative 3 · Quiz 3 *(in class)* |
+| **6** | Oct 26 – 30 | Libraries · **Midterm in class Wed Oct 28** | **Sunday, November 1** — Lab 4 · Problem Set 4 · Collaborative 4 · Quiz 4 *(in class)* |
+| **7** | Nov 2 – 6 | Unit tests | **Sunday, November 8** — Lab 5 · Problem Set 5 · Collaborative 5 · Quiz 5 *(in class)* |
+| **8** | Nov 9 – 13 | File input/output · *No class Wed Nov 11* | **Sunday, November 15** — Lab 6 · Problem Set 6 · Collaborative 6 · Quiz 6 *(in class)* |
+| **9** | Nov 16 – 20 | Regular expressions | **Sunday, November 22** — Lab 7 · Problem Set 7 · Collaborative 7 · Quiz 7 *(in class)* |
+| **10** | Nov 23 – 27 | Object-oriented programming · *No class Wed Nov 25* | **Sunday, November 29** — Lab 8 · Problem Set 8 · Collaborative 8 · Quiz 8 *(in class)* |
+| **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Friday, December 4** — Final project. Firm: the one deadline with no three-day window. |
 | **Finals** | Dec 7 – 10 | Final project presentations | Present your project — schedule posted in Canvas |
+
+**The bold date in the last column is the deadline** — 11:59 PM that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm, and the final exam happen in class, so they aren't part of that window — and neither is the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
-> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Don't plan to study over the holiday — do your reviewing during Week 9 and the first half of Week 10, when the review guide is already posted. Week 8 also has a single session. This stretch is where students get squeezed every quarter.
+> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Module 8's work is due **Sunday, November 29** — the night before the exam — though the three-day window carries it to Wednesday, December 2, and that's what most people should plan on. Don't plan to study over the holiday: do your reviewing during Week 9 and the first half of Week 10, when the review guide is already posted. Week 8 also has a single session. This stretch is where students get squeezed every quarter, and it's the one part of this course I'd tell you to get out in front of.
 
 ---
 
@@ -288,6 +292,7 @@ AI is part of this course. It's also the easiest way to accidentally skip the le
 | | |
 |---|---|
 | **Always allowed** | The **CS50 Duck Debugger** ([cs50.ai](https://cs50.ai)). It's built to ask you questions rather than hand you answers. That's the point. |
+| **Allowed for learning, with a note** | Asking any AI to explain a concept, unpack an error message, or summarize documentation — the same way you'd use a search engine or a textbook. If it shaped what you turned in, say so in a code comment, the same as any other source. What stays off-limits is letting it write the code. |
 | **Not allowed on submitted work** | Any other AI that suggests, completes, or generates code — ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, and the AI features now baked into editors and browsers. Submitting AI-written code is treated the same as submitting another person's code. |
 | **Where you'll write code** | **[cs50.dev](https://cs50.dev)**, CS50's browser-based environment. Copilot and inline AI autocomplete are already turned off there, which is one less thing for you to get wrong. If you'd rather work in your own editor, that's fine — but then it's on you to make sure no AI completion is running. |
 | **When AI is assigned** | Some assignments will ask you to use AI beyond the Duck. Those will say so explicitly, name the allowed tools, and may ask you to turn in your prompts. |
@@ -302,16 +307,18 @@ My approach here is best described as **reasonable**. Working with other people 
 
 **The essence of everything you submit must be your own.** The general rule when asking for help: *you may show your work to others, but you may not look at theirs.*
 
+**This table is about work you turn in as your own** — labs, problem sets, quizzes, exams, and your final project. **The collaborative assignments are the deliberate exception:** on those, working together, reading each other's code, and turning in a joint product *is* the assignment. Each one tells you who you're working with and what you may share. If an assignment doesn't say it's collaborative, treat it as individual and use the table below.
+
 | This is fine | This is not |
 |---|---|
 | Talking a problem through with a classmate in words, and citing that conversation in a comment | Looking at a classmate's solution before you've submitted your own |
 | Showing your code to someone so they can help you find your bug | Sharing your solution with someone who's stuck on it |
-| Helping a classmate debug *after* you've submitted that part yourself | Splitting an assignment with someone and combining the pieces |
+| Helping a classmate debug *after* you've submitted that part yourself | Splitting an **individual** assignment with someone and combining the pieces |
 | Whiteboarding an approach in diagrams or pseudocode | Whiteboarding in actual code |
 | Borrowing a few lines you found online and citing where they came from | Searching for, or asking for, outright solutions to assigned work |
 | Using the web to learn more, look things up, or solve technical trouble | Copying someone's solution and basing yours on it |
 | Working with a tutor who helps you learn | Paying anyone for work you submit |
-| Using the CS50 Duck | Using any other AI to write, complete, or suggest code you submit |
+| Using the CS50 Duck · asking another AI to explain a concept or an error message, and citing it in a comment | Using any other AI to write, complete, or suggest code you submit |
 | Reusing your own work from *this* course | Reusing work from another course, or giving your solutions to anyone — this quarter or a future one |
 
 **Also not okay:** using an account that isn't yours, manipulating scores, and finding a flaw in Canvas or an autograder that affects grades without telling me.
