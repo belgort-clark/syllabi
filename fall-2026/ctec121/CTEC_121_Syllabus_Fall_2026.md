@@ -188,7 +188,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
   - **When:** each quiz is given at the start of the **first class session after that module's Sunday due date.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
   - **The three-day window doesn't move the quiz.** Using those extra days on an assignment is fine — the quiz still happens on its date. So if you're going to run late on something, run late on the assignment, not on the studying.
   - **What's on it:** the module whose work was due that Sunday — material you have already worked through. Never something we haven't covered yet.
-  - **Module 8 (object-oriented programming) has no quiz.** It's due the night before the final exam, so OOP is assessed on the exam instead.
+  - **Module 8 (regular expressions) has no quiz.** It's due the night before the final exam, so regular expressions are assessed on the exam instead.
   - **Your lowest quiz score is dropped**, and that drop *is* the make-up policy — it covers one missed quiz, not several.
 - **Midterm** — in class on **Wednesday, October 28** (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1–5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
@@ -265,8 +265,8 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 | **6** | Oct 26 – 30 | Libraries · **Quiz 3 in class Mon Oct 26** · **Midterm in class Wed Oct 28** | **Sunday, November 1** — Lab 4 · Problem Set 4 · Collaborative 4 |
 | **7** | Nov 2 – 6 | Unit tests · **Quiz 4 in class Mon Nov 2** | **Sunday, November 8** — Lab 5 · Problem Set 5 · Collaborative 5 |
 | **8** | Nov 9 – 13 | File input/output · **Quiz 5 in class Mon Nov 9** · *No class Wed Nov 11* | **Sunday, November 15** — Lab 6 · Problem Set 6 · Collaborative 6 |
-| **9** | Nov 16 – 20 | Regular expressions · **Quiz 6 in class Mon Nov 16** | **Sunday, November 22** — Lab 7 · Problem Set 7 · Collaborative 7 |
-| **10** | Nov 23 – 27 | Object-oriented programming · **Quiz 7 in class Mon Nov 23** · *No class Wed Nov 25* | **Sunday, November 29** — Lab 8 · Problem Set 8 · Collaborative 8 |
+| **9** | Nov 16 – 20 | Object-oriented programming · **Quiz 6 in class Mon Nov 16** | **Sunday, November 22** — Lab 7 · Problem Set 7 · Collaborative 7 |
+| **10** | Nov 23 – 27 | Regular expressions · **Quiz 7 in class Mon Nov 23** · *No class Wed Nov 25* | **Sunday, November 29** — Lab 8 · Problem Set 8 · Collaborative 8 |
 | **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Friday, December 4** — Final project. Firm: the only take-home deadline without the window. |
 | **Finals** | Dec 7 – 10 | Final project presentations | Present your project — schedule posted in Canvas |
 
@@ -274,7 +274,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
-> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Module 8's work is due **Sunday, November 29 — the night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it to Wednesday, December 2, but don't plan on that: December 2 is two days before your final project is due, and you'd be writing new code instead of finishing it. Treat the window as a safety net here, not a schedule. Don't plan to study over the holiday either — do your reviewing during Week 9 and the first half of Week 10, when the review guide is already posted. Week 8 also has a single session. This stretch is where students get squeezed every quarter, and it's the one part of this course I'd tell you to get out in front of.
+> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Regular expressions land in that week on purpose — they're the one topic you can work through with the documentation open, which is exactly what you'll be doing at a real job. Module 8's work is due **Sunday, November 29 — the night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it to Wednesday, December 2, but don't plan on that: December 2 is two days before your final project is due. Treat the window as a safety net here, not a schedule. Do your exam reviewing during Week 9 and the first half of Week 10, when the review guide is already posted, rather than over the holiday. Week 8 also has a single session.
 
 ---
 
