@@ -18,6 +18,8 @@ fails, do not "fix" it by loosening the check.
 """
 
 import io, os, re, sys, shutil, zipfile, subprocess, tempfile, warnings
+from datetime import datetime
+from zoneinfo import ZoneInfo
 warnings.filterwarnings("ignore")
 
 CHROMIUM = "/opt/pw-browsers/chromium"
@@ -150,6 +152,28 @@ def verify_pdf(path, label, expect_pages=None):
     return r
 
 
+# --------------------------------------------------------------- the timestamp
+def stamp_site(folder):
+    """Write the current Pacific date and time into index.html's sidebar stamp.
+
+    This is the ONE place the build edits a source file, and it is deliberate.
+    The stamp used to be hand-maintained; on Sept 6, 2026 a full content pass
+    shipped with a two-day-old date and Bruce reasonably concluded the deploy
+    had failed. A stamp nobody has to remember cannot go stale.
+    """
+    path = os.path.join(folder, SITE)
+    s = io.open(path, encoding="utf-8").read()
+    now = datetime.now(ZoneInfo("America/Los_Angeles"))
+    when = "%s %d, %d at %d:%02d %s Pacific" % (
+        now.strftime("%B"), now.day, now.year,
+        (now.hour % 12) or 12, now.minute, now.strftime("%p"))
+    s, n = re.subn(r"Last updated [^<\n]*", "Last updated " + when, s, count=1)
+    if n != 1:
+        raise SystemExit("index.html: no 'Last updated' line to stamp")
+    io.open(path, "w", encoding="utf-8").write(s)
+    return when
+
+
 # ------------------------------------------------------------------ the checks
 def check_sources(folder):
     site = io.open(os.path.join(folder, SITE), encoding="utf-8").read()
@@ -181,6 +205,9 @@ def check_sources(folder):
         check("Copilot and AI autocomplete in your editor" not in text,
               f"{name}: no stale 'turn off Copilot' instruction (students use cs50.dev)")
 
+    check(bool(re.search(r"Last updated \w+ \d{1,2}, \d{4} at \d{1,2}:\d{2} [AP]M Pacific", site)),
+          "web page carries a full date-and-time stamp")
+
     for f in (OUT_PDF, OUT_DOCX, OUT_HAND):
         check(f'href="{f}"' in site, f"web page still links {f}")
 
@@ -195,6 +222,8 @@ def main():
     for f in (MD, SITE, HAND):
         if not os.path.exists(os.path.join(folder, f)):
             raise SystemExit(f"missing source: {f} (in {folder})")
+
+    print("stamped: Last updated " + stamp_site(folder) + "\n")
 
     check_sources(folder)
     build_docx(folder)
