@@ -11,7 +11,7 @@ Every item here exists because it broke once. Work top to bottom.
 | `CTEC121_Day_One_source.html` | `CTEC121_Day_One.pdf` |
 
 **The QR code was removed on Sept 4, 2026** (Bruce's call). The short link
-`bit.ly/ctec121fall26` stays as plain text in the masthead of all three
+`bit.ly/ctec121fall2026` stays as plain text in the masthead of all three
 documents, and the build fails if any inlined QR image reappears. `qr.png` is
 ignored by git and can be deleted.
 

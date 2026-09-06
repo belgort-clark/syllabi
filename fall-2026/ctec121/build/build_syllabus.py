@@ -176,7 +176,7 @@ def check_sources(folder):
 
     for name, text in (("web page", site), ("handout", hand)):
         check("data:image/png;base64," not in text, f"{name}: no inlined QR image remains (removed Sept 2026)")
-        check("bit.ly/ctec121fall26" in text,
+        check("bit.ly/ctec121fall2026" in text,
               f"{name}: the bit.ly short link is present as readable text")
 
 

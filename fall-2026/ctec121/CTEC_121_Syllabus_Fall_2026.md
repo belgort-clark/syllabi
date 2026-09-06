@@ -4,7 +4,7 @@
 **Scarpelli Hall Room 125 · Mondays & Wednesdays, 10:00 AM – 12:20 PM · September 21 – December 4, 2026**
 **Bruce Elgort · [belgort@clark.edu](mailto:belgort@clark.edu) · (360) 992-2951 · Slack is fastest**
 
-**This syllabus online:** [bit.ly/ctec121fall26](https://bit.ly/ctec121fall26)
+**This syllabus online:** [bit.ly/ctec121fall2026](https://bit.ly/ctec121fall2026)
 
 ---
 
