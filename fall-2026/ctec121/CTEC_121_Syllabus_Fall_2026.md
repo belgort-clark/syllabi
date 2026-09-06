@@ -15,7 +15,7 @@ If you read one page of this document, read this one.
 | | |
 |---|---|
 | **What it costs** | **$0.** No textbook, no lab fees, no access codes. |
-| **When things are due** | **Sundays at 11:59 PM** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are anything taken in class and the final project. |
+| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are anything taken in class and the final project. |
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
@@ -30,7 +30,7 @@ If you read one page of this document, read this one.
 2. Work through **Module 0** — it sets up your coding environment, Slack, and GitHub.
 3. Join the class **Slack**. No invite? Message me.
 4. **Open [cs50.dev](https://cs50.dev)** and sign in with your GitHub account. That's where you'll write your code.
-5. Start **Module 1**: Lab 0, Quiz 0, Problem Set 0, Collaborative Assignment 0.
+5. Start **Module 1**: Lab 0, Problem Set 0, Collaborative Assignment 0.
 
 Everything after this page is the detail behind those lines — course policies, grading, support services, and how to get help. It's built to be searched, not read straight through. Use the table of contents, and ask me if anything here is unclear.
 
@@ -126,7 +126,7 @@ Each week you'll work through a Canvas module: readings, videos, labs, a problem
 A meaningful portion of your participation grade is earned in the room, so please plan to attend both sessions each week.
 
 - **If you have to miss class**, let me know on Slack when you can. You're still responsible for that week's module and its deadlines.
-- Missing class doesn't automatically cost you points. In-class exercises are the one exception, and there's a make-up for those — see [How participation works](#how-participation-works).
+- Missing class doesn't automatically cost you points. In-class exercises and the quizzes are the exceptions, and both have a make-up — see [How participation works](#how-participation-works).
 - **If your attendance starts slipping for any reason** — illness, work, caregiving, anything — tell me early. Almost every problem is solvable in Week 3 and much harder to solve in Week 10.
 - Absences for reasons of faith or conscience are accommodated. See [Student rights](#student-rights-and-responsibilities).
 
@@ -174,24 +174,26 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 | **Problem sets** | 20% | One per module, due Sunday |
 | **Final project** | 20% | Assigned Week 5, due Friday, December 4 — firm, no three-day window — presented during finals week |
 | **Midterm** | 10% | In class, Wednesday, October 28 — the Week 6 checkpoint, on paper |
-| **Quizzes** | 10% | One per module, in class, on paper — lowest score dropped |
+| **Quizzes** | 10% | Eight across the quarter, in class on paper — lowest score dropped |
 | **Final exam** | 10% | In class, Monday, November 30 — cumulative, on paper |
 | **Labs** | 5% | One or more per module, due Sunday |
 
-**The deadline rule, once:** everything is due **Sunday at 11:59 PM** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Two things sit outside it: anything taken in class, and the final project.
+**The deadline rule, once:** everything is due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Two things sit outside it: anything taken in class, and the final project.
 
 ### The details
 
 - **Problem sets** — one per module. Close three days after the due date.
 - **Labs** — one or more per module. Close three days after the due date.
-- **Quizzes** — **one per module, taken in class on paper.** About ten minutes at the start of class, closed-book, covering that module. They are short on purpose: the point is a weekly, honest check that the code you turned in is code you can actually write.
+- **Quizzes** — **eight across the quarter, taken in class on paper.** About ten minutes at the start of class, closed-book. They are short on purpose: the point is a regular, honest check that the code you turned in is code you can actually write.
+  - **When:** each quiz is given at the start of the **first class session after that module closes.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
+  - **What's on it:** the module that just closed — material you have already worked through and turned in. Never something you haven't done yet.
+  - **Module 8 (object-oriented programming) has no quiz.** It closes the night before the final exam, so it's assessed there instead.
   - **Your lowest quiz score is dropped**, and that drop *is* the make-up policy — it covers one missed quiz, not several.
-  - **Which session?** I'll tell you which class session a quiz lands in at least one session ahead, in class and on Slack. You will never walk into a surprise quiz. In the weeks with only one session — Weeks 8 and 10 — it's that session.
 - **Midterm** — in class on **Wednesday, October 28** (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1–5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
   - Like the final exam, it has **no three-day window**. If you cannot be there on October 28, talk to me *before* that date — or as soon as you can, if an emergency makes that impossible.
 - **Final project** — assigned in Week 5, due **Friday, December 4 at 11:59 PM**, and presented to the class during **finals week (December 7–10)**. You submit first and present after, so you're never building and presenting in the same week. It includes a short written **ethics and limitations** piece: what ethical questions your program raises, and what it can't — or shouldn't — do. That part is graded, not optional.
-  - **December 4 is firm — this is the one deadline with no three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
+  - **December 4 is firm — it's the only take-home deadline without the three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
 - **Final exam** — in class on **Monday, November 30**. It's cumulative, on paper, and closed-book: tracing code, predicting output, and writing short functions by hand. You've been doing all three since Week 1.
   - **This is the one thing with no three-day window.** If something will keep you from being there on November 30, contact me *before* that date — or as soon as you can, if an emergency makes that impossible — and we'll arrange something.
   - **Testing accommodations through DAC?** DAC needs at least five business days’ notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by **Friday, November 20** at the latest. For the short weekly quizzes, tell me in the first two weeks — or as soon as the need comes up — and we will arrange your accommodation in class.
@@ -236,7 +238,7 @@ This is your biggest category, so here is exactly how you earn it.
 
 **One rule: work is due Sunday at 11:59 PM and remains open for three more days for full credit.**
 
-- No penalty, no permission needed, no explanation required inside that window. It's built into every deadline.
+- No penalty, no permission needed, no explanation required inside that window. It's built into every regular take-home deadline.
 - Canvas will stamp those submissions "late." **Ignore the label** — it doesn't affect your grade.
 - **Two things sit outside the window.** First, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date. Second, the **final project**: December 4 is firm, because presentations begin December 7.
 - **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these. I just need to hear from you — and if an emergency makes reaching me beforehand impossible, tell me as soon as you are able.
@@ -255,23 +257,23 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 | Week | Dates | Topic | Due that week |
 |---|---|---|---|
-| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Sunday, October 4** — Lab 0 · Problem Set 0 · Collaborative 0 · Quiz 0 *(in class)* |
-| **3** | Oct 5 – 9 | Conditionals | **Sunday, October 11** — Lab 1 · Problem Set 1 · Collaborative 1 · Quiz 1 *(in class)* |
-| **4** | Oct 12 – 16 | Loops | **Sunday, October 18** — Lab 2 · Problem Set 2 · Collaborative 2 · Quiz 2 *(in class)* |
-| **5** | Oct 19 – 23 | Exception handling · **Final project assigned** | **Sunday, October 25** — Lab 3 · Problem Set 3 · Collaborative 3 · Quiz 3 *(in class)* |
-| **6** | Oct 26 – 30 | Libraries · **Midterm in class Wed Oct 28** | **Sunday, November 1** — Lab 4 · Problem Set 4 · Collaborative 4 · Quiz 4 *(in class)* |
-| **7** | Nov 2 – 6 | Unit tests | **Sunday, November 8** — Lab 5 · Problem Set 5 · Collaborative 5 · Quiz 5 *(in class)* |
-| **8** | Nov 9 – 13 | File input/output · *No class Wed Nov 11* | **Sunday, November 15** — Lab 6 · Problem Set 6 · Collaborative 6 · Quiz 6 *(in class)* |
-| **9** | Nov 16 – 20 | Regular expressions | **Sunday, November 22** — Lab 7 · Problem Set 7 · Collaborative 7 · Quiz 7 *(in class)* |
-| **10** | Nov 23 – 27 | Object-oriented programming · *No class Wed Nov 25* | **Sunday, November 29** — Lab 8 · Problem Set 8 · Collaborative 8 · Quiz 8 *(in class)* |
-| **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Friday, December 4** — Final project. Firm: the one deadline with no three-day window. |
+| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Sunday, October 4** — Lab 0 · Problem Set 0 · Collaborative 0 |
+| **3** | Oct 5 – 9 | Conditionals · **Quiz 0 in class Mon Oct 5** | **Sunday, October 11** — Lab 1 · Problem Set 1 · Collaborative 1 |
+| **4** | Oct 12 – 16 | Loops · **Quiz 1 in class Mon Oct 12** | **Sunday, October 18** — Lab 2 · Problem Set 2 · Collaborative 2 |
+| **5** | Oct 19 – 23 | Exception handling · **Quiz 2 in class Mon Oct 19** · **Final project assigned** | **Sunday, October 25** — Lab 3 · Problem Set 3 · Collaborative 3 |
+| **6** | Oct 26 – 30 | Libraries · **Quiz 3 in class Mon Oct 26** · **Midterm in class Wed Oct 28** | **Sunday, November 1** — Lab 4 · Problem Set 4 · Collaborative 4 |
+| **7** | Nov 2 – 6 | Unit tests · **Quiz 4 in class Mon Nov 2** | **Sunday, November 8** — Lab 5 · Problem Set 5 · Collaborative 5 |
+| **8** | Nov 9 – 13 | File input/output · **Quiz 5 in class Mon Nov 9** · *No class Wed Nov 11* | **Sunday, November 15** — Lab 6 · Problem Set 6 · Collaborative 6 |
+| **9** | Nov 16 – 20 | Regular expressions · **Quiz 6 in class Mon Nov 16** | **Sunday, November 22** — Lab 7 · Problem Set 7 · Collaborative 7 |
+| **10** | Nov 23 – 27 | Object-oriented programming · **Quiz 7 in class Mon Nov 23** · *No class Wed Nov 25* | **Sunday, November 29** — Lab 8 · Problem Set 8 · Collaborative 8 |
+| **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Friday, December 4** — Final project. Firm: the only take-home deadline without the window. |
 | **Finals** | Dec 7 – 10 | Final project presentations | Present your project — schedule posted in Canvas |
 
-**The bold date in the last column is the deadline** — 11:59 PM that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm, and the final exam happen in class, so they aren't part of that window — and neither is the final project.
+**The bold date in the last column is the deadline** — 11:59 PM Pacific that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class on the dates shown in the Topic column, so they aren't part of that window — and neither is the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
-> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Module 8's work is due **Sunday, November 29** — the night before the exam — though the three-day window carries it to Wednesday, December 2, and that's what most people should plan on. Don't plan to study over the holiday: do your reviewing during Week 9 and the first half of Week 10, when the review guide is already posted. Week 8 also has a single session. This stretch is where students get squeezed every quarter, and it's the one part of this course I'd tell you to get out in front of.
+> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Module 8's work is due **Sunday, November 29 — the night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it to Wednesday, December 2, but don't plan on that: December 2 is two days before your final project is due, and you'd be writing new code instead of finishing it. Treat the window as a safety net here, not a schedule. Don't plan to study over the holiday either — do your reviewing during Week 9 and the first half of Week 10, when the review guide is already posted. Week 8 also has a single session. This stretch is where students get squeezed every quarter, and it's the one part of this course I'd tell you to get out in front of.
 
 ---
 
@@ -287,7 +289,7 @@ On netiquette: there are real people on the other side of every message. Use the
 
 AI is part of this course. It's also the easiest way to accidentally skip the learning you're paying for. So this policy is about what you must be able to **do**, not about a list of banned brand names.
 
-**The standard:** everything you submit must be code you could write again and explain line by line, without AI help. If you couldn't reproduce and explain it on the spot, it isn't yours to submit. The weekly quizzes, the midterm, the final exam, and your project presentation all check exactly that — which is why leaning on AI now mostly shows up as a bad grade later.
+**The standard:** everything you submit must be code whose decisions you can explain, and that you can change on your own, without AI help. If you couldn't talk me through why it works and modify it when asked, it isn't yours to submit. The weekly quizzes, the midterm, the final exam, and your project presentation all check exactly that — which is why leaning on AI now mostly shows up as a bad grade later.
 
 | | |
 |---|---|
@@ -307,7 +309,7 @@ My approach here is best described as **reasonable**. Working with other people 
 
 **The essence of everything you submit must be your own.** The general rule when asking for help: *you may show your work to others, but you may not look at theirs.*
 
-**This table is about work you turn in as your own** — labs, problem sets, quizzes, exams, and your final project. **The collaborative assignments are the deliberate exception:** on those, working together, reading each other's code, and turning in a joint product *is* the assignment. Each one tells you who you're working with and what you may share. If an assignment doesn't say it's collaborative, treat it as individual and use the table below.
+**This table is about take-home work you turn in as your own** — labs, problem sets, and your final project. It does **not** describe the quizzes, the midterm or the final exam: those are closed-book and taken in class, so none of the help below is available during them. **The collaborative assignments are the deliberate exception:** on those, working together, reading each other's code, and turning in a joint product *is* the assignment. Each one tells you who you're working with and what you may share. If an assignment doesn't say it's collaborative, treat it as individual and use the table below.
 
 | This is fine | This is not |
 |---|---|
@@ -331,7 +333,7 @@ My approach here is best described as **reasonable**. Working with other people 
 
 ### Classroom norms
 
-- Complete each week's module — readings, assignments, discussions, and quizzes — by the due date.
+- Complete each week's module — readings, assignments, and discussions — by the due date.
 - Take part in class discussions and exercises, and bring your own experiences into them.
 - Be a courteous member of the room and don't get in the way of anyone else's learning.
 - Academic and intellectual honesty are expected at all times.
