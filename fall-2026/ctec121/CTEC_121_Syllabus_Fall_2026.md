@@ -187,7 +187,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 - **Quizzes** — **eight across the quarter, taken in class on paper.** About ten minutes at the start of class, closed-book. They are short on purpose: the point is a regular, honest check that the code you turned in is code you can actually write.
   - **When:** each quiz is given at the start of the **first class session after that module's Sunday due date.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
   - **The three-day window doesn't move the quiz.** Using those extra days on an assignment is fine — the quiz still happens on its date. So if you're going to run late on something, run late on the assignment, not on the studying.
-  - **What's on it:** the module whose work was due that Sunday — material you have already worked through and turned in. Never something you haven't done yet.
+  - **What's on it:** the module whose work was due that Sunday — material you have already worked through. Never something we haven't covered yet.
   - **Module 8 (object-oriented programming) has no quiz.** It's due the night before the final exam, so OOP is assessed on the exam instead.
   - **Your lowest quiz score is dropped**, and that drop *is* the make-up policy — it covers one missed quiz, not several.
 - **Midterm** — in class on **Wednesday, October 28** (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1–5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
