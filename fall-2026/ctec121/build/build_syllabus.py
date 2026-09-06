@@ -87,6 +87,14 @@ def build_docx(folder):
     io.open(doc, "w", encoding="utf-8").write(d)
     # NOTE: never add updateFields to word/settings.xml — element order is schema-enforced.
 
+    # Bruce: nothing in the Word doc is centered. Pandoc's default reference doc
+    # centers Title/Subtitle/Author/Date, which reads wrong against the
+    # left-aligned masthead in the web page and the handout.
+    sty = os.path.join(un, "word", "styles.xml")
+    t = io.open(sty, encoding="utf-8").read()
+    t = re.sub(r'<w:jc w:val="center"\s*/>', '<w:jc w:val="left"/>', t)
+    io.open(sty, "w", encoding="utf-8").write(t)
+
     out = os.path.join(folder, OUT_DOCX)
     if os.path.exists(out): os.remove(out)
     subprocess.run(["zip", "-Xrq", out, "."], cwd=un, check=True)
@@ -97,6 +105,8 @@ def build_docx(folder):
     check('w:w="12240"' in x, "Word doc is US Letter, not locale-default A4")
     check("Heading1" in x, "Word doc uses real Heading styles (Navigation Pane works)")
     check("table of contents" not in x.lower(), "Word doc has no stale contents-list reference")
+    sx = zipfile.ZipFile(out).read("word/styles.xml").decode("utf-8")
+    check('w:jc w:val="center"' not in sx, "Word doc left-aligns everything (no centered title block)")
     media = [n for n in zipfile.ZipFile(out).namelist()
              if n.startswith("word/media/") and not n.endswith("/")]
     check(len(media) == 0, "Word doc embeds no images (QR removed Sept 2026; found %d)" % len(media))

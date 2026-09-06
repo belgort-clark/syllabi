@@ -117,7 +117,7 @@ Seeing square brackets and words like *function*, *range*, or *if* on your scree
 
 We'll use lectures, videos, group activities, hands-on labs, peer critiques, and discussion. You're expected to take part in class discussions and exercises, and I'd love it if you brought your own real-world examples into them.
 
-Each week you'll work through a Canvas module: readings, videos, labs, a problem set, a quiz, and a collaborative assignment. Modules open on Sundays, except Modules 0 and 1, which open on the first day of class.
+Each week you'll work through a Canvas module: readings, videos, labs, a problem set, and a collaborative assignment. Most weeks also open with a short in-class quiz on the module you just finished — eight across the quarter, on the dates in the schedule. Modules open on Sundays, except Modules 0 and 1, which open on the first day of class.
 
 **Want to work ahead?** Message me on Slack, and I’ll unlock material early. This is especially worth doing if you're also working through CS50P and wanting to earn the CS50 certificate.
 
@@ -126,7 +126,7 @@ Each week you'll work through a Canvas module: readings, videos, labs, a problem
 A meaningful portion of your participation grade is earned in the room, so please plan to attend both sessions each week.
 
 - **If you have to miss class**, let me know on Slack when you can. You're still responsible for that week's module and its deadlines.
-- Missing class doesn't automatically cost you points. In-class exercises and the quizzes are the exceptions, and both have a make-up — see [How participation works](#how-participation-works).
+- Missing class doesn't automatically cost you points. In-class exercises and the quizzes are the exceptions: for exercises there's a make-up you can do on your own (see [How participation works](#how-participation-works)), and one missed quiz is covered by the dropped-score policy.
 - **If your attendance starts slipping for any reason** — illness, work, caregiving, anything — tell me early. Almost every problem is solvable in Week 3 and much harder to solve in Week 10.
 - Absences for reasons of faith or conscience are accommodated. See [Student rights](#student-rights-and-responsibilities).
 
@@ -185,9 +185,10 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 - **Problem sets** — one per module. Close three days after the due date.
 - **Labs** — one or more per module. Close three days after the due date.
 - **Quizzes** — **eight across the quarter, taken in class on paper.** About ten minutes at the start of class, closed-book. They are short on purpose: the point is a regular, honest check that the code you turned in is code you can actually write.
-  - **When:** each quiz is given at the start of the **first class session after that module closes.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
+  - **When:** each quiz is given at the start of the **first class session after that module's Sunday due date.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
+  - **The three-day window doesn't move the quiz.** Using those extra days on an assignment is fine — the quiz still happens on its date. So if you're going to run late on something, run late on the assignment, not on the studying.
   - **What's on it:** the module that just closed — material you have already worked through and turned in. Never something you haven't done yet.
-  - **Module 8 (object-oriented programming) has no quiz.** It closes the night before the final exam, so it's assessed there instead.
+  - **Module 8 (object-oriented programming) has no quiz.** It's due the night before the final exam, so OOP is assessed on the exam instead.
   - **Your lowest quiz score is dropped**, and that drop *is* the make-up policy — it covers one missed quiz, not several.
 - **Midterm** — in class on **Wednesday, October 28** (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1–5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
