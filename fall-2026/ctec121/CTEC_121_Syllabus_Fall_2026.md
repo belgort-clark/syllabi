@@ -19,7 +19,7 @@ If you read one page of this document, read this one.
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
-| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. No other AI may write, complete, or suggest code you turn in — unless an assignment says otherwise, and some will. Using one to explain a concept or an error message is fine any time, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
+| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. No other AI may write, complete, or suggest code you turn in — unless an assignment says otherwise, and some will. Using one to explain a concept or an error message is fine while you are studying or working on take-home assignments, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
 | **If you fall behind** | Message me *before* the deadline. We'll set a new date. This is a real offer, not a trap. If an emergency makes reaching me beforehand impossible, tell me as soon as you can. |
 
 **Your grade in one line:** Discussion, participation & collaboration **25%** · Problem sets **20%** · Final project **20%** · Midterm **10%** · Quizzes **10%** · Final exam **10%** · Labs **5%**.
