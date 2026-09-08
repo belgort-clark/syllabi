@@ -19,7 +19,7 @@ If you read one page of this document, read this one.
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
-| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. No other AI may write, complete, or suggest code you turn in — though using one to explain a concept or an error message is fine, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
+| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. No other AI may write, complete, or suggest code you turn in — unless an assignment says otherwise, and some will. Using one to explain a concept or an error message is fine any time, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
 | **If you fall behind** | Message me *before* the deadline. We'll set a new date. This is a real offer, not a trap. If an emergency makes reaching me beforehand impossible, tell me as soon as you can. |
 
 **Your grade in one line:** Discussion, participation & collaboration **25%** · Problem sets **20%** · Final project **20%** · Midterm **10%** · Quizzes **10%** · Final exam **10%** · Labs **5%**.
@@ -296,7 +296,7 @@ AI is part of this course. It's also the easiest way to accidentally skip the le
 |---|---|
 | **Always allowed** | The **CS50 Duck Debugger** ([cs50.ai](https://cs50.ai)). It's built to ask you questions rather than hand you answers. That's the point. |
 | **Allowed for learning, with a note** | Asking any AI to explain a concept, unpack an error message, or summarize documentation — the same way you'd use a search engine or a textbook. If it shaped what you turned in, say so in a code comment, the same as any other source. What stays off-limits is letting it write the code. |
-| **Not allowed on submitted work** | Any other AI that suggests, completes, or generates code — ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, and the AI features now baked into editors and browsers. Submitting AI-written code is treated the same as submitting another person's code. |
+| **Not allowed on submitted work** | Any other AI that suggests, completes, or generates code — ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, and the AI features now baked into editors and browsers — unless that assignment says otherwise; see **When AI is assigned** below. Submitting AI-written code is treated the same as submitting another person's code. |
 | **Where you'll write code** | **[cs50.dev](https://cs50.dev)**, CS50's browser-based environment. Copilot and inline AI autocomplete are already turned off there, which is one less thing for you to get wrong. If you'd rather work in your own editor, that's fine — but then it's on you to make sure no AI completion is running. |
 | **When AI is assigned** | Some assignments will ask you to use AI beyond the Duck. Those will say so explicitly, name the allowed tools, and may ask you to turn in your prompts. |
 
@@ -321,7 +321,7 @@ My approach here is best described as **reasonable**. Working with other people 
 | Borrowing a few lines you found online and citing where they came from | Searching for, or asking for, outright solutions to assigned work |
 | Using the web to learn more, look things up, or solve technical trouble | Copying someone's solution and basing yours on it |
 | Working with a tutor who helps you learn | Paying anyone for work you submit |
-| Using the CS50 Duck · asking another AI to explain a concept or an error message, and citing it in a comment | Using any other AI to write, complete, or suggest code you submit |
+| Using the CS50 Duck · asking another AI to explain a concept or an error message, and citing it in a comment · using AI beyond the Duck when an assignment explicitly assigns it | Using any other AI to write, complete, or suggest code you submit, unless that assignment says to |
 | Reusing your own work from *this* course | Reusing work from another course, or giving your solutions to anyone — this quarter or a future one |
 
 **Also not okay:** using an account that isn't yours, manipulating scores, and finding a flaw in Canvas or an autograder that affects grades without telling me.
