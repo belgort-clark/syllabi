@@ -300,6 +300,8 @@ AI is part of this course. It's also the easiest way to accidentally skip the le
 | **Where you'll write code** | **[cs50.dev](https://cs50.dev)**, CS50's browser-based environment. Copilot and inline AI autocomplete are already turned off there, which is one less thing for you to get wrong. If you'd rather work in your own editor, that's fine — but then it's on you to make sure no AI completion is running. |
 | **When AI is assigned** | Some assignments will ask you to use AI beyond the Duck. Those will say so explicitly, name the allowed tools, and may ask you to turn in your prompts. |
 
+**Everything in this table is about work you do outside class.** The quizzes, the midterm and the final exam are closed-book and on paper — no AI, notes, or web, including the Duck.
+
 **If I think AI wrote your code,** I'll ask you to walk me through it — what a section does, why you did it that way, how you'd change it. That's a conversation, and it happens before any finding is made. I don't use AI-detection software to assign grades; those detectors are unreliable, and I won't grade you on one.
 
 **Not sure whether something's allowed? Ask me on Slack before you submit.** Asking has never once counted against a student.
