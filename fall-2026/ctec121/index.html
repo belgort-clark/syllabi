@@ -285,6 +285,7 @@ code{font-family:var(--f-mono);font-size:.88em;background:var(--surface-2);paddi
 
 /* ---------- tables ---------- */
 .tw:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+caption{caption-side:top;text-align:left;font-size:13px;line-height:1.45;color:var(--muted);font-style:italic;padding:0 0 7px 2px}
 .tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:9px;background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-size:14.5px;line-height:1.5}
 th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
@@ -334,6 +335,7 @@ mark.on{background:var(--warm);color:#fff}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 
 @media print{
+  caption{font-size:9pt;color:#333;padding-bottom:4pt}
   /* Force the light palette: printing from dark mode was producing a black page. */
   :root,
   :root[data-theme="dark"],
@@ -418,7 +420,7 @@ mark.on{background:var(--warm);color:#fff}
   a[data-print-url]::after{content:" (" attr(data-print-url) ")";
     font-family:var(--f-mono);font-size:8pt;color:#3d444a;word-break:break-all}
 
-  /* page-break behaviour */
+  /* page-break behavior */
   h1,h2,h3,summary{break-after:avoid;break-inside:avoid}
   p,li{orphans:3;widows:3}
   tr,li,.note,.quote,.grade-line,.signoff{break-inside:avoid}
@@ -489,7 +491,7 @@ mark.on{background:var(--warm);color:#fff}
       <div class="rf-actions" style="margin-bottom:12px">
         <button class="rf-btn" id="themeBtn" type="button">Toggle theme</button>
       </div>
-      Last updated September 8, 2026 at 9:28 PM Pacific
+      Last updated September 9, 2026 at 9:18 AM Pacific
     </div>
   </aside>
 
@@ -550,6 +552,7 @@ mark.on{background:var(--warm);color:#fff}
       
       <div class="tw" tabindex="0">
         <table>
+          <caption>The practical details of this section: what it is, when it meets, and where.</caption>
           <tbody>
             <tr><th scope="row">Course</th><td>CTEC 121, Introduction to Programming and Problem Solving &middot; Item 36001</td></tr>
             <tr><th scope="row">When and where</th><td>Mondays and Wednesdays, 10:00&nbsp;AM &ndash; 12:20&nbsp;PM &middot; Scarpelli Hall, Room 125</td></tr>
@@ -578,6 +581,7 @@ mark.on{background:var(--warm);color:#fff}
       
       <div class="tw" tabindex="0">
         <table>
+          <caption>How to contact me, including student hours and how quickly to expect a reply.</caption>
           <tbody>
             <tr><th scope="row">Name</th><td>Bruce Elgort &mdash; please just call me Bruce</td></tr>
             <tr><th scope="row">Email</th><td><a href="mailto:belgort@clark.edu">belgort@clark.edu</a></td></tr>
@@ -645,6 +649,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <div class="tw" tabindex="0">
         <table>
+          <caption>Everything you need for this course and what each item is for.</caption>
           <thead><tr><th>What</th><th>Notes</th></tr></thead>
           <tbody>
             <tr><td><strong>A computer</strong></td><td>Windows, macOS, or Linux &mdash; and a Chromebook works too, because you&rsquo;ll code in the browser.</td></tr>
@@ -682,6 +687,7 @@ mark.on{background:var(--warm);color:#fff}
       
       <div class="tw" tabindex="0">
         <table>
+          <caption>How your final grade is divided, with the weight of each category and what it covers.</caption>
           <thead><tr><th>Category</th><th class="num">Weight</th><th>What it is</th></tr></thead>
           <tbody>
             <tr><td><strong>Discussion, participation &amp; collaboration</strong></td><td class="num">25%</td><td>Weekly reflections, in-class exercises, and nine collaborative assignments</td></tr>
@@ -733,6 +739,7 @@ mark.on{background:var(--warm);color:#fff}
       <p>This is your biggest category, so here is exactly how you earn it.</p>
       <div class="tw" tabindex="0">
         <table>
+          <caption>The three parts of the participation grade and what each is worth.</caption>
           <thead><tr><th>Component</th><th class="num">Share of your final grade</th></tr></thead>
           <tbody>
             <tr><td>In-class participation and group work</td><td class="num">12%</td></tr>
@@ -751,6 +758,7 @@ mark.on{background:var(--warm);color:#fff}
       <h3>Grading scale</h3>
       <div class="tw" tabindex="0">
         <table>
+          <caption>Percentage ranges and the letter grade each one earns.</caption>
           <thead><tr><th class="num">Percent</th><th>Grade</th><th class="num">Percent</th><th>Grade</th></tr></thead>
           <tbody>
             <tr><td class="num">94&ndash;100%</td><td>A</td><td class="num">80&ndash;83%</td><td>B-</td></tr>
@@ -788,6 +796,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <div class="tw" tabindex="0">
         <table class="wk">
+          <caption>The quarter week by week: dates, topics, quiz and exam dates, and what is due each week.</caption>
           <thead><tr><th>Week</th><th>Dates</th><th>Topic</th><th>Due that week</th></tr></thead>
           <tbody>
             <tr><td>1&ndash;2</td><td>Sept 21 &ndash; Oct 2</td><td>Course intro &middot; Setting up your environment &middot; Functions and variables</td><td><strong>Sunday, October 4</strong><br>Lab 0 &middot; Problem Set 0 &middot; Collaborative 0</td></tr>
@@ -829,6 +838,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <div class="tw" tabindex="0">
         <table>
+          <caption>What AI help is allowed on take-home work, what is not, and where you will write your code.</caption>
           <tbody>
             <tr><th scope="row">Always allowed</th><td>The <strong>CS50 Duck Debugger</strong>, built into cs50.dev. It asks you questions instead of handing you answers. That&rsquo;s the point.</td></tr>
             <tr><th scope="row">Allowed for learning, with a note</th><td>Asking any AI to explain a concept, unpack an error message, or summarize documentation &mdash; the same way you&rsquo;d use a search engine or a textbook. If it shaped what you turned in, say so in a code comment, the same as any other source. What stays off-limits is letting it write the code.</td></tr>
@@ -851,6 +861,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <div class="tw" tabindex="0">
         <table class="yn">
+          <caption>Where the line sits on take-home work: getting help on one side, handing in work that is not yours on the other.</caption>
           <thead><tr><th>This is fine</th><th>This is not</th></tr></thead>
           <tbody>
             <tr><td>Talking a problem through with a classmate in words, and citing that conversation in a comment</td><td>Looking at a classmate&rsquo;s solution before you&rsquo;ve submitted your own</td></tr>
@@ -888,6 +899,7 @@ mark.on{background:var(--warm);color:#fff}
       </ul>
       <div class="tw" tabindex="0">
         <table class="yn">
+          <caption>What the Regret Clause covers and what it does not.</caption>
           <thead><tr><th>The clause covers</th><th>The clause does not cover</th></tr></thead>
           <tbody>
             <tr><td>Take-home work &mdash; labs, problem sets, collaborative assignments, the final project</td><td>The quizzes, the midterm, and the final exam. Those are proctored and closed-book, and go through the normal process</td></tr>
@@ -933,6 +945,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <div class="tw" tabindex="0">
         <table>
+          <caption>The four course outcomes, where each is taught, and how each is graded.</caption>
           <thead><tr><th>Outcome</th><th>Taught in</th><th>Graded through</th></tr></thead>
           <tbody>
             <tr><td><strong>C1</strong></td><td>Weeks 1&ndash;4: functions, variables, conditionals, loops</td><td>Labs 0&ndash;2 &middot; Problem Sets 0&ndash;2 &middot; Quizzes 0&ndash;2 &middot; Midterm &middot; Final exam &middot; Final project</td></tr>
@@ -961,7 +974,8 @@ mark.on{background:var(--warm);color:#fff}
         <summary>ADA accommodations</summary>
         <div class="det-body">
           <p>The Disability Access Center (DAC) coordinates accommodations for students with disabilities and with temporary health conditions, including a temporary injury or pregnancy. <strong>All accommodations must be approved through DAC first.</strong> Request them by following the steps at <a href="http://www.clark.edu/dac">www.clark.edu/dac</a>.</p>
-          <div class="tw" tabindex="0"><table><tbody>
+          <div class="tw" tabindex="0"><table>
+          <caption>Contact details for the Disability Access Center.</caption><tbody>
             <tr><th scope="row">Phone</th><td>360-992-2314 &middot; ASL video phone 360-991-0901</td></tr>
             <tr><th scope="row">Email</th><td><a href="mailto:dac@clark.edu">dac@clark.edu</a> &middot; testing questions: <a href="mailto:DACtesting@clark.edu">DACtesting@clark.edu</a></td></tr>
             <tr><th scope="row">Location</th><td>Penguin Union Building (PUB) 002</td></tr>
@@ -1018,6 +1032,7 @@ mark.on{background:var(--warm);color:#fff}
         <summary>Emergencies</summary>
         <div class="det-body">
           <div class="tw" tabindex="0"><table>
+          <caption>What to do in an emergency or a campus closure.</caption>
             <thead><tr><th>Situation</th><th>What to do</th></tr></thead>
             <tbody>
               <tr><td><strong>Inclement weather or closure</strong></td><td>Check <a href="http://www.clark.edu">www.clark.edu</a> or call 360-992-2000 first &mdash; those are the official sources.</td></tr>
@@ -1038,6 +1053,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <h3 class="mini">Course help</h3>
       <div class="tw" tabindex="0"><table>
+          <caption>Where to go for help with the course material and your code.</caption>
         <thead><tr><th>If you need</th><th>Go to</th></tr></thead>
         <tbody>
           <tr><td>Help with the material or an assignment</td><td>Message me on Slack, or come to student hours</td></tr>
@@ -1049,6 +1065,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <h3 class="mini">Tech help</h3>
       <div class="tw" tabindex="0"><table>
+          <caption>Where to go when Canvas, your account, or your software is not working.</caption>
         <thead><tr><th>If you need</th><th>Go to</th></tr></thead>
         <tbody>
           <tr><td>Canvas, software, or account trouble</td><td><a href="https://www.clark.edu/its/documentation-and-resources/students/techhub/index.php">Tech Hub</a> &mdash; Scarpelli Hall 135 &middot; <a href="mailto:techhub@clark.edu">techhub@clark.edu</a> &middot; 360-992-2010</td></tr>
@@ -1061,6 +1078,7 @@ mark.on{background:var(--warm);color:#fff}
 
       <h3 class="mini">Life help</h3>
       <div class="tw" tabindex="0"><table>
+          <caption>Clark support services for things outside the classroom.</caption>
         <thead><tr><th>If you need</th><th>Go to</th></tr></thead>
         <tbody>
           <tr><td>Food, housing, or financial help</td><td><a href="https://www.clark.edu/campus-life/student-support/basic-needs/">Basic Needs Hub</a> &mdash; <a href="mailto:basicneeds@clark.edu">basicneeds@clark.edu</a> &middot; 360-992-2766 &middot; Gaiser Hall 216 &middot; <a href="https://forms.office.com/r/QYMvHDdhxF">intake form</a></td></tr>

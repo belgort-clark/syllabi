@@ -23,6 +23,8 @@ If you read one page of this document, read this one.
 | **If you slip up** | The **Regret Clause** lets you tell me once, with no penalty. See Academic honesty. |
 | **If you fall behind** | Message me *before* the deadline. We'll set a new date. This is a real offer, not a trap. If an emergency makes reaching me beforehand impossible, tell me as soon as you can. |
 
+: A summary of the course essentials: cost, deadlines, workload, how to reach me, the two big assessments, the AI rule, the Regret Clause, and what to do if you fall behind.
+
 **Your grade in one line:** Discussion, participation & collaboration **25%** · Problem sets **20%** · Final project **20%** · Midterm **10%** · Quizzes **10%** · Final exam **10%** · Labs **5%**.
 
 **Five things to do in week one:**
@@ -67,6 +69,8 @@ Everything after this page is the detail behind those lines — course policies,
 | **Materials cost** | $0 |
 | **Prerequisites** | Eligibility for ENGL& 101 or PTWR 135, and a "C" or better in PTCS 110 or a math course with a prerequisite of MATH 30 or higher |
 
+: The practical details of this section: what it is, when it meets, and where.
+
 **What the catalog says:** Fundamental concepts related to designing and writing computer programs and procedures. Topics include problem-solving techniques, program design, coding, debugging, testing, and documentation. The course stresses concepts common to many programming languages and introduces Python. It meets general education requirements for transfer degrees.
 
 **What that means in practice:** you will learn to take a problem you don't yet know how to solve, break it apart, and write Python that solves it. You'll do that through labs, problem sets, quizzes, group work, and a final project of your own design.
@@ -86,6 +90,8 @@ Everything after this page is the detail behind those lines — course policies,
 | **Student hours** | On Zoom — days, times, and link are in Canvas. If none of those times work for you, message me on Slack, and we'll find one that does. |
 | **Best way to reach me** | **Slack.** Email works too; phone and Canvas messages reach me as well. |
 | **Response time** | Within 24 hours Monday–Friday; by Monday evening for weekend messages. |
+
+: How to contact me, including student hours and how quickly to expect a reply.
 
 I've taught web development and programming at Clark for 14 years, and I still get a kick out of watching someone's first working program run. Outside of class, I tinker with new and emerging technology, usually with an extra-large cup of coffee nearby. In industry, I'm known for co-developing Elguji's IdeaJam software.
 
@@ -152,6 +158,8 @@ I want this course to work for you. Start with Clark's [steps for requesting acc
 | **Free software** | Anything else you need is free, and Canvas tells you exactly how to set it up. |
 | **The CS50 Duck** | Your approved AI helper. Built into cs50.dev — nothing to install or sign up for. |
 
+: Everything you need for this course and what each item is for.
+
 You'll also need to be comfortable using Canvas ([tutorials here](http://www.clark.edu/academics/eLearning/)) and searching online for answers. Canvas works on phones for reading, but you'll need a real computer to write and submit code.
 
 **A note on the three outside accounts.** Slack, GitHub, and cs50.dev are run by companies other than Clark, so a few things are worth knowing:
@@ -178,6 +186,8 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 | **Quizzes** | 10% | Eight across the quarter, in class on paper — lowest score dropped |
 | **Final exam** | 10% | In class, Monday, November 30 — cumulative, on paper |
 | **Labs** | 5% | One or more per module, due Sunday |
+
+: How your final grade is divided, with the weight of each category and what it covers.
 
 **The deadline rule, once:** everything is due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Two things sit outside it: anything taken in class, and the final project.
 
@@ -213,6 +223,8 @@ This is your biggest category, so here is exactly how you earn it.
 | Collaborative assignments (nine across the quarter) | 8% |
 | Weekly written/video reflections and discussion posts in Canvas | 5% |
 
+: The three parts of the participation grade and what each is worth.
+
 - **Graded on effort, not correctness.** Show your reasoning, and you get full credit even when the answer turns out to be wrong. A blank or one-word submission doesn't.
 - Reflections and collaborative assignments can be done outside class, so missing a session doesn't cost you those points.
 - **In-class participation** is the one part that needs you in the room. Miss a class? Message me on Slack, and I'll give you an equivalent to do on your own.
@@ -231,6 +243,8 @@ This is your biggest category, so here is exactly how you earn it.
 | 70–76% | C |
 | 60–69% | D |
 | Below 60% | F |
+
+: Percentage ranges and the letter grade each one earns.
 
 - **A "C" or better** is required for this course to count toward a degree or certificate.
 - **Rounding:** final percentages round to the nearest whole number, so 89.5% becomes 90% and earns an A-. I don't round past that. What I *will* do is talk with you early about how to move your grade — please don't wait until Week 11 to ask.
@@ -271,6 +285,8 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 | **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Friday, December 4** — Final project. Firm: the only take-home deadline without the window. |
 | **Finals** | Dec 7 – 10 | Final project presentations | Present your project — schedule posted in Canvas |
 
+: The quarter week by week: dates, topics, quiz and exam dates, and what is due each week.
+
 **The bold date in the last column is the deadline** — 11:59 PM Pacific that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class on the dates shown in the Topic column, so they aren't part of that window — and neither is the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
@@ -301,6 +317,8 @@ AI is part of this course. It's also the easiest way to accidentally skip the le
 | **Where you'll write code** | **[cs50.dev](https://cs50.dev)**, CS50's browser-based environment. Copilot and inline AI autocomplete are already turned off there, which is one less thing for you to get wrong. If you'd rather work in your own editor, that's fine — but then it's on you to make sure no AI completion is running. |
 | **When AI is assigned** | Some assignments will ask you to use AI beyond the Duck. Those will say so explicitly, name the allowed tools, and may ask you to turn in your prompts. |
 
+: What AI help is allowed on take-home work, what is not, and where you will write your code.
+
 **Everything in this table is about work you do outside class.** The quizzes, the midterm and the final exam are closed-book and on paper — no AI, notes, or web, including the Duck.
 
 **If I think AI wrote your code,** I'll ask you to walk me through it — what a section does, why you did it that way, how you'd change it. That's a conversation, and it happens before any finding is made. I don't use AI-detection software to assign grades; those detectors are unreliable, and I won't grade you on one.
@@ -326,6 +344,8 @@ My approach here is best described as **reasonable**. Working with other people 
 | Working with a tutor who helps you learn | Paying anyone for work you submit |
 | Using the CS50 Duck · asking another AI to explain a concept or an error message, and citing it in a comment · using AI beyond the Duck when an assignment explicitly assigns it | Using any other AI to write, complete, or suggest code you submit, unless that assignment says to |
 | Reusing your own work from *this* course | Reusing work from another course, or giving your solutions to anyone — this quarter or a future one |
+
+: Where the line sits on take-home work: getting help on one side, handing in work that is not yours on the other.
 
 **Also not okay:** using an account that isn't yours, manipulating scores, and finding a flaw in Canvas or an autograder that affects grades without telling me.
 
@@ -358,6 +378,8 @@ Most academic dishonesty I have seen came from a deadline, a bad week, and a bla
 | An AI writing, completing, or suggesting code you submitted | A second violation. There is one clause; after it, the consequences above apply |
 | Work you copied from a classmate, from the web, or from a previous quarter | Using an account that isn't yours, altering scores, or exploiting a grading flaw |
 | Collaboration that went further than an individual assignment allowed | Someone else's violation. It is yours to use, not to lend |
+
+: What the Regret Clause covers and what it does not.
 
 **What it can't do.** It can't give you back the practice you skipped. The quizzes, the midterm and the final exam are on paper with nothing to lean on, and your project presentation is a conversation about code you are expected to know. Work that isn't yours doesn't fail you in Week 4 — it fails you in Week 11, quietly, when the material isn't there. So use the clause, then use the reset: come to student hours, ask on Slack, work the problem with the Duck until you can explain it out loud. That part is what actually saves the quarter.
 
@@ -405,6 +427,8 @@ Where each one is taught and how it's graded:
 | **C3** | Every week, most heavily Weeks 5–10 | Problem sets · Collaborative assignments · Final exam · Final project |
 | **C4** | Raised in Week 1, revisited as topics come up | The final project's **ethics and limitations** component |
 
+: The four course outcomes, where each is taught, and how each is graded.
+
 **College-wide abilities.** Clark identifies six abilities at the foundation of its educational emphasis: communication, critical thinking and problem-solving, information and technology, effective citizenship, lifelong learning, and global/multicultural awareness. This course emphasizes **information technology**, **critical thinking and problem solving**, and **communication**.
 
 **Program outcomes (Web Development AAT).** As an introductory programming course, CTEC 121 contributes directly to **P1** (web foundations), **P4** (web development), **P5** (professional practices), **P6** (written communication), **P7** (interpersonal skills), and **P8** (explaining a strategy for a quantitative problem). P2 (web media) and P3 (web design) are developed in other courses in the degree.
@@ -422,6 +446,8 @@ The Disability Access Center (DAC) coordinates accommodations for students with 
 | **Phone** | 360-992-2314 · ASL video phone 360-991-0901 |
 | **Email** | [dac@clark.edu](mailto:dac@clark.edu) · testing questions: [DACtesting@clark.edu](mailto:DACtesting@clark.edu) |
 | **Location** | Penguin Union Building (PUB) 002 |
+
+: Contact details for the Disability Access Center.
 
 Two things students often miss: **accommodations must be requested every term** in [myAccess](https://www.clark.edu/dac/myaccess.php), and **exams at DAC must be scheduled by you** with at least five business days' notice.
 
@@ -467,6 +493,8 @@ Academic dishonesty usually occurs when students are stressed and short on time,
 | **Fire alarm** | Leave by the nearest exit (maps are in the hallways), take belongings only if it's safe, stay at least 50 feet from the building, and don't re-enter until told. |
 | **Need an escort to your car** | Campus Security: 360-992-2133. |
 
+: What to do in an emergency or a campus closure.
+
 Parking lots are identified by color and number — use those to tell security or emergency responders where you are.
 
 ---
@@ -484,6 +512,8 @@ Parking lots are identified by color and number — use those to tell security o
 | Free tutoring | [Clark Tutoring Services](https://www.clark.edu/campus-life/student-support/tutoring/index.php) in person or on Zoom · [eTutoringOnline.org](https://etutoringonline.org/) |
 | Research and citation help | [Clark librarians](https://library.clark.edu/) — in person or by [chat](https://library.clark.edu/content/ask-librarian) |
 
+: Where to go for help with the course material and your code.
+
 ### Tech help
 
 | If you need | Go to |
@@ -493,6 +523,8 @@ Parking lots are identified by color and number — use those to tell security o
 | A computer to work on | [Open computer labs](http://www.clark.edu/its/documentation-and-resources/students/hours.php), including weekends |
 | To borrow a laptop | [Laptop request form](http://www.clark.edu/its/documentation-and-resources/students/tech-request.php) |
 | Account setup | [All four Clark student accounts](http://www.clark.edu/its/documentation-and-resources/students/student-accounts.php) · [student email](http://www.clark.edu/its/documentation-and-resources/students/emailsetup.php) · [ctcLink](http://www.clark.edu/its/documentation-and-resources/students/ctclink-account.php) |
+
+: Where to go when Canvas, your account, or your software is not working.
 
 ### Life help
 
@@ -506,6 +538,8 @@ Parking lots are identified by color and number — use those to tell security o
 | Career and job help | [Career Services](https://www.clark.edu/enroll/careers/index.php) — 360-992-2902 · [careerservices@clark.edu](mailto:careerservices@clark.edu) |
 | Veteran support | [Veterans Center of Excellence](https://www.clark.edu/campus-life/student-support/vrc/index.php) — PUB 015 · 360-992-2073 |
 | Community and belonging | [Office of People and Culture](https://www.clark.edu/campus-life/student-support/diversity-and-equity/index.php) and [The Diversity Center](https://www.clark.edu/campus-life/student-support/diversity-and-equity/diversity_center.php) — everyone welcome |
+
+: Clark support services for things outside the classroom.
 
 **If you're having trouble affording food or don't have stable housing,** please contact the Basic Needs Hub — and if you're comfortable telling me, do. I may know of resources you haven't found yet, and it stays between us.
 
