@@ -19,7 +19,8 @@ If you read one page of this document, read this one.
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
-| **The AI rule** | The CS50 Duck ([cs50.ai](https://cs50.ai)) is always allowed. No other AI may write, complete, or suggest code you turn in — unless an assignment says otherwise, and some will. Using one to explain a concept or an error message is fine while you are studying or working on take-home assignments, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which already has AI autocomplete turned off. |
+| **The AI rule** | The CS50 Duck is always allowed on take-home work. No other AI may write, complete, or suggest code you turn in — unless an assignment says otherwise, and some will. Using one to explain a concept or an error message is fine while you are studying or working on take-home assignments, as long as you say so in a comment. You'll write your code in **[cs50.dev](https://cs50.dev)**, which has the Duck built in and AI autocomplete turned off. |
+| **If you slip up** | The **Regret Clause** lets you tell me once, with no penalty. See Academic honesty. |
 | **If you fall behind** | Message me *before* the deadline. We'll set a new date. This is a real offer, not a trap. If an emergency makes reaching me beforehand impossible, tell me as soon as you can. |
 
 **Your grade in one line:** Discussion, participation & collaboration **25%** · Problem sets **20%** · Final project **20%** · Midterm **10%** · Quizzes **10%** · Final exam **10%** · Labs **5%**.
@@ -149,11 +150,11 @@ I want this course to work for you. Start with Clark's [steps for requesting acc
 | **Slack** | Our class communication hub. Setup instructions in Module 0. |
 | **A GitHub account** | Free — it's how you sign into cs50.dev. Setup in Module 0; an existing account is fine. |
 | **Free software** | Anything else you need is free, and Canvas tells you exactly how to set it up. |
-| **The CS50 Duck** | [cs50.ai](https://cs50.ai) — your approved AI helper. |
+| **The CS50 Duck** | Your approved AI helper. Built into cs50.dev — nothing to install or sign up for. |
 
 You'll also need to be comfortable using Canvas ([tutorials here](http://www.clark.edu/academics/eLearning/)) and searching online for answers. Canvas works on phones for reading, but you'll need a real computer to write and submit code.
 
-**A note on the three outside accounts.** Slack, GitHub, and cs50.ai are run by companies other than Clark, so a few things are worth knowing:
+**A note on the three outside accounts.** Slack, GitHub, and cs50.dev are run by companies other than Clark, so a few things are worth knowing:
 
 - You may use a display name instead of your full legal name. Just tell me which account is yours.
 - Don't post personal or sensitive information — yours or anyone else's — in Slack or in a public GitHub repository.
@@ -294,7 +295,7 @@ AI is part of this course. It's also the easiest way to accidentally skip the le
 
 | | |
 |---|---|
-| **Always allowed** | The **CS50 Duck Debugger** ([cs50.ai](https://cs50.ai)). It's built to ask you questions rather than hand you answers. That's the point. |
+| **Always allowed** | The **CS50 Duck Debugger**, built into cs50.dev. It's built to ask you questions rather than hand you answers. That's the point. |
 | **Allowed for learning, with a note** | Asking any AI to explain a concept, unpack an error message, or summarize documentation — the same way you'd use a search engine or a textbook. If it shaped what you turned in, say so in a code comment, the same as any other source. What stays off-limits is letting it write the code. |
 | **Not allowed on submitted work** | Any other AI that suggests, completes, or generates code — ChatGPT, Claude, Gemini, GitHub Copilot, Cursor, and the AI features now baked into editors and browsers — unless that assignment says otherwise; see **When AI is assigned** below. Submitting AI-written code is treated the same as submitting another person's code. |
 | **Where you'll write code** | **[cs50.dev](https://cs50.dev)**, CS50's browser-based environment. Copilot and inline AI autocomplete are already turned off there, which is one less thing for you to get wrong. If you'd rather work in your own editor, that's fine — but then it's on you to make sure no AI completion is running. |
@@ -331,6 +332,15 @@ My approach here is best described as **reasonable**. Working with other people 
 **Cite your sources.** If you bring in code or a technique from outside our lessons, say where it came from in a code comment. Same idea as citing a source in an essay: [Clark Libraries' plagiarism guide](https://clark.libguides.com/c.php?g=1005438&p=7291798) is a good primer.
 
 **If something crosses the line,** consequences follow [Clark's academic dishonesty policy](#academic-dishonesty): no credit on the assessment, a failing course grade for serious or repeated violations, and possible referral to Student Conduct. You have the right to respond before any finding is made and to appeal through the division chair.
+
+**The Regret Clause.** If you cross that line and tell me, it costs you nothing — once. Name the assignment, say what you did, and there is no penalty and no referral. We sort it out and move on.
+
+- It works **one time**, for the whole quarter.
+- Use it **before I have noticed, or after I have asked you about a piece of work.** Either way counts.
+- It covers **academic honesty** — the AI rule, plagiarism, collaboration that went further than it should have.
+- To use it, message me on Slack or email me with the assignment name and what happened.
+
+People make bad calls at 2 AM in a week that got away from them. That should not decide your quarter, and I would far rather hear it from you than find it myself. There is only one, so use it when it counts.
 
 **When in doubt, ask me first — in writing, so we both have the answer.** Asking in good faith never counts against you.
 
@@ -451,7 +461,7 @@ Parking lots are identified by color and number — use those to tell security o
 | If you need | Go to |
 |---|---|
 | Help with the material or an assignment | Message me on Slack, or come to student hours |
-| A second set of eyes on your code | The CS50 Duck ([cs50.ai](https://cs50.ai)), or ask in Slack |
+| A second set of eyes on your code | The CS50 Duck in cs50.dev, or ask in Slack |
 | Free tutoring | [Clark Tutoring Services](https://www.clark.edu/campus-life/student-support/tutoring/index.php) in person or on Zoom · [eTutoringOnline.org](https://etutoringonline.org/) |
 | Research and citation help | [Clark librarians](https://library.clark.edu/) — in person or by [chat](https://library.clark.edu/content/ask-librarian) |
 
