@@ -333,14 +333,33 @@ My approach here is best described as **reasonable**. Working with other people 
 
 **If something crosses the line,** consequences follow [Clark's academic dishonesty policy](#academic-dishonesty): no credit on the assessment, a failing course grade for serious or repeated violations, and possible referral to Student Conduct. You have the right to respond before any finding is made and to appeal through the division chair.
 
-**The Regret Clause.** If you cross that line and tell me, it costs you nothing — once. Name the assignment, say what you did, and there is no penalty and no referral. We sort it out and move on.
+#### The Regret Clause
 
-- It works **one time**, for the whole quarter.
-- Use it **before I have noticed, or after I have asked you about a piece of work.** Either way counts.
-- It covers **academic honesty** — the AI rule, plagiarism, collaboration that went further than it should have.
-- To use it, message me on Slack or email me with the assignment name and what happened.
+Most academic dishonesty I have seen came from a deadline, a bad week, and a blank editor lining up badly — not from someone setting out to cheat. **The Regret Clause exists so one of those moments doesn't decide your quarter.** Tell me you crossed the line, and once per quarter it costs you nothing.
 
-People make bad calls at 2 AM in a week that got away from them. That should not decide your quarter, and I would far rather hear it from you than find it myself. There is only one, so use it when it counts.
+**How it works**
+
+- **You get one, for the whole quarter.** Not one per assignment. One.
+- **Come to me before I have noticed, or after I have asked you about a piece of work.** Both count. If I ask you to walk me through your code and you would rather tell me the truth than perform the walk-through, say so right there — that is the moment this was built for.
+- **You redo the work honestly, and I grade it normally.** No late penalty, no lowered ceiling, no note in the gradebook. That is what "no penalty" means here: your grade is whatever the honest work earns.
+- **Nothing goes to Student Conduct**, and no finding is recorded against you. I keep a private note that you have used it, because there is only one.
+- **Tell me in writing** — Slack or email — with the assignment name, what you did, and what you will do instead. Three sentences is plenty. "I used an AI to write the loops in Problem Set 3 and I will rewrite them myself" is a complete disclosure. You do not owe me an explanation of your life.
+
+**When to use it, and when the redo is due**
+
+- **Use it as soon as you realize.** Waiting doesn't improve anything, and a disclosure that arrives after I have already started a conversation with your division chair is too late to be this.
+- **The last day to use it is Friday, December 4** — the final day of the quarter. After that, grades are being finalized and there is no room left to redo anything.
+- **We set the redo date together, in writing, the same day you tell me.** Expect **about a week** for a lab or a problem set. Later in the quarter it will be shorter — a disclosure about Module 8 or the final project may get only a few days, because the work still has to be graded before the quarter closes.
+- **If the redo date passes and nothing arrives,** the clause has been used and the original consequences apply. Tell me if you need the date moved; that conversation is always available.
+
+| The clause covers | The clause does not cover |
+|---|---|
+| Take-home work — labs, problem sets, collaborative assignments, the final project | The quizzes, the midterm, and the final exam. Those are proctored and closed-book, and go through the normal process |
+| An AI writing, completing, or suggesting code you submitted | A second violation. There is one clause; after it, the consequences above apply |
+| Work you copied from a classmate, from the web, or from a previous quarter | Using an account that isn't yours, altering scores, or exploiting a grading flaw |
+| Collaboration that went further than an individual assignment allowed | Someone else's violation. It is yours to use, not to lend |
+
+**What it can't do.** It can't give you back the practice you skipped. The quizzes, the midterm and the final exam are on paper with nothing to lean on, and your project presentation is a conversation about code you are expected to know. Work that isn't yours doesn't fail you in Week 4 — it fails you in Week 11, quietly, when the material isn't there. So use the clause, then use the reset: come to student hours, ask on Slack, work the problem with the Duck until you can explain it out loud. That part is what actually saves the quarter.
 
 **When in doubt, ask me first — in writing, so we both have the answer.** Asking in good faith never counts against you.
 
