@@ -124,7 +124,7 @@ Seeing square brackets and words like *function*, *range*, or *if* on your scree
 
 We'll use lectures, videos, group activities, hands-on labs, peer critiques, and discussion. You're expected to take part in class discussions and exercises, and I'd love it if you brought your own real-world examples into them.
 
-Each week you'll work through a Canvas module: readings, videos, labs, a problem set, and a collaborative assignment. Most weeks also open with a short in-class quiz on the module you just finished — eight across the quarter, on the dates in the schedule. Modules open on Sundays, except Modules 0 and 1, which open on the first day of class.
+Each week you'll work through a Canvas module — Module 1 spans the first two weeks — with readings, videos, labs, a problem set, and a collaborative assignment. Most weeks also open with a short in-class quiz on the module you just finished — eight across the quarter, on the dates in the schedule. Modules open on Sundays, except Modules 0 and 1, which open on the first day of class.
 
 **Want to work ahead?** Message me on Slack, and I’ll unlock material early. This is especially worth doing if you're also working through CS50P and wanting to earn the CS50 certificate.
 
@@ -199,7 +199,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
   - **When:** each quiz is given at the start of the **first class session after that module's Sunday due date.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
   - **The three-day window doesn't move the quiz.** Using those extra days on an assignment is fine — the quiz still happens on its date. So if you're going to run late on something, run late on the assignment, not on the studying.
   - **What's on it:** the module whose work was due that Sunday — material you have already worked through. Never something we haven't covered yet.
-  - **Module 8 (regular expressions) has no quiz.** It's due the night before the final exam, so regular expressions are assessed on the exam instead.
+  - **Module 9 (regular expressions) has no quiz.** It's due the night before the final exam, so regular expressions are assessed on the exam instead.
   - **Your lowest quiz score is dropped**, and that drop *is* the make-up policy — it covers one missed quiz, not several.
 - **Midterm** — in class on **Wednesday, October 28** (Week 6). About 50 minutes, on paper, closed-book, covering Weeks 1–5: functions, variables, conditionals, loops, and exception handling. Same format as the final exam, so it doubles as your dress rehearsal for it.
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
@@ -291,7 +291,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
-> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Regular expressions land in that week on purpose — they're well suited to focused practice with the documentation open, which is how you'll use them in real work. Module 8's work is due **Sunday, November 29 — the night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it to Wednesday, December 2, but don't plan on that: December 2 is two days before your final project is due. Treat the window as a safety net here, not a schedule. Do your exam reviewing during Week 9 and the first half of Week 10, when the review guide is already posted, rather than over the holiday. Week 8 also has a single session.
+> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Regular expressions land in that week on purpose — they're well suited to focused practice with the documentation open, which is how you'll use them in real work. Module 9's work is due **Sunday, November 29 — the night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it to Wednesday, December 2, but don't plan on that: December 2 is two days before your final project is due. Treat the window as a safety net here, not a schedule. Do your exam reviewing during Week 9 and the first half of Week 10, when the review guide is already posted, rather than over the holiday. Week 8 also has a single session.
 
 ---
 
@@ -369,7 +369,7 @@ Most academic dishonesty I have seen came from a deadline, a bad week, and a bla
 
 - **Use it as soon as you realize.** Waiting doesn't improve anything, and a disclosure that arrives after I have already started a conversation with your division chair is too late to be this.
 - **The last day to use it is Friday, December 4** — the final day of the quarter. After that, grades are being finalized and there is no room left to redo anything.
-- **We set the redo date together, in writing, the same day you tell me.** Expect **about a week** for a lab or a problem set. Later in the quarter it will be shorter — a disclosure about Module 8 or the final project may get only a few days, because the work still has to be graded before the quarter closes.
+- **We set the redo date together, in writing, the same day you tell me.** Expect **about a week** for a lab or a problem set. Later in the quarter it will be shorter — a disclosure about Module 9 or the final project may get only a few days, because the work still has to be graded before the quarter closes.
 - **If the redo date passes and nothing arrives,** the clause has been used and the original consequences apply. Tell me if you need the date moved; that conversation is always available.
 
 | The clause covers | The clause does not cover |
