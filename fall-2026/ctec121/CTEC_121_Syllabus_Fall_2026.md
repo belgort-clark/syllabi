@@ -30,7 +30,7 @@ If you read one page of this document, read this one.
 **Five things to do in week one:**
 
 1. Log into [Canvas](https://clarkcollege.instructure.com) and read the announcements at the top.
-2. Work through **Module 0** — it sets up your coding environment, Slack, and GitHub. **Finish it by Thursday, September 24, at 11:59 PM Pacific.** Under Clark's first-week policy, anyone who hasn't will be dropped from the course on Friday, September 25.
+2. Complete the **first-week assignments** in two Canvas modules, **First Things First** and **Setting Up Your Coding Environment**. Each has its own due date; **the last is Thursday, September 24, at 11:59 PM Pacific.** Under Clark's first-week policy, anyone who hasn't finished them all will be dropped from the course on Friday, September 25.
 3. Join the class **Slack**. No invite? Message me.
 4. **Open [cs50.dev](https://cs50.dev)** and sign in with your GitHub account. That's where you'll write your code.
 5. Start **Module 1**: Lab 0, Problem Set 0, Collaborative Assignment 0.
@@ -154,7 +154,7 @@ I want this course to work for you. Start with Clark's [steps for requesting acc
 | **Internet access** | Plus a backup plan for when your computer or connection fails. Clark's computer labs are listed in Module 0. |
 | **A web browser** | Chrome, Firefox, Brave, Edge, or Safari. |
 | **Slack** | Our class communication hub. Setup instructions in Module 0. |
-| **A GitHub account** | Free — it's how you sign into cs50.dev. Setup in Module 0; an existing account is fine. |
+| **A GitHub account** | Free — it's how you sign into cs50.dev. Setup is in the Setting Up Your Coding Environment module; an existing account is fine. |
 | **Free software** | Anything else you need is free, and Canvas tells you exactly how to set it up. |
 | **The CS50 Duck** | Your approved AI helper. Built into cs50.dev — nothing to install or sign up for. |
 
@@ -189,7 +189,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 : How your final grade is divided, with the weight of each category and what it covers.
 
-**The deadline rule, once:** everything is due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: Module 0 (due Thursday, September 24), anything taken in class, and the final project.
+**The deadline rule, once:** everything is due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: the first-week assignments (all due by Thursday, September 24), anything taken in class, and the final project.
 
 ### The details
 
@@ -205,7 +205,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
   - Like the final exam, it has **no three-day window**. If you cannot be there on October 28, talk to me *before* that date — or as soon as you can, if an emergency makes that impossible.
 - **Final project** — assigned in Week 5, due **Friday, December 4 at 11:59 PM**, and presented to the class during **finals week (December 7–10)**. You submit first and present after, so you're never building and presenting in the same week. It includes a short written **ethics and limitations** piece: what ethical questions your program raises, and what it can't — or shouldn't — do. That part is graded, not optional.
-  - **December 4 is firm — like Module 0, it has no three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
+  - **December 4 is firm — like the first-week assignments, it has no three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
 - **Final exam** — in class on **Monday, November 30**. It's cumulative, on paper, and closed-book — with one exception: a short regular-expression syntax reference comes with those questions. Expect tracing code, predicting output, and writing short functions by hand. You've been doing all three since Week 1.
   - **This is the one thing with no three-day window.** If something will keep you from being there on November 30, contact me *before* that date — or as soon as you can, if an emergency makes that impossible — and we'll arrange something.
   - **Testing accommodations through DAC?** DAC needs at least five business days’ notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by **Friday, November 20** at the latest. For the short weekly quizzes, tell me in the first two weeks — or as soon as the need comes up — and we will arrange your accommodation in class.
@@ -256,7 +256,7 @@ This is your biggest category, so here is exactly how you earn it.
 
 - No penalty, no permission needed, no explanation required inside that window. It's built into every regular take-home deadline.
 - Canvas will stamp those submissions "late." **Ignore the label** — it doesn't affect your grade.
-- **Three things sit outside the window.** First, **Module 0**, due **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished it on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date. Third, the **final project**: December 4 is firm, because presentations begin December 7.
+- **Three things sit outside the window.** First, the **first-week assignments** in First Things First and Setting Up Your Coding Environment, all due by **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished them on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date. Third, the **final project**: December 4 is firm, because presentations begin December 7.
 - **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these. I just need to hear from you — and if an emergency makes reaching me beforehand impossible, tell me as soon as you are able.
 
 Work that lands weeks or months late has lost most of its value, because it no longer connects to anything the class is doing. That's the reason for the window, and it's why talking to me early works so much better than going quiet.
@@ -273,7 +273,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 | Week | Dates | Topic | Due that week |
 |---|---|---|---|
-| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Thursday, September 24** — Module 0, no window · **Sunday, October 4** — Lab 0 · Problem Set 0 · Collaborative 0 |
+| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Thursday, September 24** — First-week assignments, no window · **Sunday, October 4** — Lab 0 · Problem Set 0 · Collaborative 0 |
 | **3** | Oct 5 – 9 | Conditionals · **Quiz 0 in class Mon Oct 5** | **Sunday, October 11** — Lab 1 · Problem Set 1 · Collaborative 1 |
 | **4** | Oct 12 – 16 | Loops · **Quiz 1 in class Mon Oct 12** | **Sunday, October 18** — Lab 2 · Problem Set 2 · Collaborative 2 |
 | **5** | Oct 19 – 23 | Exception handling · **Quiz 2 in class Mon Oct 19** · **Final project assigned** | **Sunday, October 25** — Lab 3 · Problem Set 3 · Collaborative 3 |
@@ -287,7 +287,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 : The quarter week by week: dates, topics, quiz and exam dates, and what is due each week.
 
-**The bold date in the last column is the deadline** — 11:59 PM Pacific that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class on the dates shown in the Topic column, so they aren't part of that window — and neither are Module 0 and the final project.
+**The bold date in the last column is the deadline** — 11:59 PM Pacific that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class on the dates shown in the Topic column, so they aren't part of that window — and neither are the first-week assignments and the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
