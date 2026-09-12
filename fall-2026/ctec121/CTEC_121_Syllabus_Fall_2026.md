@@ -189,14 +189,14 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 : How your final grade is divided, with the weight of each category and what it covers.
 
-**The deadline rule, once:** everything is due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: the first-week assignments (all due by Thursday, September 24), anything taken in class, and the final project.
+**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: the first-week assignments (all due by Thursday, September 24), anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
 
 ### The details
 
 - **Problem sets** — one per module. Close three days after the due date.
 - **Labs** — one or more per module. Close three days after the due date.
 - **Quizzes** — **eight across the quarter, taken in class on paper.** About ten minutes at the start of class, closed-book. They are short on purpose: the point is a regular, honest check that the code you turned in is code you can actually write.
-  - **When:** each quiz is given at the start of the **first class session after that module's Sunday due date.** In practice that means Mondays — **October 5, 12, 19 and 26, and November 2, 9, 16 and 23.** They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
+  - **When:** each quiz is given at the start of the **first class session after that module's work is due.** In practice that means Mondays. They're marked on the schedule below, and I'll remind you the session before. You will never walk into a surprise quiz.
   - **The three-day window doesn't move the quiz.** Using those extra days on an assignment is fine — the quiz still happens on its date. So if you're going to run late on something, run late on the assignment, not on the studying.
   - **What's on it:** the module whose work was due that Sunday — material you have already worked through. Never something we haven't covered yet.
   - **Module 9 (regular expressions) has no quiz.** It's due the night before the final exam, so regular expressions are assessed on the exam instead.
@@ -271,27 +271,29 @@ I aim to return feedback within a week of the due date, while the material is st
 
 Subject to change — I'll announce any updates in class, on Canvas, and on Slack.
 
-| Week | Dates | Topic | Due that week |
+| Week | Dates | Topic | What's due |
 |---|---|---|---|
-| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Thursday, September 24** — First-week assignments, no window · **Sunday, October 4** — Lab 0 · Problem Set 0 · Collaborative 0 |
-| **3** | Oct 5 – 9 | Conditionals · **Quiz 0 in class Mon Oct 5** | **Sunday, October 11** — Lab 1 · Problem Set 1 · Collaborative 1 |
-| **4** | Oct 12 – 16 | Loops · **Quiz 1 in class Mon Oct 12** | **Sunday, October 18** — Lab 2 · Problem Set 2 · Collaborative 2 |
-| **5** | Oct 19 – 23 | Exception handling · **Quiz 2 in class Mon Oct 19** · **Final project assigned** | **Sunday, October 25** — Lab 3 · Problem Set 3 · Collaborative 3 |
-| **6** | Oct 26 – 30 | Libraries · **Quiz 3 in class Mon Oct 26** · **Midterm in class Wed Oct 28** | **Sunday, November 1** — Lab 4 · Problem Set 4 · Collaborative 4 |
-| **7** | Nov 2 – 6 | Unit tests · **Quiz 4 in class Mon Nov 2** | **Sunday, November 8** — Lab 5 · Problem Set 5 · Collaborative 5 |
-| **8** | Nov 9 – 13 | File input/output · **Quiz 5 in class Mon Nov 9** · *No class Wed Nov 11* | **Sunday, November 15** — Lab 6 · Problem Set 6 · Collaborative 6 |
-| **9** | Nov 16 – 20 | Object-oriented programming · **Quiz 6 in class Mon Nov 16** | **Sunday, November 22** — Lab 7 · Problem Set 7 · Collaborative 7 |
-| **10** | Nov 23 – 27 | Regular expressions · **Quiz 7 in class Mon Nov 23** · *No class Wed Nov 25* | **Sunday, November 29** — Lab 8 · Problem Set 8 · Collaborative 8 |
+| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Thursday, September 24** — First-week assignments, no window · Lab 0 · Problem Set 0 · Collaborative 0 |
+| **3** | Oct 5 – 9 | Conditionals · **Quiz 0 in class Monday** | Lab 1 · Problem Set 1 · Collaborative 1 |
+| **4** | Oct 12 – 16 | Loops · **Quiz 1 in class Monday** | Lab 2 · Problem Set 2 · Collaborative 2 |
+| **5** | Oct 19 – 23 | Exception handling · **Quiz 2 in class Monday** · **Final project assigned** | Lab 3 · Problem Set 3 · Collaborative 3 |
+| **6** | Oct 26 – 30 | Libraries · **Quiz 3 in class Monday** · **Midterm in class Wed Oct 28** | Lab 4 · Problem Set 4 · Collaborative 4 |
+| **7** | Nov 2 – 6 | Unit tests · **Quiz 4 in class Monday** | Lab 5 · Problem Set 5 · Collaborative 5 |
+| **8** | Nov 9 – 13 | File input/output · **Quiz 5 in class Monday** · *No class Wed Nov 11* | Lab 6 · Problem Set 6 · Collaborative 6 |
+| **9** | Nov 16 – 20 | Object-oriented programming · **Quiz 6 in class Monday** | Lab 7 · Problem Set 7 · Collaborative 7 |
+| **10** | Nov 23 – 27 | Regular expressions · **Quiz 7 in class Monday** · *No class Wed Nov 25* | Lab 8 · Problem Set 8 · Collaborative 8 |
 | **11** | Nov 30 – Dec 4 | **Final exam Mon Nov 30** · Final project work Wed | **Friday, December 4** — Final project. Firm: no three-day window. |
 | **Finals** | Dec 7 – 10 | Final project presentations | Present your project — schedule posted in Canvas |
 
-: The quarter week by week: dates, topics, quiz and exam dates, and what is due each week.
+: The quarter week by week: dates, topics, and what is due each week.
 
-**The bold date in the last column is the deadline** — 11:59 PM Pacific that day. Everything under it stays open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class on the dates shown in the Topic column, so they aren't part of that window — and neither are the first-week assignments and the final project.
+**Exact due dates live in Canvas.** Every assignment carries its own due date there, and Canvas is the one that counts — if a date in this syllabus ever disagrees with Canvas, go with Canvas. The dates printed here are the fixed ones, and they will not move: the first-week deadline, the midterm, the final exam, the final project, and the last day to withdraw.
+
+**The weekly rhythm:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class, so they aren't part of that window — and neither are the first-week assignments or the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
-> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Regular expressions land in that week on purpose — they're well suited to focused practice with the documentation open, which is how you'll use them in real work. Module 9's work is due **Sunday, November 29 — the night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it to Wednesday, December 2, but don't plan on that: December 2 is two days before your final project is due. Treat the window as a safety net here, not a schedule. Do your exam reviewing during Week 9 and the first half of Week 10, when the review guide is already posted, rather than over the holiday. Week 8 also has a single session.
+> **Plan around the end of the quarter.** Week 10 has only one class session; it's the week of Thanksgiving, and the final exam is the Monday right after the break. Regular expressions land in that week on purpose — they're well suited to focused practice with the documentation open, which is how you'll use them in real work. Module 9's work is due the **Sunday night before the exam.** Finish it *before* the weekend if you possibly can. The three-day window does technically carry it into the following week, but don't plan on that: it would land two days before your final project is due. Treat the window as a safety net here, not a schedule. Do your exam reviewing during Week 9 and the first half of Week 10, when the review guide is already posted, rather than over the holiday. Week 8 also has a single session.
 
 ---
 
