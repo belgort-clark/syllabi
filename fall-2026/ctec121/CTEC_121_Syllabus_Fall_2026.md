@@ -181,7 +181,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 | Category | Weight | What it is |
 |---|---|---|
-| **Discussion, participation & collaboration** | 25% | Weekly reflections, in-class exercises, and nine collaborative assignments |
+| **Discussion, participation & collaboration** | 25% | Weekly reflections, in-class exercises, nine collaborative assignments, and the week-one Boot-Up Check |
 | **Problem sets** | 20% | One per module, due Sunday |
 | **Final project** | 20% | Assigned Week 5, due Friday, December 4 — firm, no three-day window — presented during finals week |
 | **Midterm** | 10% | In class, Wednesday, October 28 — the Week 6 checkpoint, on paper |
@@ -191,7 +191,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 : How your final grade is divided, with the weight of each category and what it covers.
 
-**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stays open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: the first-week assignments (all due by Thursday, September 24), anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
+**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: the first-week assignments (all due by Thursday, September 24), anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
 
 ### The details
 
@@ -217,15 +217,7 @@ Rubrics for every assessment live in the relevant Canvas module.
 
 ### How participation works
 
-This is your biggest category, so here is exactly how you earn it.
-
-| Component | Share of your final grade |
-|---|---|
-| In-class participation and group work | 12% |
-| Collaborative assignments (nine across the quarter) | 8% |
-| Weekly written/video reflections and discussion posts in Canvas | 5% |
-
-: The three parts of the participation grade and what each is worth.
+This is your biggest category, and everything in it is graded the same way.
 
 - **Graded on effort, not correctness.** Show your reasoning, and you get full credit even when the answer turns out to be wrong. A blank or one-word submission doesn't.
 - Reflections and collaborative assignments can be done outside class, so missing a session doesn't cost you those points.
