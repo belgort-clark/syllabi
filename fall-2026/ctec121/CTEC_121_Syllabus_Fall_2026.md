@@ -35,6 +35,8 @@ If you read one page of this document, read this one.
 4. **Open [cs50.dev](https://cs50.dev)** and sign in with your GitHub account. That's where you'll write your code.
 5. Start **Module 1**: Lab 0, Problem Set 0, Collaborative Assignment 0.
 
+> **Week one is the heaviest week of the quarter — and that is deliberate.** Nearly everything on that list is a one-time setup task: make an account, install a tool, sign in once. You do it now so you never have to do it again. Getting your environment working *before* the real programming starts is what lets every week after this one be about Python instead of about tools — from Week 2 on, when something breaks, it's your code, not your setup. The Thursday deadline isn't padding either: Clark's first-week policy sets it, so this work can't be spread out. After week one the course settles into a steady weekly rhythm, and it stays there. **If any of it stalls, message me on Slack before Thursday rather than sitting on it** — setup problems are completely routine, and they take minutes to fix together instead of hours alone.
+
 Everything after this page is the detail behind those lines — course policies, grading, support services, and how to get help. It's built to be searched, not read straight through. Use the table of contents, and ask me if anything here is unclear.
 
 ---
