@@ -97,7 +97,7 @@ Everything after this page is the detail behind those lines — course policies,
 
 I've taught web development and programming at Clark for 14 years, and I still get a kick out of watching someone's first working program run. Outside of class, I tinker with new and emerging technology, usually with an extra-large cup of coffee nearby. In industry, I'm known for co-developing Elguji's IdeaJam software.
 
-**Coffee's on me.** My office, Scarpelli Hall 127, connects to our classroom, SHL 125, and there's a Keurig coffee maker in it — with cream and sugar. You're welcome to make yourself a cup.
+**Coffee's on me.** My office, Scarpelli Hall 127, connects to our classroom, SHL 125, and there's a Keurig coffee maker in it, along with mugs, cream, and sugar. You're welcome to make yourself a cup — no need to bring your own mug.
 
 I earned a Bachelor of Engineering in Electrical Engineering from the Stevens Institute of Technology in 1985, and a Master's in Engineering Management from NYU's Tandon School of Engineering in 1990.
 
