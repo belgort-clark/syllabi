@@ -97,6 +97,8 @@ Everything after this page is the detail behind those lines — course policies,
 
 I've taught web development and programming at Clark for 14 years, and I still get a kick out of watching someone's first working program run. Outside of class, I tinker with new and emerging technology, usually with an extra-large cup of coffee nearby. In industry, I'm known for co-developing Elguji's IdeaJam software.
 
+**Coffee's on me.** My office, Scarpelli Hall 127, connects to our classroom, SHL 125, and there's a Keurig coffee maker in it — with cream and sugar. You're welcome to make yourself a cup.
+
 I earned a Bachelor of Engineering in Electrical Engineering from the Stevens Institute of Technology in 1985, and a Master's in Engineering Management from NYU's Tandon School of Engineering in 1990.
 
 **If a full day goes by and you haven't heard back from me, message me again.** Something went astray. You are not bothering me.
@@ -137,11 +139,11 @@ A meaningful portion of your participation grade is earned in the room, so pleas
 - **If you have to miss class**, let me know on Slack when you can. You're still responsible for that week's module and its deadlines.
 - Missing class doesn't automatically cost you points. In-class exercises and the quizzes are the exceptions: for exercises there's a make-up you can do on your own (see [How participation works](#how-participation-works)), and one missed quiz is covered by the dropped-score policy.
 - **If your attendance starts slipping for any reason** — illness, work, caregiving, anything — tell me early. Almost every problem is solvable in Week 3 and much harder to solve in Week 10.
-- Absences for reasons of faith or conscience are accommodated. See [Student rights](#student-rights-and-responsibilities).
+- Absences for reasons of faith or conscience are accommodated. The college asks you to request this within the first two weeks of the quarter — details are in [Syllabus Information 26–27](https://clarkcollege.instructure.com/courses/2696810) — so just let me know early.
 
 ### If you need an accommodation
 
-I want this course to work for you. Start with Clark's [steps for requesting accommodations](https://www.clark.edu/campus-life/student-support/disability_support/access_procedure.php) through the Disability Access Center, and then talk to me about what you need specifically in this class. Full DAC contact details and testing procedures are under [ADA accommodations](#ada-accommodations).
+I want this course to work for you. Start with Clark's [steps for requesting accommodations](https://www.clark.edu/campus-life/student-support/disability_support/access_procedure.php) through the Disability Access Center, and then talk to me about what you need specifically in this class. DAC contact details and testing procedures are in the college's [Syllabus Information 26–27](https://clarkcollege.instructure.com/courses/2696810) in Canvas. Once your accommodations are set, contact me so we can talk about this course specifically. If you have emergency medical information I should know, tell me by the end of week one.
 
 ---
 
@@ -433,41 +435,9 @@ Where each one is taught and how it's graded:
 
 ## College policies
 
-### ADA accommodations
+**Clark College now publishes the policies and support services that apply to every class in one place in Canvas: [Syllabus Information 26–27](https://clarkcollege.instructure.com/courses/2696810).** It is part of this syllabus, so please read it. It covers disability accommodations (DAC), non-discrimination, Title IX, student rights and responsibilities, the Code of Student Conduct, absences for reasons of faith or conscience, emergency preparedness and safety, and campus support such as tutoring, the Tech Hub, advising, and the Basic Needs Hub.
 
-The Disability Access Center (DAC) coordinates accommodations for students with disabilities and with temporary health conditions, including a temporary injury or pregnancy. **All accommodations must be approved through DAC first.** Request them by following the steps at [www.clark.edu/dac](http://www.clark.edu/dac).
-
-| | |
-|---|---|
-| **Phone** | 360-992-2314 · ASL video phone 360-991-0901 |
-| **Email** | [dac@clark.edu](mailto:dac@clark.edu) · testing questions: [DACtesting@clark.edu](mailto:DACtesting@clark.edu) |
-| **Location** | Penguin Union Building (PUB) 002 |
-
-: Contact details for the Disability Access Center.
-
-Two things students often miss: **accommodations must be requested every term** in [myAccess](https://www.clark.edu/dac/myaccess.php), and **exams at DAC must be scheduled by you** with at least five business days' notice.
-
-Once your accommodations are set, contact me so we can talk about this course specifically. If you have any emergency medical information I should know about, tell me by the end of week one.
-
-### Non-discrimination
-
-Clark College prohibits discrimination on the basis of race, color, national origin, age, perceived or actual physical or mental disability, pregnancy, genetic information, sex, sexual orientation, gender identity, marital status, creed, religion, honorably discharged veteran or military status, citizenship, immigration status, or use of a trained guide dog or service animal. Harassment is a form of discrimination.
-
-To file a formal grievance: Human Resources, 1933 Fort Vancouver Way, Baird Hall 133 · 360-992-2105 · [hr@clark.edu](mailto:hr@clark.edu).
-
-### Title IX and sexual misconduct
-
-If you or someone you care about has been affected by sexual misconduct, you are not alone, and people here can help — to listen, to explain your options, and to help keep you safe. There's no "right way" to feel and no single right thing to do.
-
-- [Campus and community resources](https://www.clark.edu/about/governance/policies-procedures/title-IX/resources.php)
-- [Reporting options](https://www.clark.edu/about/governance/policies-procedures/title-IX/reporting.php)
-- [Title IX at Clark](https://www.clark.edu/about/governance/policies-procedures/title-IX/)
-- [Personal safety and helping a friend](https://www.clark.edu/about/governance/policies-procedures/title-IX/safety-and-help.php)
-- [Counseling and Health Center](https://www.clark.edu/campus-life/student-support/counseling/index.php)
-
-### Student rights and responsibilities
-
-Clark's [Student Rights and Responsibilities page](https://www.clark.edu/about/governance/public-disclosure-and-records/adminProcedures/700/710/index.php) covers freedom of access to education, absence for reasons of faith or conscience, FERPA, and emergency and health information. **If you'll be absent for reasons of faith, just let me know** — no explanation needed beyond that.
+Two college topics aren't on that page, so they stay here.
 
 ### Academic dishonesty
 
@@ -487,7 +457,6 @@ Academic dishonesty usually occurs when students are stressed and short on time,
 | **Inclement weather or closure** | Check [www.clark.edu](http://www.clark.edu) or call 360-992-2000 first — those are the official sources. |
 | **Emergency alerts** | Register your phone and email at [flashalert.net](http://www.flashalert.net). Do this now, not later. |
 | **Fire alarm** | Leave by the nearest exit (maps are in the hallways), take belongings only if it's safe, stay at least 50 feet from the building, and don't re-enter until told. |
-| **Need an escort to your car** | Campus Security: 360-992-2133. |
 
 : What to do in an emergency or a campus closure.
 
@@ -505,8 +474,6 @@ Parking lots are identified by color and number — use those to tell security o
 |---|---|
 | Help with the material or an assignment | Message me on Slack, or come to student hours |
 | A second set of eyes on your code | The CS50 Duck in cs50.dev, or ask in Slack |
-| Free tutoring | [Clark Tutoring Services](https://www.clark.edu/campus-life/student-support/tutoring/index.php) in person or on Zoom · [eTutoringOnline.org](https://etutoringonline.org/) |
-| Research and citation help | [Clark librarians](https://library.clark.edu/) — in person or by [chat](https://library.clark.edu/content/ask-librarian) |
 
 : Where to go for help with the course material and your code.
 
@@ -514,32 +481,17 @@ Parking lots are identified by color and number — use those to tell security o
 
 | If you need | Go to |
 |---|---|
-| Canvas, software, or account trouble | [Tech Hub](https://www.clark.edu/its/documentation-and-resources/students/techhub/index.php) — Scarpelli Hall 135 · [techhub@clark.edu](mailto:techhub@clark.edu) · 360-992-2010 |
-| To report a Canvas problem | The **Help** button in Canvas → "Report a Problem" (replies come to your Clark Gmail). [Canvas Student Guide](https://community.instructure.com/en/kb/canvas-lms-student-guide) |
 | A computer to work on | [Open computer labs](http://www.clark.edu/its/documentation-and-resources/students/hours.php), including weekends |
 | To borrow a laptop | [Laptop request form](http://www.clark.edu/its/documentation-and-resources/students/tech-request.php) |
 | Account setup | [All four Clark student accounts](http://www.clark.edu/its/documentation-and-resources/students/student-accounts.php) · [student email](http://www.clark.edu/its/documentation-and-resources/students/emailsetup.php) · [ctcLink](http://www.clark.edu/its/documentation-and-resources/students/ctclink-account.php) |
 
-: Where to go when Canvas, your account, or your software is not working.
+: Where to find a computer or set up your Clark accounts.
 
-### Life help
+### Campus and life help
 
-| If you need | Go to |
-|---|---|
-| Food, housing, or financial help | [Basic Needs Hub](https://www.clark.edu/campus-life/student-support/basic-needs/) — [basicneeds@clark.edu](mailto:basicneeds@clark.edu) · 360-992-2766 · Gaiser Hall 216 · [intake form](https://forms.office.com/r/QYMvHDdhxF) |
-| Groceries | [Penguin Pantry](https://www.clark.edu/campus-life/student-support/penguinpantry/index.php) — monthly food boxes; contact Cath Busha, Dean of Student Engagement ([cbusha@clark.edu](mailto:cbusha@clark.edu)) |
-| Physical or mental health support | [Counseling and Health Center](https://www.clark.edu/campus-life/student-support/counseling/index.php) |
-| Help navigating college itself | [Student Success Coaches](https://www.clark.edu/campus-life/student-support/success-coaches/) — PUB 002 or Zoom |
-| Academic planning | [Advising Services](https://www.clark.edu/enroll/advising-services/) — [schedule an appointment](https://www.clark.edu/enroll/advising-services/schedule.php) |
-| Career and job help | [Career Services](https://www.clark.edu/enroll/careers/index.php) — 360-992-2902 · [careerservices@clark.edu](mailto:careerservices@clark.edu) |
-| Veteran support | [Veterans Center of Excellence](https://www.clark.edu/campus-life/student-support/vrc/index.php) — PUB 015 · 360-992-2073 |
-| Community and belonging | [Office of People and Culture](https://www.clark.edu/campus-life/student-support/diversity-and-equity/index.php) and [The Diversity Center](https://www.clark.edu/campus-life/student-support/diversity-and-equity/diversity_center.php) — everyone welcome |
-
-: Clark support services for things outside the classroom.
+Tutoring, librarians, the Tech Hub and Canvas help, Student Success Coaches, the Student Wellness Center, the Basic Needs Hub and Penguin Pantry, advising, career services, and the Veterans Center are all listed, with contact details, in the college's [Syllabus Information 26–27](https://clarkcollege.instructure.com/courses/2696810) in Canvas.
 
 **If you're having trouble affording food or don't have stable housing,** please contact the Basic Needs Hub — and if you're comfortable telling me, do. I may know of resources you haven't found yet, and it stays between us.
-
-More at [Clark Students](https://www.clark.edu/current/index.php), including [C-Tran transit](https://www.c-tran.com/) and [campus maps](https://www.clark.edu/about/visitors-guide/getting-to-clark/index.php).
 
 ---
 
