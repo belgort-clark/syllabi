@@ -122,6 +122,8 @@ I earned a Bachelor of Engineering in Electrical Engineering from the Stevens In
 
 Python is the friendliest first language there is. The syntax stays out of your way, pushes you toward writing clean code, and is genuinely useful the moment you learn it — for websites, data analysis, automation, and machine learning. It's also one of the most in-demand languages in the job market, which doesn't hurt.
 
+And no, it isn't named after the snake. Guido van Rossum named it after the comedy show *Monty Python's Flying Circus*, and the jokes are still hiding in the official documentation: where other languages use `foo` and `bar` as placeholder names, Python's examples use `spam` and `eggs`.
+
 Seeing square brackets and words like *function*, *range*, or *if* on your screen can be intimidating at first. That fades faster than you'd think. Coding is really just solving problems in small, careful steps, and that's a skill you already have.
 
 ### How we spend our time
@@ -131,6 +133,14 @@ We'll use lectures, videos, group activities, hands-on labs, peer critiques, and
 Each week you'll work through a Canvas module — Module 1 spans the first two weeks — with readings, videos, labs, a problem set, and a collaborative assignment. Most weeks also open with a short in-class quiz on the module you just finished — eight across the quarter, on the dates in the schedule. Modules open on Sundays, except Modules 0 and 1, which open on the first day of class.
 
 **Want to work ahead?** Message me on Slack, and I’ll unlock material early. This is especially worth doing if you're also working through CS50P and wanting to earn the CS50 certificate.
+
+**Completely normal in here:**
+
+- Your code breaking. Mine breaks too, usually live, in front of all of you.
+- Looking up syntax you've already used fifty times. Professional programmers do it every day.
+- Getting an error message longer than your program.
+- Staring at a bug for twenty minutes and finding a missing colon.
+- Asking a question you're sure is obvious. It isn't, and three other people were wondering the same thing.
 
 ### Attendance
 
@@ -300,6 +310,8 @@ From Week 5 on, you're also working on your final project alongside each week's 
 **Slack is the fastest way to reach me,** and it's where you can ask questions, help each other, and share things you find. Everyone gets an invitation; if yours didn't arrive, contact me. Check Canvas announcements whenever you log in — they're at the top of the page.
 
 On netiquette: there are real people on the other side of every message. Use the same courtesy online that you'd use face-to-face.
+
+**Bug of the week.** Post the strangest bug you fixed in the **#bug-of-the-week** Slack channel: what broke, how long it took to find, and what it turned out to be. It isn't graded. It's purely for bragging rights, and the sillier the cause, the better.
 
 ### AI guidelines
 
@@ -476,6 +488,8 @@ Parking lots are identified by color and number — use those to tell security o
 | A second set of eyes on your code | The CS50 Duck in cs50.dev, or ask in Slack |
 
 : Where to go for help with the course material and your code.
+
+**About that duck.** Programmers have a trick called *rubber duck debugging*: explain your code, line by line, out loud, to a rubber duck, and somewhere around line six you'll hear yourself say what's wrong. That's where the CS50 Duck gets its name — and it's why you'll get a real rubber duck of your own on the first day of class. Keep it next to your keyboard. It's a very good listener.
 
 ### Tech help
 
