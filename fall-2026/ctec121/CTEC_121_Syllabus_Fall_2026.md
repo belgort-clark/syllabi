@@ -15,7 +15,7 @@ If you read one page of this document, read this one.
 | | |
 |---|---|
 | **What it costs** | **$0.** No textbook, no lab fees, no access codes. |
-| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are the first-week assignments (due Thursday, September 24), anything taken in class, and the final project. |
+| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are the first-week assignments (due Thursday, September 24), the weekly reflections, anything taken in class, and the final project. |
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
@@ -33,7 +33,7 @@ If you read one page of this document, read this one.
 2. Complete the **first-week assignments** in two Canvas modules, **First Things First** and **Setting Up Your Coding Environment**. Each has its own due date; **the last is Thursday, September 24, at 11:59 PM Pacific.** Under Clark's first-week policy, anyone who hasn't finished them all will be dropped from the course on Friday, September 25.
 3. Join the class **Slack**. No invite? Message me.
 4. **Open [cs50.dev](https://cs50.dev)** and sign in with your GitHub account. That's where you'll write your code.
-5. Start **Module 1**: Lab 0, Problem Set 0, Collaborative Assignment 0.
+5. Start **Module 1**: Lab 0 and Problem Set 0.
 
 > **Week one is the heaviest week of the quarter — and that is deliberate.** Nearly everything on that list is a one-time setup task: make an account, install a tool, sign in once. You do it now so you never have to do it again. Getting your environment working *before* the real programming starts is what lets every week after this one be about Python instead of about tools — from Week 2 on, when something breaks, it's your code, not your setup. The Thursday deadline isn't padding either: Clark's first-week policy sets it, so this work can't be spread out. After week one the course settles into a steady weekly rhythm, and it stays there. **If any of it stalls, message me on Slack before Thursday rather than sitting on it** — setup problems are completely routine, and they take minutes to fix together instead of hours alone.
 
@@ -193,7 +193,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 | Category | Weight | What it is |
 |---|---|---|
-| **Discussion, participation & collaboration** | 25% | Weekly reflections, in-class exercises, nine collaborative assignments, and the week-one Boot-Up Check |
+| **Discussion, participation & collaboration** | 25% | Weekly reflections, in-class exercises, eight collaborative assignments, and the week-one Boot-Up Check |
 | **Problem sets** | 20% | One per module, due Sunday |
 | **Final project** | 20% | Assigned Week 5, due Friday, December 4 — firm, no three-day window — presented during finals week |
 | **Midterm** | 10% | In class, Wednesday, October 28 — the Week 6 checkpoint, on paper |
@@ -203,7 +203,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 : How your final grade is divided, with the weight of each category and what it covers.
 
-**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open for **three more days — through Wednesday at 11:59 PM — at full credit**. Three things sit outside it: the first-week assignments (all due by Thursday, September 24), anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
+**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open for **three more days — through Wednesday at 11:59 PM — at full credit**. Four things sit outside it: the first-week assignments (all due by Thursday, September 24), the weekly reflections, anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
 
 ### The details
 
@@ -260,9 +260,9 @@ This is your biggest category, and everything in it is graded the same way.
 
 **One rule: work is due Sunday at 11:59 PM and remains open for three more days for full credit.**
 
-- No penalty, no permission needed, no explanation required inside that window. It's built into every regular take-home deadline.
+- No penalty, no permission needed, no explanation required inside that window. It's built into every lab, problem set, and collaborative assignment deadline.
 - Canvas will stamp those submissions "late." **Ignore the label** — it doesn't affect your grade.
-- **Three things sit outside the window.** First, the **first-week assignments** in First Things First and Setting Up Your Coding Environment, all due by **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished them on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date. Third, the **final project**: December 4 is firm, because presentations begin December 7.
+- **Four things sit outside the window.** First, the **first-week assignments** in First Things First and Setting Up Your Coding Environment, all due by **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished them on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; for the midterm or the final, talk to me *before* the date. Third, the **weekly reflections**: each one closes at its due date in Canvas, with no three-day window, because you write it after that week's work is done. Fourth, the **final project**: December 4 is firm, because presentations begin December 7.
 - **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these. I just need to hear from you — and if an emergency makes reaching me beforehand impossible, tell me as soon as you are able.
 
 Work that lands weeks or months late has lost most of its value, because it no longer connects to anything the class is doing. That's the reason for the window, and it's why talking to me early works so much better than going quiet.
@@ -279,7 +279,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 | Week | Dates | Topic | What's due |
 |---|---|---|---|
-| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Thursday, September 24** — First-week assignments, no window · Lab 0 · Problem Set 0 · Collaborative 0 |
+| **1–2** | Sept 21 – Oct 2 | Course intro · Setting up your environment · Functions and variables | **Thursday, September 24** — First-week assignments, no window · Lab 0 · Problem Set 0 |
 | **3** | Oct 5 – 9 | Conditionals · **Quiz 0 in class Monday** | Lab 1 · Problem Set 1 · Collaborative 1 |
 | **4** | Oct 12 – 16 | Loops · **Quiz 1 in class Monday** | Lab 2 · Problem Set 2 · Collaborative 2 |
 | **5** | Oct 19 – 23 | Exception handling · **Quiz 2 in class Monday** · **Final project assigned** | Lab 3 · Problem Set 3 · Collaborative 3 |
@@ -295,7 +295,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 **Exact due dates live in Canvas.** Every assignment carries its own due date there, and Canvas is the one that counts — if a date in this syllabus ever disagrees with Canvas, go with Canvas. The dates printed here are the fixed ones, and they will not move: the first-week deadline, the midterm, the final exam, the final project, and the last day to withdraw.
 
-**The weekly rhythm:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class, so they aren't part of that window — and neither are the first-week assignments or the final project.
+**The weekly rhythm:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class, so they aren't part of that window — and neither are the first-week assignments, the weekly reflections, or the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
