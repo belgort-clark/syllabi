@@ -15,7 +15,7 @@ If you read one page of this document, read this one.
 | | |
 |---|---|
 | **What it costs** | **$0.** No textbook, no lab fees, no access codes. |
-| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are anything taken in class and the final project. |
+| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are the first-week assignments (due Thursday, September 24), anything taken in class, and the final project. |
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
@@ -165,9 +165,9 @@ I want this course to work for you. Start with Clark's [steps for requesting acc
 |---|---|
 | **A computer** | Windows, macOS, or Linux — and a Chromebook works too, because you'll code in the browser. |
 | **[cs50.dev](https://cs50.dev)** | Our coding environment. It runs in your browser, requires no installation, and comes with AI autocomplete already switched off. Sign in with GitHub. |
-| **Internet access** | Plus a backup plan for when your computer or connection fails. Clark's computer labs are listed in Module 0. |
+| **Internet access** | Plus a backup plan for when your computer or connection fails. Clark's open computer labs are listed under [Where to get help](#where-to-get-help). |
 | **A web browser** | Chrome, Firefox, Brave, Edge, or Safari. |
-| **Slack** | Our class communication hub. Setup instructions in Module 0. |
+| **Slack** | Our class communication hub. Setup instructions are in Canvas. |
 | **A GitHub account** | Free — it's how you sign into cs50.dev. Setup is in the Setting Up Your Coding Environment module; an existing account is fine. |
 | **Free software** | Anything else you need is free, and Canvas tells you exactly how to set it up. |
 | **The CS50 Duck** | Your approved AI helper. Built into cs50.dev — nothing to install or sign up for. |
@@ -221,7 +221,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 - **Final project** — assigned in Week 5, due **Friday, December 4 at 11:59 PM**, and presented to the class during **finals week (December 7–10)**. You submit first and present after, so you're never building and presenting in the same week. It includes a short written **ethics and limitations** piece: what ethical questions your program raises, and what it can't — or shouldn't — do. That part is graded, not optional.
   - **December 4 is firm — like the first-week assignments, it has no three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
 - **Final exam** — in class on **Monday, November 30**. It's cumulative, on paper, and closed-book — with one exception: a short regular-expression syntax reference comes with those questions. Expect tracing code, predicting output, and writing short functions by hand. You've been doing all three since Week 1.
-  - **This is the one thing with no three-day window.** If something will keep you from being there on November 30, contact me *before* that date — or as soon as you can, if an emergency makes that impossible — and we'll arrange something.
+  - **Like the quizzes and the midterm, it has no three-day window.** If something will keep you from being there on November 30, contact me *before* that date — or as soon as you can, if an emergency makes that impossible — and we'll arrange something.
   - **Testing accommodations through DAC?** DAC needs at least five business days’ notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by **Friday, November 20** at the latest. For the short weekly quizzes, tell me in the first two weeks — or as soon as the need comes up — and we will arrange your accommodation in class.
   - I'll post a review guide and a practice exam in Canvas by Week 9, so you can prepare before the break rather than during it. The guide says exactly which regular-expression patterns the exam can ask about; the syntax reference comes with the exam itself, so what you carry in is the thinking, not the punctuation.
 
