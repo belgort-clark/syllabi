@@ -165,9 +165,9 @@ I want this course to work for you. Start with Clark's [steps for requesting acc
 |---|---|
 | **A computer** | Windows, macOS, or Linux — and a Chromebook works too, because you'll code in the browser. |
 | **[cs50.dev](https://cs50.dev)** | Our coding environment. It runs in your browser, requires no installation, and comes with AI autocomplete already switched off. Sign in with GitHub. |
-| **Internet access** | Plus a backup plan for when your computer or connection fails. Clark's open computer labs are listed under [Where to get help](#where-to-get-help). |
+| **Internet access** | Plus a backup plan for when your computer or connection fails. Computer lab hours are in Canvas, in **Module 0 – Getting Started**. |
 | **A web browser** | Chrome, Firefox, Brave, Edge, or Safari. |
-| **Slack** | Our class communication hub. Setup instructions are in Canvas. |
+| **Slack** | Our class communication hub. Setup instructions are in Canvas, in **Module 0 – Getting Started**. |
 | **A GitHub account** | Free — it's how you sign into cs50.dev. Setup is in the Setting Up Your Coding Environment module; an existing account is fine. |
 | **Free software** | Anything else you need is free, and Canvas tells you exactly how to set it up. |
 | **The CS50 Duck** | Your approved AI helper. Built into cs50.dev — nothing to install or sign up for. |
