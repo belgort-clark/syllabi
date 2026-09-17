@@ -254,6 +254,7 @@ This is your biggest category, and everything in it is graded the same way.
 
 - **A "C" or better** is required for this course to count toward a degree or certificate.
 - **Rounding:** final percentages round to the nearest whole number, so 89.5% becomes 90% and earns an A-. I don't round past that. What I *will* do is talk with you early about how to move your grade — please don't wait until Week 11 to ask.
+- **Extra credit:** you can add up to **5 percentage points** to your final grade by coming to student hours. It's optional, skipping it never lowers your grade, and the details are on the **Earning Extra Credit** page in Canvas.
 - **Incompletes:** an "I" is possible only if you've completed most of the course in good standing and something unexpected stops you from finishing. It takes a written agreement between us with a deadline, and it isn't a substitute for withdrawing.
 
 ### Late work
