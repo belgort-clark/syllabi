@@ -414,6 +414,10 @@ Most academic dishonesty I have seen came from a deadline, a bad week, and a bla
 
 This is a plan, not a contract, and I may adjust it during the quarter. Anything that affects your grade or deadlines is announced on Canvas and Slack, and I'll post an updated syllabus.
 
+### If something looks wrong
+
+**I make mistakes.** A due date in Canvas that contradicts the syllabus, a broken link, a typo in a problem, an instruction that doesn't make sense, a page that won't open — tell me. Slack is fastest, or just say something in class. You're not being a bother and you're not getting anyone in trouble. You're usually saving thirty other people the same confusion, and I'd much rather hear about it on Tuesday than discover it in the gradebook in December. I'll fix it and let everyone know.
+
 ### Withdrawing from the course
 
 The last day to withdraw is **Thursday, December 3, 2026**. If you stop attending without formally withdrawing, you'll receive an "F." Deadlines are on Clark's [Important Dates & Deadlines](https://www.clark.edu/about/calendars/important-dates-deadlines/) page.
