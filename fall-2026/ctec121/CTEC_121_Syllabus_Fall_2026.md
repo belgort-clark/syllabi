@@ -181,7 +181,7 @@ You'll also need to be comfortable using Canvas ([tutorials here](http://www.cla
 - You may use a display name instead of your full legal name. Just tell me which account is yours.
 - Don't post personal or sensitive information — yours or anyone else's — in Slack or in a public GitHub repository.
 - Each service sets its own privacy and accessibility terms, which Clark doesn't control.
-- **Would rather not create one of these accounts?** Tell me in week one. There's an alternative for each, and using it won't affect your grade.
+- **All three accounts are required.** Each is free, and the notes above are how to keep your information safe while you use them.
 
 For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearning policies page](https://www.clark.edu/academics/eLearning/policies-standards/accessibility-statements.php). As a Clark student, you can also [download Microsoft Office for free](https://www.clark.edu/its/documentation-and-resources/students/microsoftdownloads.php) — not required here, but useful elsewhere.
 
@@ -219,7 +219,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
   - It lands five weeks before the **December 3** withdrawal deadline on purpose. You get a real, graded signal about where you stand while you still have room to act on it.
   - Like the final exam, it has **no three-day window** — and **there is no make-up midterm.** A missed midterm scores zero. The only exceptions are the ones the college requires: a testing accommodation arranged through DAC, and an absence for reasons of faith or conscience requested in the first two weeks of the quarter.
 - **Final project** — assigned in Week 5, due **Friday, December 4 at 11:59 PM**, and presented to the class during **finals week (December 7–10)**. You submit first and present after, so you're never building and presenting in the same week. It includes a short written **ethics and limitations** piece: what ethical questions your program raises, and what it can't — or shouldn't — do. That part is graded, not optional.
-  - **December 4 is firm — like the first-week assignments, it has no three-day window.** Presentations begin December 7, so I need every project in hand before then. If something is going to stop you, talk to me before December 4, or as soon as you can if an emergency makes that impossible.
+  - **December 4 is firm — like the first-week assignments, it has no three-day window.** Presentations begin December 7, so I need every project in hand before then. **A project that isn't submitted by 11:59 PM on December 4 scores zero.** If you miss your presentation slot, you lose the presentation portion of the grade unless you contacted me before it.
 - **Final exam** — in class on **Monday, November 30**. It's cumulative, on paper, and closed-book — with one exception: a short regular-expression syntax reference comes with those questions. Expect tracing code, predicting output, and writing short functions by hand. You've been doing all three since Week 1.
   - **Like the quizzes and the midterm, it has no three-day window.** If something will keep you from being there on November 30, contact me *before* that date — or as soon as you can, if an emergency makes that impossible — and we'll arrange something.
   - **Testing accommodations through DAC?** DAC needs at least five business days’ notice for each exam, so set up both the midterm (October 28) and the final (November 30) in the first two weeks. November 30 is the tight one: Thanksgiving break eats most of that week, so book it by **Friday, November 20** at the latest. For the short weekly quizzes, tell me in the first two weeks — or as soon as the need comes up — and we will arrange your accommodation in class.
@@ -262,7 +262,7 @@ This is your biggest category, and everything in it is graded the same way.
 
 - No penalty, no permission needed, no explanation required inside that window. It's built into every lab, problem set, and collaborative assignment deadline.
 - Canvas will stamp those submissions "late." **Ignore the label** — it doesn't affect your grade.
-- **Four things sit outside the window.** First, the **first-week assignments** in First Things First and Setting Up Your Coding Environment, all due by **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished them on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; the midterm has no make-up; for the final, talk to me *before* the date. Third, the **weekly reflections**: each one closes at its due date in Canvas, with no three-day window, because you write it after that week's work is done. Fourth, the **final project**: December 4 is firm, because presentations begin December 7.
+- **Four things sit outside the window.** First, the **first-week assignments** in First Things First and Setting Up Your Coding Environment, all due by **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished them on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; the midterm has no make-up; for the final, talk to me *before* the date. Third, the **weekly reflections**: each one closes at its due date in Canvas, with no three-day window, because you write it after that week's work is done. Fourth, the **final project**: December 4 is firm, because presentations begin December 7, and a late project scores zero.
 - **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these. I just need to hear from you — and if an emergency makes reaching me beforehand impossible, tell me as soon as you are able.
 
 Work that lands weeks or months late has lost most of its value, because it no longer connects to anything the class is doing. That's the reason for the window, and it's why talking to me early works so much better than going quiet.
@@ -379,7 +379,7 @@ Most academic dishonesty I have seen came from a deadline, a bad week, and a bla
 
 **When to use it, and when the redo is due**
 
-- **Use it as soon as you realize.** Waiting doesn't improve anything, and a disclosure that arrives after I have already started a conversation with your division chair is too late to be this.
+- **Use it as soon as you realize.** Waiting doesn't improve anything, and once I have told you in writing that I've made a finding, it's too late to be this.
 - **The last day to use it is Friday, December 4** — the final day of the quarter. After that, grades are being finalized and there is no room left to redo anything.
 - **We set the redo date together, in writing, the same day you tell me.** Expect **about a week** for a lab or a problem set. Later in the quarter it will be shorter — a disclosure about Module 9 or the final project may get only a few days, because the work still has to be graded before the quarter closes.
 - **If the redo date passes and nothing arrives,** the clause has been used and the original consequences apply. Tell me if you need the date moved; that conversation is always available.
@@ -407,7 +407,7 @@ Most academic dishonesty I have seen came from a deadline, a bad week, and a bla
 
 ### Recording class sessions
 
-**You're welcome to record class for your own study use** — no permission needed. Please don't post or share recordings, screenshots, or classmates' work outside this class. People share half-finished code and honest confusion in a programming class, and that only works if the room feels safe. If DAC has approved recording as an accommodation, you never need to explain that to anyone. If I record a session, I'll say so and post it in Canvas.
+**You're welcome to record my lectures and demos for your own study use** — no permission needed. Before you record a small-group or class discussion, ask the classmates in it; anyone may say no. Please don't post or share recordings, screenshots, or classmates' work outside this class. People share half-finished code and honest confusion in a programming class, and that only works if the room feels safe. If DAC has approved recording as an accommodation, you never need to explain that to anyone. If I record a session, I'll say so and post it in Canvas.
 
 ### Changes to this syllabus
 
