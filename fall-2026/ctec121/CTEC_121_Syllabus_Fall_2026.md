@@ -15,7 +15,7 @@ If you read one page of this document, read this one.
 | | |
 |---|---|
 | **What it costs** | **$0.** No textbook, no lab fees, no access codes. |
-| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit. The exceptions are the first-week assignments (due Thursday, September 24), the weekly reflections, anything taken in class, and the final project. |
+| **When things are due** | **Sundays at 11:59 PM Pacific** — and most work stays open three more days, through **Wednesday at 11:59 PM**, at full credit, **if you tell me by the due date that it will be late.** The exceptions are the first-week assignments (due Thursday, September 24), the weekly reflections, anything taken in class, and the final project. |
 | **Time to budget** | About **10 hours a week**. Class is 4 hours 40 minutes of that, so plan on roughly **5–6 hours on your own**. |
 | **How to reach me** | **Slack first.** I reply within 24 hours on weekdays. |
 | **The two big ones** | The **final exam** — in class, **Monday, November 30**. And the **final project** — due **Friday, December 4**, a firm date, presented during finals week. |
@@ -203,7 +203,7 @@ For Microsoft and Canvas accessibility and privacy details, see [Clark's eLearni
 
 : How your final grade is divided, with the weight of each category and what it covers.
 
-**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open for **three more days — through Wednesday at 11:59 PM — at full credit**. Four things sit outside it: the first-week assignments (all due by Thursday, September 24), the weekly reflections, anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
+**The deadline rule, once:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open for **three more days — through Wednesday at 11:59 PM — at full credit**, as long as you message me **by the Sunday due date** to say the work will be late. Four things sit outside it: the first-week assignments (all due by Thursday, September 24), the weekly reflections, anything taken in class, and the final project. **Canvas carries the exact date for every assignment; where it differs from this syllabus, Canvas is correct.**
 
 ### The details
 
@@ -259,9 +259,10 @@ This is your biggest category, and everything in it is graded the same way.
 
 ### Late work
 
-**One rule: work is due Sunday at 11:59 PM and remains open for three more days for full credit.**
+**One rule: work is due Sunday at 11:59 PM. If you tell me by then that it will be late, it stays open three more days for full credit.**
 
-- No penalty, no permission needed, no explanation required inside that window. It's built into every lab, problem set, and collaborative assignment deadline.
+- **Tell me by the due date.** Before Sunday at 11:59 PM Pacific, send me a Slack message or an email naming the assignment that will be late. That's all it takes: no penalty, no permission needed, no explanation required. The window is built into every lab, problem set, and collaborative assignment deadline.
+- **No heads-up, no window.** Starting with Module 2, work that arrives after its due date without a message from you by that deadline isn't accepted and scores zero.
 - Canvas will stamp those submissions "late." **Ignore the label** — it doesn't affect your grade.
 - **Four things sit outside the window.** First, the **first-week assignments** in First Things First and Setting Up Your Coding Environment, all due by **Thursday, September 24, at 11:59 PM Pacific**: under Clark's first-week policy, I drop anyone who hasn't finished them on Friday, September 25. If something is in your way, message me on Slack before Thursday. Second, **anything taken in class** — the weekly quizzes, the midterm (October 28), and the final exam (November 30) all happen in the room. For quizzes, the dropped lowest score covers a miss; the midterm has no make-up; for the final, talk to me *before* the date. Third, the **weekly reflections**: each one closes at its due date in Canvas, with no three-day window, because you write it after that week's work is done. Fourth, the **final project**: December 4 is firm, because presentations begin December 7, and a late project scores zero.
 - **When something bigger is going on** — illness, work, family, a genuinely brutal week — contact me *before* the deadline and we'll set a new date. I grant these for everything except the final project and anything taken in class, including the midterm. I just need to hear from you — and if an emergency makes reaching me beforehand impossible, tell me as soon as you are able.
@@ -298,7 +299,7 @@ Subject to change — I'll announce any updates in class, on Canvas, and on Slac
 
 **Exact due dates live in Canvas.** Every assignment carries its own due date there, and Canvas is the one that counts — if a date in this syllabus ever disagrees with Canvas, go with Canvas. The dates printed here are the fixed ones, and they will not move: the first-week deadline, the midterm, the final exam, the final project, and the last day to withdraw.
 
-**The weekly rhythm:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open three more days at full credit, through the following **Wednesday at 11:59 PM**. Quizzes, the midterm and the final exam are taken in class, so they aren't part of that window — and neither are the first-week assignments, the weekly reflections, or the final project.
+**The weekly rhythm:** labs, problem sets, and collaborative assignments are due **Sunday at 11:59 PM Pacific** and stay open three more days at full credit, through the following **Wednesday at 11:59 PM**, if you tell me by Sunday that the work will be late. Quizzes, the midterm and the final exam are taken in class, so they aren't part of that window — and neither are the first-week assignments, the weekly reflections, or the final project.
 
 From Week 5 on, you're also working on your final project alongside each week's module.
 
